@@ -1,0 +1,17 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab5/project_1.sim/sim_1/impl/timing/xsim/tb_lab5dpath_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab5dpath
+INFO: [VRFC 10-311] analyzing module part_3_mult
+INFO: [VRFC 10-311] analyzing module part_3_mult_HD3
+INFO: [VRFC 10-311] analyzing module part_3_mult_HD7
+INFO: [VRFC 10-311] analyzing module part_3_mult_dsp
+INFO: [VRFC 10-311] analyzing module part_3_mult_dsp_HD10
+INFO: [VRFC 10-311] analyzing module part_3_mult_dsp_HD6
+INFO: [VRFC 10-311] analyzing module part_3_mult_mult_gen_v12_0_18
+INFO: [VRFC 10-311] analyzing module part_3_mult_mult_gen_v12_0_18_HD4
+INFO: [VRFC 10-311] analyzing module part_3_mult_mult_gen_v12_0_18_HD8
+INFO: [VRFC 10-311] analyzing module part_3_mult_mult_gen_v12_0_18_viv
+INFO: [VRFC 10-311] analyzing module part_3_mult_mult_gen_v12_0_18_viv_HD5
+INFO: [VRFC 10-311] analyzing module part_3_mult_mult_gen_v12_0_18_viv_HD9
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab5/project_1.srcs/sim_1/imports/lab5/tb_lab5dpath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_lab5dpath

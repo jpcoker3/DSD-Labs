@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_max3sint16b_time_impl.v" \
+"../../../../../try_again.srcs/sim_1/imports/lab2/tb_max3sint16b.v" \
+
+# Do not sort compile order
+nosort

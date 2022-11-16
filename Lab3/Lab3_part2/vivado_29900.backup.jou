@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Sep 14 10:01:56 2022
+# Process ID: 29900
+# Current directory: C:/ece4743/Lab3/Lab3_part2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent33660 C:\ece4743\Lab3\Lab3_part2\project_1.xpr
+# Log file: C:/ece4743/Lab3/Lab3_part2/vivado.log
+# Journal file: C:/ece4743/Lab3/Lab3_part2\vivado.jou
+# Running On: Lenovo-9i-Joe-Laptop, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 4, Host memory: 16901 MB
+#-----------------------------------------------------------
+start_guioopen_project C:/ece4743/Lab3/Lab3_part2/project_1.xprupdate_compile_order -fileset sources_1
+

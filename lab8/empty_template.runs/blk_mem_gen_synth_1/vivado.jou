@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Nov  9 09:07:02 2022
+# Process ID: 30956
+# Current directory: C:/ece4743/lab8/empty_template.runs/blk_mem_gen_synth_1
+# Command line: vivado.exe -log blk_mem_gen.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source blk_mem_gen.tcl
+# Log file: C:/ece4743/lab8/empty_template.runs/blk_mem_gen_synth_1/blk_mem_gen.vds
+# Journal file: C:/ece4743/lab8/empty_template.runs/blk_mem_gen_synth_1\vivado.jou
+# Running On: Lenovo-9i-Joe-Laptop, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 4, Host memory: 16901 MB
+#-----------------------------------------------------------
+source blk_mem_gen.tcl -notrace

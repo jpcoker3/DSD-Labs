@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1663720567" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/lab4dpath.dcp">
+  <File Type="PA-TCL" Name="lab4dpath.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="lab4dpath_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="lab4dpath_reports.tcl"/>
+  <File Type="RDS-RDS" Name="lab4dpath.vds"/>
+  <File Type="RDS-UTIL" Name="lab4dpath_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="lab4dpath_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="lab4dpath.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="lab4dpath_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="lab4dpath_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/mmhard/mmhard.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab4/lab4dpath.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab4/lab4dpath.v"/>
+        <Attr Name="ImportTime" Val="1663167106"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/mult_gen_0/mult_gen_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="lab4dpath"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Lab4/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab4/Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1661351709"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/lab4dpath.dcp">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/lab4dpath.dcp"/>
+        <Attr Name="ImportTime" Val="1663720384"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

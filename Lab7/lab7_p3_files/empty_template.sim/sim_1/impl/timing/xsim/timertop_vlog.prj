@@ -1,0 +1,6 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../empty_template.gen/sources_1/ip/clk_wiz" \
+"timertop_time_impl.v" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,15 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Tue Sep 20 19:37:42 2022
+| Host         : Lenovo-9i-Joe-Laptop running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file lab4dpath_bus_skew_routed.rpt -pb lab4dpath_bus_skew_routed.pb -rpx lab4dpath_bus_skew_routed.rpx
+| Design       : lab4dpath
+| Device       : 7k70t-fbv676
+| Speed File   : -1  PRODUCTION 1.12 2017-02-17
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

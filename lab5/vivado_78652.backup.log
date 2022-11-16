@@ -1,0 +1,927 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Sep 27 18:03:07 2022
+# Process ID: 78652
+# Current directory: C:/ece4743/lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent87356 C:\ece4743\lab5\project_1.xpr
+# Log file: C:/ece4743/lab5/vivado.log
+# Journal file: C:/ece4743/lab5\vivado.jou
+# Running On: Lenovo-9i-Joe-Laptop, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 4, Host memory: 16901 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/ece4743/lab5/project_1.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/ece4743/lab3' since last save.
+INFO: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/ece4743/lab5/project_1.gen/sources_1', nor could it be found using path 'C:/ece4743/lab3/project_1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 1643.113 ; gain = 0.000
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse C:/ece4743/lab5/tb_lab5dpath.v
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse C:/ece4743/lab5/lab5dpath.v
+update_compile_order -fileset sim_1
+add_files -fileset constrs_1 -norecurse C:/ece4743/lab5/Basys3_Master.xdc
+import_files -fileset constrs_1 C:/ece4743/lab5/Basys3_Master.xdc
+create_ip -name mult_gen -vendor xilinx.com -library ip -version 12.0 -module_name jpc496
+set_property -dict [list CONFIG.Component_Name {jpc496} CONFIG.PortAWidth {12} CONFIG.PortBWidth {12} CONFIG.Multiplier_Construction {Use_Mults} CONFIG.OutputWidthHigh {23} CONFIG.PipeStages {2}] [get_ips jpc496]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'jpc496' to 'jpc496' is not allowed and is ignored.
+generate_target {instantiation_template} [get_files c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'jpc496'...
+generate_target all [get_files  c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'jpc496'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'jpc496'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'jpc496'...
+catch { config_ip_cache -export [get_ips -all jpc496] }
+export_ip_user_files -of_objects [get_files c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci]
+launch_runs jpc496_synth_1 -jobs 4
+[Tue Sep 27 18:04:40 2022] Launched jpc496_synth_1...
+Run output will be captured here: C:/ece4743/lab5/project_1.runs/jpc496_synth_1/runme.log
+export_simulation -of_objects [get_files c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci] -directory C:/ece4743/Lab2/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir C:/ece4743/Lab2/project_1/project_1.ip_user_files -ipstatic_source_dir C:/ece4743/lab5/project_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/ece4743/lab5/project_1.cache/compile_simlib/modelsim} {questa=C:/ece4743/lab5/project_1.cache/compile_simlib/questa} {riviera=C:/ece4743/lab5/project_1.cache/compile_simlib/riviera} {activehdl=C:/ece4743/lab5/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/ece4743/lab5/project_1.srcs/sim_1/imports/lab5/lab5dpath.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/ece4743/lab5/project_1.srcs/sim_1/imports/lab5/lab5dpath.v
+file delete -force C:/ece4743/lab5/project_1.srcs/sim_1/imports/lab5/lab5dpath.v
+import_files -norecurse C:/ece4743/lab5/lab5dpath.v
+launch_runs synth_1 -jobs 4
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Tue Sep 27 18:06:02 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab5/project_1.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_lab5dpath'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2022.1/data/xsim/xsim.ini' copied to run dir:'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_lab5dpath' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_lab5dpath_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab5/project_1.srcs/sim_1/imports/lab5/tb_lab5dpath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_lab5dpath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_lab5dpath_behav xil_defaultlib.tb_lab5dpath xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_lab5dpath_behav xil_defaultlib.tb_lab5dpath xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <lab5dpath> not found while processing module instance <uut> [C:/ece4743/lab5/project_1.srcs/sim_1/imports/lab5/tb_lab5dpath.v:25]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_lab5dpath'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2022.1/data/xsim/xsim.ini' copied to run dir:'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_lab5dpath' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_lab5dpath_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_lab5dpath_behav xil_defaultlib.tb_lab5dpath xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_lab5dpath_behav xil_defaultlib.tb_lab5dpath xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <lab5dpath> not found while processing module instance <uut> [C:/ece4743/lab5/project_1.srcs/sim_1/imports/lab5/tb_lab5dpath.v:25]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_files -from_files C:/ece4743/lab5/lab5dpath.v -to_files C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v' with file 'C:/ece4743/lab5/lab5dpath.v'.
+INFO: [filemgmt 20-1080] Importing file from 'C:/ece4743/lab5/lab5dpath.v' to 'C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v'.
+export_ip_user_files -of_objects  [get_files C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v] -no_script -reset -force -quiet
+remove_files  C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v
+file delete -force C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v
+export_ip_user_files -of_objects  [get_files c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci] -no_script -reset -force -quiet
+remove_files  -fileset jpc496 c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci
+INFO: [Project 1-386] Moving file 'c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci' from fileset 'jpc496' to fileset 'sources_1'.
+file delete -force c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496
+file delete -force c:/ece4743/lab5/project_1.gen/sources_1/ip/jpc496
+import_files -norecurse C:/ece4743/lab5/lab5dpath.v
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+create_ip -name mult_gen -vendor xilinx.com -library ip -version 12.0 -module_name mult_gen_0
+set_property -dict [list CONFIG.PortAWidth {12} CONFIG.PortBWidth {12} CONFIG.Multiplier_Construction {Use_Mults} CONFIG.OutputWidthHigh {23} CONFIG.PipeStages {2}] [get_ips mult_gen_0]
+generate_target {instantiation_template} [get_files c:/ece4743/lab5/project_1.srcs/sources_1/ip/mult_gen_0/mult_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'mult_gen_0'...
+generate_target all [get_files  c:/ece4743/lab5/project_1.srcs/sources_1/ip/mult_gen_0/mult_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mult_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'mult_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'mult_gen_0'...
+catch { config_ip_cache -export [get_ips -all mult_gen_0] }
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP mult_gen_0, cache-ID = 5b6cb8331951d645.
+export_ip_user_files -of_objects [get_files c:/ece4743/lab5/project_1.srcs/sources_1/ip/mult_gen_0/mult_gen_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/ece4743/lab5/project_1.srcs/sources_1/ip/mult_gen_0/mult_gen_0.xci]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'c:/ece4743/lab5/project_1.srcs/sources_1/ip/mult_gen_0/mult_gen_0.xci'
+export_simulation -of_objects [get_files c:/ece4743/lab5/project_1.srcs/sources_1/ip/mult_gen_0/mult_gen_0.xci] -directory C:/ece4743/Lab2/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir C:/ece4743/Lab2/project_1/project_1.ip_user_files -ipstatic_source_dir C:/ece4743/lab5/project_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/ece4743/lab5/project_1.cache/compile_simlib/modelsim} {questa=C:/ece4743/lab5/project_1.cache/compile_simlib/questa} {riviera=C:/ece4743/lab5/project_1.cache/compile_simlib/riviera} {activehdl=C:/ece4743/lab5/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files c:/ece4743/lab5/project_1.srcs/sources_1/ip/mult_gen_0/mult_gen_0.xci] -no_script -reset -force -quiet
+remove_files  c:/ece4743/lab5/project_1.srcs/sources_1/ip/mult_gen_0/mult_gen_0.xci
+file delete -force c:/ece4743/lab5/project_1.srcs/sources_1/ip/mult_gen_0
+file delete -force c:/ece4743/lab5/project_1.gen/sources_1/ip/mult_gen_0
+create_ip -name mult_gen -vendor xilinx.com -library ip -version 12.0 -module_name jpc496
+set_property -dict [list CONFIG.Component_Name {jpc496} CONFIG.PortAWidth {12} CONFIG.PortBWidth {12} CONFIG.Multiplier_Construction {Use_Mults} CONFIG.OutputWidthHigh {23} CONFIG.PipeStages {2}] [get_ips jpc496]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'jpc496' to 'jpc496' is not allowed and is ignored.
+generate_target {instantiation_template} [get_files c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'jpc496'...
+generate_target all [get_files  c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'jpc496'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'jpc496'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'jpc496'...
+catch { config_ip_cache -export [get_ips -all jpc496] }
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP jpc496, cache-ID = 5b6cb8331951d645.
+export_ip_user_files -of_objects [get_files c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci'
+export_simulation -of_objects [get_files c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci] -directory C:/ece4743/Lab2/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir C:/ece4743/Lab2/project_1/project_1.ip_user_files -ipstatic_source_dir C:/ece4743/lab5/project_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/ece4743/lab5/project_1.cache/compile_simlib/modelsim} {questa=C:/ece4743/lab5/project_1.cache/compile_simlib/questa} {riviera=C:/ece4743/lab5/project_1.cache/compile_simlib/riviera} {activehdl=C:/ece4743/lab5/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/ece4743/lab5/project_1.runs/synth_1/lab4dpath.dcp to C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs synth_1 -jobs 4
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci' is already up-to-date
+[Tue Sep 27 18:12:31 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab5/project_1.runs/synth_1/runme.log
+export_ip_user_files -of_objects  [get_files {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/lab4dpath.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/lab4dpath.dcp}}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci' is already up-to-date
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Tue Sep 27 18:13:02 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab5/project_1.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_lab5dpath'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2022.1/data/xsim/xsim.ini' copied to run dir:'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_lab5dpath' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_lab5dpath_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab5dpath
+"xvhdl --incr --relax -prj tb_lab5dpath_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/ece4743/lab5/project_1.gen/sources_1/ip/jpc496/sim/jpc496.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'jpc496'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_lab5dpath_behav xil_defaultlib.tb_lab5dpath xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_lab5dpath_behav xil_defaultlib.tb_lab5dpath xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v" Line 1. Module lab5dpath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v" Line 1. Module lab5dpath doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package mult_gen_v12_0_18.mult_gen_v12_0_18_viv_comp
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package mult_gen_v12_0_18.mult_gen_v12_0_18_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package mult_gen_v12_0_18.dsp_pkg
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.op_resize [\op_resize(ai_width=12,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.dsp [\dsp(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.mult_gen_v12_0_18_viv [\mult_gen_v12_0_18_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.mult_gen_v12_0_18 [\mult_gen_v12_0_18(c_xdevicefami...]
+Compiling architecture jpc496_arch of entity xil_defaultlib.jpc496 [jpc496_default]
+Compiling module xil_defaultlib.lab5dpath
+Compiling module xil_defaultlib.tb_lab5dpath
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_lab5dpath_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_lab5dpath_behav -key {Behavioral:sim_1:Functional:tb_lab5dpath} -tclbatch {tb_lab5dpath.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_lab5dpath.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+FAIL               250000: x1: 080, x2: 100, x3: 3c0, y actual: 000, y expected: 080
+FAIL               400000: x1: 0e2, x2: 386, x3: 31d, y actual: 000, y expected: 3b4
+FAIL               550000: x1: 0ef, x2: 381, x3: 0c7, y actual: 000, y expected: 2d5
+FAIL               700000: x1: 099, x2: 0fc, x3: 024, y actual: 000, y expected: 03f
+FAIL               850000: x1: 3b9, x2: 0ff, x3: 3a5, y actual: 000, y expected: 0f0
+FAIL              1000000: x1: 3a9, x2: 3b8, x3: 31a, y actual: 000, y expected: 071
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_lab5dpath_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1643.113 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_lab5dpath'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2022.1/data/xsim/xsim.ini' copied to run dir:'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_lab5dpath' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_lab5dpath_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab5dpath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab5/project_1.srcs/sim_1/imports/lab5/tb_lab5dpath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_lab5dpath
+"xvhdl --incr --relax -prj tb_lab5dpath_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_lab5dpath_behav xil_defaultlib.tb_lab5dpath xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_lab5dpath_behav xil_defaultlib.tb_lab5dpath xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v" Line 1. Module lab5dpath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v" Line 1. Module lab5dpath doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package mult_gen_v12_0_18.mult_gen_v12_0_18_viv_comp
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package mult_gen_v12_0_18.mult_gen_v12_0_18_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package mult_gen_v12_0_18.dsp_pkg
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.op_resize [\op_resize(ai_width=12,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.dsp [\dsp(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.mult_gen_v12_0_18_viv [\mult_gen_v12_0_18_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.mult_gen_v12_0_18 [\mult_gen_v12_0_18(c_xdevicefami...]
+Compiling architecture jpc496_arch of entity xil_defaultlib.jpc496 [jpc496_default]
+Compiling module xil_defaultlib.lab5dpath
+Compiling module xil_defaultlib.tb_lab5dpath
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_lab5dpath_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_lab5dpath_behav -key {Behavioral:sim_1:Functional:tb_lab5dpath} -tclbatch {tb_lab5dpath.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_lab5dpath.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+FAIL               250000: x1: 080, x2: 100, x3: 3c0, y actual: 000, y expected: 080
+FAIL               400000: x1: 0e2, x2: 386, x3: 31d, y actual: 000, y expected: 3b4
+FAIL               550000: x1: 0ef, x2: 381, x3: 0c7, y actual: 000, y expected: 2d5
+FAIL               700000: x1: 099, x2: 0fc, x3: 024, y actual: 000, y expected: 03f
+FAIL               850000: x1: 3b9, x2: 0ff, x3: 3a5, y actual: 000, y expected: 0f0
+FAIL              1000000: x1: 3a9, x2: 3b8, x3: 31a, y actual: 000, y expected: 071
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_lab5dpath_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1643.113 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_lab5dpath'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2022.1/data/xsim/xsim.ini' copied to run dir:'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_lab5dpath' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_lab5dpath_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab5dpath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab5/project_1.srcs/sim_1/imports/lab5/tb_lab5dpath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_lab5dpath
+"xvhdl --incr --relax -prj tb_lab5dpath_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_lab5dpath_behav xil_defaultlib.tb_lab5dpath xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_lab5dpath_behav xil_defaultlib.tb_lab5dpath xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v" Line 1. Module lab5dpath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v" Line 1. Module lab5dpath doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package mult_gen_v12_0_18.mult_gen_v12_0_18_viv_comp
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package mult_gen_v12_0_18.mult_gen_v12_0_18_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package mult_gen_v12_0_18.dsp_pkg
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.op_resize [\op_resize(ai_width=12,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.dsp [\dsp(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.mult_gen_v12_0_18_viv [\mult_gen_v12_0_18_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.mult_gen_v12_0_18 [\mult_gen_v12_0_18(c_xdevicefami...]
+Compiling architecture jpc496_arch of entity xil_defaultlib.jpc496 [jpc496_default]
+Compiling module xil_defaultlib.lab5dpath
+Compiling module xil_defaultlib.tb_lab5dpath
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_lab5dpath_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_lab5dpath_behav -key {Behavioral:sim_1:Functional:tb_lab5dpath} -tclbatch {tb_lab5dpath.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_lab5dpath.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+FAIL               250000: x1: 080, x2: 100, x3: 3c0, y actual: 000, y expected: 080
+FAIL               400000: x1: 0e2, x2: 386, x3: 31d, y actual: 000, y expected: 3b4
+FAIL               550000: x1: 0ef, x2: 381, x3: 0c7, y actual: 000, y expected: 2d5
+FAIL               700000: x1: 099, x2: 0fc, x3: 024, y actual: 000, y expected: 03f
+FAIL               850000: x1: 3b9, x2: 0ff, x3: 3a5, y actual: 000, y expected: 0f0
+FAIL              1000000: x1: 3a9, x2: 3b8, x3: 31a, y actual: 000, y expected: 071
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_lab5dpath_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1643.113 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sim_1\imports\lab5\tb_lab5dpath.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property -dict [list CONFIG.ClockEnable {true}] [get_ips jpc496]
+generate_target all [get_files  c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'jpc496'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'jpc496'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'jpc496'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'jpc496'...
+catch { config_ip_cache -export [get_ips -all jpc496] }
+export_ip_user_files -of_objects [get_files c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci]
+launch_runs jpc496_synth_1 -jobs 4
+[Tue Sep 27 18:20:26 2022] Launched jpc496_synth_1...
+Run output will be captured here: C:/ece4743/lab5/project_1.runs/jpc496_synth_1/runme.log
+export_simulation -of_objects [get_files c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci] -directory C:/ece4743/Lab2/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir C:/ece4743/Lab2/project_1/project_1.ip_user_files -ipstatic_source_dir C:/ece4743/lab5/project_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/ece4743/lab5/project_1.cache/compile_simlib/modelsim} {questa=C:/ece4743/lab5/project_1.cache/compile_simlib/questa} {riviera=C:/ece4743/lab5/project_1.cache/compile_simlib/riviera} {activehdl=C:/ece4743/lab5/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_lab5dpath'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim/simulate.log"
+set_property -dict [list CONFIG.ClockEnable {false}] [get_ips jpc496]
+generate_target all [get_files  c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'jpc496'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'jpc496'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'jpc496'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'jpc496'...
+catch { config_ip_cache -export [get_ips -all jpc496] }
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP jpc496, cache-ID = 5b6cb8331951d645.
+catch { [ delete_ip_run [get_ips -all jpc496] ] }
+INFO: [Project 1-386] Moving file 'c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci' from fileset 'jpc496' to fileset 'sources_1'.
+export_ip_user_files -of_objects [get_files c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci'
+export_simulation -of_objects [get_files c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci] -directory C:/ece4743/Lab2/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir C:/ece4743/Lab2/project_1/project_1.ip_user_files -ipstatic_source_dir C:/ece4743/lab5/project_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/ece4743/lab5/project_1.cache/compile_simlib/modelsim} {questa=C:/ece4743/lab5/project_1.cache/compile_simlib/questa} {riviera=C:/ece4743/lab5/project_1.cache/compile_simlib/riviera} {activehdl=C:/ece4743/lab5/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_lab5dpath'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2022.1/data/xsim/xsim.ini' copied to run dir:'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_lab5dpath' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_lab5dpath_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab5dpath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab5/project_1.srcs/sim_1/imports/lab5/tb_lab5dpath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_lab5dpath
+"xvhdl --incr --relax -prj tb_lab5dpath_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/ece4743/lab5/project_1.gen/sources_1/ip/jpc496/sim/jpc496.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'jpc496'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_lab5dpath_behav xil_defaultlib.tb_lab5dpath xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_lab5dpath_behav xil_defaultlib.tb_lab5dpath xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v" Line 1. Module lab5dpath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v" Line 1. Module lab5dpath doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package mult_gen_v12_0_18.mult_gen_v12_0_18_viv_comp
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package mult_gen_v12_0_18.mult_gen_v12_0_18_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package mult_gen_v12_0_18.dsp_pkg
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.op_resize [\op_resize(ai_width=12,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.dsp [\dsp(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.mult_gen_v12_0_18_viv [\mult_gen_v12_0_18_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.mult_gen_v12_0_18 [\mult_gen_v12_0_18(c_xdevicefami...]
+Compiling architecture jpc496_arch of entity xil_defaultlib.jpc496 [jpc496_default]
+Compiling module xil_defaultlib.lab5dpath
+Compiling module xil_defaultlib.tb_lab5dpath
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_lab5dpath_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_lab5dpath_behav -key {Behavioral:sim_1:Functional:tb_lab5dpath} -tclbatch {tb_lab5dpath.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_lab5dpath.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+FAIL               250000: x1: 080, x2: 100, x3: 3c0, y actual: 000, y expected: 080
+FAIL               400000: x1: 0e2, x2: 386, x3: 31d, y actual: 000, y expected: 3b4
+FAIL               550000: x1: 0ef, x2: 381, x3: 0c7, y actual: 000, y expected: 2d5
+FAIL               700000: x1: 099, x2: 0fc, x3: 024, y actual: 000, y expected: 03f
+FAIL               850000: x1: 3b9, x2: 0ff, x3: 3a5, y actual: 000, y expected: 0f0
+FAIL              1000000: x1: 3a9, x2: 3b8, x3: 31a, y actual: 000, y expected: 071
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_lab5dpath_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1643.113 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run
+run 10 us
+FAIL               250000: x1: 080, x2: 100, x3: 3c0, y actual: 000, y expected: 080
+FAIL               400000: x1: 0e2, x2: 386, x3: 31d, y actual: 000, y expected: 3b4
+FAIL               550000: x1: 0ef, x2: 381, x3: 0c7, y actual: 000, y expected: 2d5
+FAIL               700000: x1: 099, x2: 0fc, x3: 024, y actual: 000, y expected: 03f
+FAIL               850000: x1: 3b9, x2: 0ff, x3: 3a5, y actual: 000, y expected: 0f0
+FAIL              1000000: x1: 3a9, x2: 3b8, x3: 31a, y actual: 000, y expected: 071
+FAIL              1150000: x1: 376, x2: 031, x3: 024, y actual: 000, y expected: 051
+FAIL              1300000: x1: 3b5, x2: 301, x3: 3f5, y actual: 000, y expected: 38b
+FAIL              1450000: x1: 34c, x2: 359, x3: 05a, y actual: 000, y expected: 3c4
+FAIL              1600000: x1: 37f, x2: 038, x3: 015, y actual: 000, y expected: 059
+FAIL              1750000: x1: 0a9, x2: 05c, x3: 35d, y actual: 000, y expected: 036
+FAIL              1900000: x1: 393, x2: 096, x3: 341, y actual: 000, y expected: 0f3
+FAIL              2050000: x1: 3bd, x2: 3f0, x3: 061, y actual: 000, y expected: 3e7
+FAIL              2200000: x1: 011, x2: 32d, x3: 0e5, y actual: 000, y expected: 301
+FAIL              2350000: x1: 373, x2: 310, x3: 3d1, y actual: 000, y expected: 3c8
+FAIL              2500000: x1: 066, x2: 0a6, x3: 3cf, y actual: 000, y expected: 04d
+FAIL              2650000: x1: 3b2, x2: 0f9, x3: 30d, y actual: 000, y expected: 13c
+FAIL              2800000: x1: 314, x2: 08e, x3: 31a, y actual: 000, y expected: 141
+FAIL              2950000: x1: 3ae, x2: 0fd, x3: 349, y actual: 000, y expected: 122
+FAIL:          19 vectors failed
+
+$finish called at time : 3050 ns : File "C:/ece4743/lab5/project_1.srcs/sim_1/imports/lab5/tb_lab5dpath.v" Line 77
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+FAIL               250000: x1: 080, x2: 100, x3: 3c0, y actual: 000, y expected: 080
+FAIL               400000: x1: 0e2, x2: 386, x3: 31d, y actual: 000, y expected: 3b4
+FAIL               550000: x1: 0ef, x2: 381, x3: 0c7, y actual: 000, y expected: 2d5
+FAIL               700000: x1: 099, x2: 0fc, x3: 024, y actual: 000, y expected: 03f
+FAIL               850000: x1: 3b9, x2: 0ff, x3: 3a5, y actual: 000, y expected: 0f0
+FAIL              1000000: x1: 3a9, x2: 3b8, x3: 31a, y actual: 000, y expected: 071
+FAIL              1150000: x1: 376, x2: 031, x3: 024, y actual: 000, y expected: 051
+FAIL              1300000: x1: 3b5, x2: 301, x3: 3f5, y actual: 000, y expected: 38b
+FAIL              1450000: x1: 34c, x2: 359, x3: 05a, y actual: 000, y expected: 3c4
+FAIL              1600000: x1: 37f, x2: 038, x3: 015, y actual: 000, y expected: 059
+FAIL              1750000: x1: 0a9, x2: 05c, x3: 35d, y actual: 000, y expected: 036
+FAIL              1900000: x1: 393, x2: 096, x3: 341, y actual: 000, y expected: 0f3
+FAIL              2050000: x1: 3bd, x2: 3f0, x3: 061, y actual: 000, y expected: 3e7
+FAIL              2200000: x1: 011, x2: 32d, x3: 0e5, y actual: 000, y expected: 301
+FAIL              2350000: x1: 373, x2: 310, x3: 3d1, y actual: 000, y expected: 3c8
+FAIL              2500000: x1: 066, x2: 0a6, x3: 3cf, y actual: 000, y expected: 04d
+FAIL              2650000: x1: 3b2, x2: 0f9, x3: 30d, y actual: 000, y expected: 13c
+FAIL              2800000: x1: 314, x2: 08e, x3: 31a, y actual: 000, y expected: 141
+FAIL              2950000: x1: 3ae, x2: 0fd, x3: 349, y actual: 000, y expected: 122
+FAIL:          19 vectors failed
+
+$finish called at time : 3050 ns : File "C:/ece4743/lab5/project_1.srcs/sim_1/imports/lab5/tb_lab5dpath.v" Line 77
+save_wave_config {C:/ece4743/lab5/tb_lab5dpath_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/ece4743/lab5/tb_lab5dpath_behav.wcfg
+set_property xsim.view C:/ece4743/lab5/tb_lab5dpath_behav.wcfg [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/ece4743/lab5/project_1.runs/synth_1/lab5dpath.dcp to C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs synth_1 -jobs 4
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci' is already up-to-date
+[Tue Sep 27 18:28:31 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab5/project_1.runs/synth_1/runme.log
+import_files -fileset utils_1 {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/lab5dpath.dcp}}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci' is already up-to-date
+[Tue Sep 27 18:28:54 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab5/project_1.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\ece4743\lab5\project_1.srcs\sources_1\imports\lab5\lab5dpath.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_lab5dpath'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2022.1/data/xsim/xsim.ini' copied to run dir:'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_lab5dpath' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_lab5dpath_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab5dpath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab5/project_1.srcs/sim_1/imports/lab5/tb_lab5dpath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_lab5dpath
+"xvhdl --incr --relax -prj tb_lab5dpath_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_lab5dpath_behav xil_defaultlib.tb_lab5dpath xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_lab5dpath_behav xil_defaultlib.tb_lab5dpath xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v" Line 1. Module lab5dpath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/ece4743/lab5/project_1.srcs/sources_1/imports/lab5/lab5dpath.v" Line 1. Module lab5dpath doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package mult_gen_v12_0_18.mult_gen_v12_0_18_viv_comp
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package mult_gen_v12_0_18.mult_gen_v12_0_18_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package mult_gen_v12_0_18.dsp_pkg
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.op_resize [\op_resize(ai_width=12,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.dsp [\dsp(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.mult_gen_v12_0_18_viv [\mult_gen_v12_0_18_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.mult_gen_v12_0_18 [\mult_gen_v12_0_18(c_xdevicefami...]
+Compiling architecture jpc496_arch of entity xil_defaultlib.jpc496 [jpc496_default]
+Compiling module xil_defaultlib.lab5dpath
+Compiling module xil_defaultlib.tb_lab5dpath
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_lab5dpath_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/ece4743/lab5/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_lab5dpath_behav -key {Behavioral:sim_1:Functional:tb_lab5dpath} -tclbatch {tb_lab5dpath.tcl} -view {C:/ece4743/lab5/tb_lab5dpath_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/ece4743/lab5/tb_lab5dpath_behav.wcfg
+source tb_lab5dpath.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+FAIL               250000: x1: 080, x2: 100, x3: 3c0, y actual: 000, y expected: 080
+FAIL               400000: x1: 0e2, x2: 386, x3: 31d, y actual: 000, y expected: 3b4
+FAIL               550000: x1: 0ef, x2: 381, x3: 0c7, y actual: 000, y expected: 2d5
+FAIL               700000: x1: 099, x2: 0fc, x3: 024, y actual: 000, y expected: 03f
+FAIL               850000: x1: 3b9, x2: 0ff, x3: 3a5, y actual: 000, y expected: 0f0
+FAIL              1000000: x1: 3a9, x2: 3b8, x3: 31a, y actual: 000, y expected: 071
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_lab5dpath_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 1643.113 ; gain = 0.000
+export_ip_user_files -of_objects  [get_files c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci] -no_script -reset -force -quiet
+remove_files  c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci
+file delete -force c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496
+file delete -force c:/ece4743/lab5/project_1.gen/sources_1/ip/jpc496
+create_ip -name mult_gen -vendor xilinx.com -library ip -version 12.0 -module_name jpc496
+set_property -dict [list CONFIG.Component_Name {jpc496} CONFIG.PortAWidth {12} CONFIG.PortBWidth {12} CONFIG.Multiplier_Construction {Use_Mults} CONFIG.OutputWidthHigh {23} CONFIG.PipeStages {2}] [get_ips jpc496]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'jpc496' to 'jpc496' is not allowed and is ignored.
+generate_target {instantiation_template} [get_files c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'jpc496'...
+generate_target all [get_files  c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'jpc496'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'jpc496'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'jpc496'...
+catch { config_ip_cache -export [get_ips -all jpc496] }
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP jpc496, cache-ID = 5b6cb8331951d645.
+export_ip_user_files -of_objects [get_files c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci'
+export_simulation -of_objects [get_files c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci] -directory C:/ece4743/Lab2/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir C:/ece4743/Lab2/project_1/project_1.ip_user_files -ipstatic_source_dir C:/ece4743/lab5/project_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/ece4743/lab5/project_1.cache/compile_simlib/modelsim} {questa=C:/ece4743/lab5/project_1.cache/compile_simlib/questa} {riviera=C:/ece4743/lab5/project_1.cache/compile_simlib/riviera} {activehdl=C:/ece4743/lab5/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/ece4743/lab5/project_1.srcs/utils_1/imports/synth_1/lab5dpath.dcp with file C:/ece4743/lab5/project_1.runs/synth_1/lab5dpath.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/ece4743/lab5/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci' is already up-to-date
+[Tue Sep 27 18:31:49 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab5/project_1.runs/synth_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/ece4743/lab5/project_1.srcs/utils_1/imports/synth_1/lab5dpath.dcp with file C:/ece4743/lab5/project_1.runs/synth_1/lab5dpath.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/ece4743/lab5/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci' is already up-to-date
+[Tue Sep 27 18:32:49 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab5/project_1.runs/synth_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/ece4743/lab5/project_1.srcs/utils_1/imports/synth_1/lab5dpath.dcp with file C:/ece4743/lab5/project_1.runs/synth_1/lab5dpath.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/ece4743/lab5/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/ece4743/lab5/project_1.srcs/sources_1/ip/jpc496/jpc496.xci' is already up-to-date
+[Tue Sep 27 18:34:03 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab5/project_1.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 27 18:34:50 2022...

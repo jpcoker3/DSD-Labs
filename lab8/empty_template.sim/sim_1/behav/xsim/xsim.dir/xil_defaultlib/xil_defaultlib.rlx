@@ -1,0 +1,8 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/ece4743/lab8/empty_template.gen/sources_1/ip/blk_mem_gen/sim/blk_mem_gen.v,1668006419,verilog,,C:/ece4743/lab8/fifo.v,,blk_mem_gen,,,,,,,,
+C:/ece4743/lab8/empty_template.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+C:/ece4743/lab8/fifo.v,1668195866,verilog,,C:/ece4743/lab8/tb_fifo.v,,fifo,,,,,,,,
+C:/ece4743/lab8/tb_fifo.v,1667855536,verilog,,,,tb_fifo,,,,,,,,

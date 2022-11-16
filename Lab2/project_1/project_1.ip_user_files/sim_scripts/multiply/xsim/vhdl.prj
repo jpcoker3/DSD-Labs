@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../../../lab6/lab6_part2/project_1.gen/sources_1/ip/multiply/sim/multiply.vhd" \
+
+nosort

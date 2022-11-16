@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../empty_template.srcs/sources_1/imports/lab7_p2_files/timer32.v" \
+"../../../../empty_template.srcs/sources_1/new/timer32bus.v" \
+"../../../../empty_template.srcs/sim_1/imports/lab7_p2_files/tb_timer32bus.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

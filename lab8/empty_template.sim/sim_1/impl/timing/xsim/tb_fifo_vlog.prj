@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_fifo_time_impl.v" \
+"../../../../../tb_fifo.v" \
+
+# Do not sort compile order
+nosort

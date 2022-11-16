@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Nov  9 09:05:35 2022
+# Process ID: 35072
+# Current directory: C:/ece4743/lab8/empty_template.runs/blk_mem_gen_0_synth_1
+# Command line: vivado.exe -log blk_mem_gen_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source blk_mem_gen_0.tcl
+# Log file: C:/ece4743/lab8/empty_template.runs/blk_mem_gen_0_synth_1/blk_mem_gen_0.vds
+# Journal file: C:/ece4743/lab8/empty_template.runs/blk_mem_gen_0_synth_1\vivado.jou
+# Running On: Lenovo-9i-Joe-Laptop, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 4, Host memory: 16901 MB
+#-----------------------------------------------------------
+source blk_mem_gen_0.tcl -notrace
+Command: synth_design -top blk_mem_gen_0 -part xc7a35tcpg236-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+ERROR: [Runs 36-287] File does not exist or is not accessible:'c:/ece4743/lab8/empty_template.gen/sources_1/ip/blk_mem_gen_0/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd'
+ERROR: [Runs 36-287] File does not exist or is not accessible:'c:/ece4743/lab8/empty_template.gen/sources_1/ip/blk_mem_gen_0/synth/blk_mem_gen_0.vhd'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3320
+ERROR: [Synth 8-1956] error in use clause
+Failed to read vhdl 'c:/ece4743/lab8/empty_template.gen/sources_1/ip/blk_mem_gen_0/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd'
+INFO: [Common 17-83] Releasing license: Synthesis
+6 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  9 09:06:04 2022...

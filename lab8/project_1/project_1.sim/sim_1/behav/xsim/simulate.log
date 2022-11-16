@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+Block Memory Generator module tb_memory.uut.mem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Applying vectors...
+
+FAIL:           1 errors occurred
+

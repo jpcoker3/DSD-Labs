@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Sep 26 11:47:41 2022
+# Process ID: 56392
+# Current directory: C:/ece4743/Lab3/Lab3_part2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent77364 C:\ece4743\Lab3\Lab3_part2\project_1.xpr
+# Log file: C:/ece4743/Lab3/Lab3_part2/vivado.log
+# Journal file: C:/ece4743/Lab3/Lab3_part2\vivado.jou
+# Running On: Lenovo-9i-Joe-Laptop, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 4, Host memory: 16901 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/ece4743/Lab3/Lab3_part2/project_1.xpr
+update_compile_order -fileset sources_1
+launch_simulation -mode post-implementation -type timing
+source tb_satadd.tcl
+close_sim
+launch_simulation -mode post-implementation -type timing
+source tb_satadd.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+import_files -fileset utils_1 {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source tb_satadd.tcl
+close_sim
+close_sim

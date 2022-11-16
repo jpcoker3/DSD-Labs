@@ -1,0 +1,1 @@
+jpc496.vhd,vhdl,xil_defaultlib,../../../../../../lab5/project_1.gen/sources_1/ip/jpc496/sim/jpc496.vhd,

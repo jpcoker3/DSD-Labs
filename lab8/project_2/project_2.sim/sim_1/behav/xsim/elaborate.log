@@ -1,0 +1,47 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_memory_behav xil_defaultlib.tb_memory xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 4 for port 'addra' [C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv:124]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 4 for port 'addrb' [C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv:129]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv" Line 78. Module basys_memory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv" Line 11. Module button_pulse doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv" Line 34. Module mem_addr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv" Line 11. Module button_pulse doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv" Line 11. Module button_pulse doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv" Line 34. Module mem_addr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv" Line 11. Module button_pulse doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv" Line 11. Module button_pulse doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/sevenseg.sv" Line 2. Module sevenseg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/pulsegenms.sv" Line 2. Module pulsegenMS(PERIOD=0.004) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv" Line 78. Module basys_memory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv" Line 11. Module button_pulse doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv" Line 34. Module mem_addr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv" Line 11. Module button_pulse doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv" Line 11. Module button_pulse doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv" Line 34. Module mem_addr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv" Line 11. Module button_pulse doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv" Line 11. Module button_pulse doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/sevenseg.sv" Line 2. Module sevenseg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/pulsegenms.sv" Line 2. Module pulsegenMS(PERIOD=0.004) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.button_pulse
+Compiling module xil_defaultlib.mem_addr
+Compiling module xil_defaultlib.pulsegenMS(PERIOD=0.004)
+Compiling module xil_defaultlib.sevenseg
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_axi_regs_fwd_v8_4(C_DATA...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5(C_FAMILY="art...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling module xil_defaultlib.basys_memory
+Compiling module xil_defaultlib.tb_memory
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_memory_behav

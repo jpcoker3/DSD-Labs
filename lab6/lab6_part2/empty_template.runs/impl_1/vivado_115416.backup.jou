@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Oct  8 19:34:05 2022
+# Process ID: 115416
+# Current directory: C:/ece4743/lab6/lab6_part2/empty_template.runs/impl_1
+# Command line: vivado.exe -log hw_testbench.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source hw_testbench.tcl -notrace
+# Log file: C:/ece4743/lab6/lab6_part2/empty_template.runs/impl_1/hw_testbench.vdi
+# Journal file: C:/ece4743/lab6/lab6_part2/empty_template.runs/impl_1\vivado.jou
+# Running On: Lenovo-9i-Joe-Laptop, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 4, Host memory: 16901 MB
+#-----------------------------------------------------------
+source hw_testbench.tcl -notrace

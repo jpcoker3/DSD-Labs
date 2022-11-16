@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Nov  2 10:11:03 2022
+# Process ID: 19192
+# Current directory: C:/ece4743/Lab7/lab7_p3_files
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9392 C:\ece4743\Lab7\lab7_p3_files\empty_template.xpr
+# Log file: C:/ece4743/Lab7/lab7_p3_files/vivado.log
+# Journal file: C:/ece4743/Lab7/lab7_p3_files\vivado.jou
+# Running On: Lenovo-9i-Joe-Laptop, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 4, Host memory: 16901 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/ece4743/Lab7/lab7_p3_files/empty_template.xpr
+update_compile_order -fileset sources_1
+launch_simulation -mode post-implementation -type timing
+source timertop.tcl
+report_utilization -name utilization_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+close_sim

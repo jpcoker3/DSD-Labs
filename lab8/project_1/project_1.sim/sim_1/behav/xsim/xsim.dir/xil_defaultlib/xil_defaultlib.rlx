@@ -1,0 +1,10 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv,1668438188,systemVerilog,,C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/pulsegenms.sv,,basys_memory;button_pulse;mem_addr,,uvm,,,,,,
+C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/pulsegenms.sv,1668438188,systemVerilog,,C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/sevenseg.sv,,pulsegenMS,,uvm,,,,,,
+C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/sevenseg.sv,1668438188,systemVerilog,,C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/tb_memory.sv,,sevenseg,,uvm,,,,,,
+C:/Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/tb_memory.sv,1668438188,systemVerilog,,,,tb_memory,,uvm,,,,,,
+C:/ece4743/lab8/project_1/project_1.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1668438973,verilog,,,,blk_mem_gen_0,,uvm,,,,,,
+C:/ece4743/lab8/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,uvm,,,,,,

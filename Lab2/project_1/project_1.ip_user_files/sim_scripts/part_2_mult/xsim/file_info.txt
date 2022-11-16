@@ -1,0 +1,1 @@
+part_2_mult.vhd,vhdl,xil_defaultlib,../../../../../../lab5/project_1.gen/sources_1/ip/part_2_mult/sim/part_2_mult.vhd,

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_max3sint16b_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_max3sint16b" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="28.960 ns"></ZoomStartTime>
+      <ZoomEndTime time="868.461 ns"></ZoomEndTime>
+      <Cursor1Time time="284.460 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="309"></NameColumnWidth>
+      <ValueColumnWidth column_width="147"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="74" />
+   <wvobject fp_name="/tb_max3sint16b/uut/a" type="array">
+      <obj_property name="ElementShortName">a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">a[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/a_IBUF" type="array">
+      <obj_property name="ElementShortName">a_IBUF[15:0]</obj_property>
+      <obj_property name="ObjectShortName">a_IBUF[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/b" type="array">
+      <obj_property name="ElementShortName">b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">b[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/b_IBUF" type="array">
+      <obj_property name="ElementShortName">b_IBUF[15:0]</obj_property>
+      <obj_property name="ObjectShortName">b_IBUF[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/c" type="array">
+      <obj_property name="ElementShortName">c[15:0]</obj_property>
+      <obj_property name="ObjectShortName">c[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/c_IBUF" type="array">
+      <obj_property name="ElementShortName">c_IBUF[15:0]</obj_property>
+      <obj_property name="ObjectShortName">c_IBUF[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/p_0_in" type="logic">
+      <obj_property name="ElementShortName">p_0_in</obj_property>
+      <obj_property name="ObjectShortName">p_0_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/p_1_in" type="logic">
+      <obj_property name="ElementShortName">p_1_in</obj_property>
+      <obj_property name="ObjectShortName">p_1_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/u1_lt" type="logic">
+      <obj_property name="ElementShortName">u1_lt</obj_property>
+      <obj_property name="ObjectShortName">u1_lt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/y" type="array">
+      <obj_property name="ElementShortName">y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/y_OBUF" type="array">
+      <obj_property name="ElementShortName">y_OBUF[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y_OBUF[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_10_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_10_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_10_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_11_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_11_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_11_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_12_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_12_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_12_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_13_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_13_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_13_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_14_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_14_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_14_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_15_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_15_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_15_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_16_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_16_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_16_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_17_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_17_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_17_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_18_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_18_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_18_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_19_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_19_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_19_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_20_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_20_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_20_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_21_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_21_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_21_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_22_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_22_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_22_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_23_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_23_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_23_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_24_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_24_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_24_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_25_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_25_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_25_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_26_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_26_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_26_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_27_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_27_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_27_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_28_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_28_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_28_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_29_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_29_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_29_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_30_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_30_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_30_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_31_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_31_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_31_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_32_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_32_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_32_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_33_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_33_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_33_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_34_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_34_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_34_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_35_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_35_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_35_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_36_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_36_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_36_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_37_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_37_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_37_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_38_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_38_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_38_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_39_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_39_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_39_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_40_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_40_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_40_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_41_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_41_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_41_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_42_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_42_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_42_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_43_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_43_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_43_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_44_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_44_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_44_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_45_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_45_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_45_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_46_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_46_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_46_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_47_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_47_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_47_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_48_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_48_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_48_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_49_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_49_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_49_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_50_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_50_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_50_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_51_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_51_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_51_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_52_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_52_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_52_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_53_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_53_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_53_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_54_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_54_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_54_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_55_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_55_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_55_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_6_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_6_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_6_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_7_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_7_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_7_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_8_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_8_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_8_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\y_OBUF[15]_inst_i_9_n_0 " type="logic">
+      <obj_property name="ElementShortName">\y_OBUF[15]_inst_i_9_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\y_OBUF[15]_inst_i_9_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\NLW_y_OBUF[15]_inst_i_14_CO_UNCONNECTED " type="array">
+      <obj_property name="ElementShortName">\NLW_y_OBUF[15]_inst_i_14_CO_UNCONNECTED [2:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_y_OBUF[15]_inst_i_14_CO_UNCONNECTED [2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\NLW_y_OBUF[15]_inst_i_14_O_UNCONNECTED " type="array">
+      <obj_property name="ElementShortName">\NLW_y_OBUF[15]_inst_i_14_O_UNCONNECTED [3:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_y_OBUF[15]_inst_i_14_O_UNCONNECTED [3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\NLW_y_OBUF[15]_inst_i_2_CO_UNCONNECTED " type="array">
+      <obj_property name="ElementShortName">\NLW_y_OBUF[15]_inst_i_2_CO_UNCONNECTED [2:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_y_OBUF[15]_inst_i_2_CO_UNCONNECTED [2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\NLW_y_OBUF[15]_inst_i_2_O_UNCONNECTED " type="array">
+      <obj_property name="ElementShortName">\NLW_y_OBUF[15]_inst_i_2_O_UNCONNECTED [3:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_y_OBUF[15]_inst_i_2_O_UNCONNECTED [3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\NLW_y_OBUF[15]_inst_i_23_CO_UNCONNECTED " type="array">
+      <obj_property name="ElementShortName">\NLW_y_OBUF[15]_inst_i_23_CO_UNCONNECTED [2:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_y_OBUF[15]_inst_i_23_CO_UNCONNECTED [2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\NLW_y_OBUF[15]_inst_i_23_O_UNCONNECTED " type="array">
+      <obj_property name="ElementShortName">\NLW_y_OBUF[15]_inst_i_23_O_UNCONNECTED [3:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_y_OBUF[15]_inst_i_23_O_UNCONNECTED [3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\NLW_y_OBUF[15]_inst_i_3_CO_UNCONNECTED " type="array">
+      <obj_property name="ElementShortName">\NLW_y_OBUF[15]_inst_i_3_CO_UNCONNECTED [2:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_y_OBUF[15]_inst_i_3_CO_UNCONNECTED [2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\NLW_y_OBUF[15]_inst_i_3_O_UNCONNECTED " type="array">
+      <obj_property name="ElementShortName">\NLW_y_OBUF[15]_inst_i_3_O_UNCONNECTED [3:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_y_OBUF[15]_inst_i_3_O_UNCONNECTED [3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\NLW_y_OBUF[15]_inst_i_4_CO_UNCONNECTED " type="array">
+      <obj_property name="ElementShortName">\NLW_y_OBUF[15]_inst_i_4_CO_UNCONNECTED [2:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_y_OBUF[15]_inst_i_4_CO_UNCONNECTED [2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\NLW_y_OBUF[15]_inst_i_4_O_UNCONNECTED " type="array">
+      <obj_property name="ElementShortName">\NLW_y_OBUF[15]_inst_i_4_O_UNCONNECTED [3:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_y_OBUF[15]_inst_i_4_O_UNCONNECTED [3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\NLW_y_OBUF[15]_inst_i_5_CO_UNCONNECTED " type="array">
+      <obj_property name="ElementShortName">\NLW_y_OBUF[15]_inst_i_5_CO_UNCONNECTED [2:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_y_OBUF[15]_inst_i_5_CO_UNCONNECTED [2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_max3sint16b/uut/\NLW_y_OBUF[15]_inst_i_5_O_UNCONNECTED " type="array">
+      <obj_property name="ElementShortName">\NLW_y_OBUF[15]_inst_i_5_O_UNCONNECTED [3:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_y_OBUF[15]_inst_i_5_O_UNCONNECTED [3:0]</obj_property>
+   </wvobject>
+</wave_config>

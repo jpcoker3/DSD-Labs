@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_1.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+
+sv xil_defaultlib  \
+"../../../../../../../Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/memory.sv" \
+"../../../../../../../Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/pulsegenms.sv" \
+"../../../../../../../Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/sevenseg.sv" \
+"../../../../../../../Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/in-class/tb_memory.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

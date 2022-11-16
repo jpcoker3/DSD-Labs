@@ -1,0 +1,6 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/ece4743/Lab4_part2/project_1.sim/sim_1/impl/timing/xsim/tb_lab4dpath_time_impl.v,1663720680,verilog,,C:/ece4743/Lab4_part2/project_1.srcs/sim_1/imports/Lab4/tb_lab4dpath.v,,glbl;lab4dpath;mmhard;mmhard_HD3;mmhard_HD7;mmhard_dsp;mmhard_dsp_HD10;mmhard_dsp_HD6;mmhard_mult_gen_v12_0_18;mmhard_mult_gen_v12_0_18_HD4;mmhard_mult_gen_v12_0_18_HD8;mmhard_mult_gen_v12_0_18_viv;mmhard_mult_gen_v12_0_18_viv_HD5;mmhard_mult_gen_v12_0_18_viv_HD9,,,,,,,,
+C:/ece4743/Lab4_part2/project_1.srcs/sim_1/imports/Lab4/tb_lab4dpath.v,1663167106,verilog,,,,tb_lab4dpath,,,,,,,,

@@ -1,0 +1,2086 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Sep  6 18:39:51 2022
+# Process ID: 115968
+# Current directory: C:/ece4743/lab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent116700 C:\ece4743\lab3\project_1.xpr
+# Log file: C:/ece4743/lab3/vivado.log
+# Journal file: C:/ece4743/lab3\vivado.jou
+# Running On: Lenovo-9i-Joe-Laptop, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 4, Host memory: 16901 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/ece4743/lab3/project_1.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/ece4743/lab3/project_1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:07 . Memory (MB): peak = 1648.109 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_satadd'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_satadd' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_satadd_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_satadd_behav -key {Behavioral:sim_1:Functional:tb_satadd} -tclbatch {tb_satadd.tcl} -view {C:/ece4743/lab3/tb_satadd_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+source tb_satadd.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+          1(              200000): PASS, mode: 2, a: 004, b: 005, y: 009                                                                                                    #
+
+          2(              300000): PASS, mode: 1, a: 004, b: 005, y: 009                                                                                                    #
+
+          3(              400000): PASS, mode: 1, a: 004, b: 005, y: 009                                                                                                    #
+
+          4(              500000): PASS, mode: 2, a: b00, b: 100, y: c00                                                                                                    #
+
+          5(              600000): PASS, mode: 1, a: b00, b: 100, y: c00                                                                                                    #
+
+          6(              700000): PASS, mode: 1, a: b00, b: 100, y: c00                                                                                                    #
+
+          7(              800000): FAIL, mode: 2, a: 7ff, b: 001, y (actual): 7ff, y (expected): 00000800                                                                                                    #
+
+          8(              900000): FAIL, mode: 1, a: 7ff, b: 001, y (actual): 800, y (expected): 000007ff                                                                                                    #
+
+          9(             1000000): PASS, mode: 0, a: 7ff, b: 001, y: 800                                                                                                    #
+
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_satadd_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1648.109 ; gain = 0.000
+run 10 us
+         10(             1100000): PASS, mode: 2, a: fff, b: 001, y: 000                                                                                                    #
+
+         11(             1200000): PASS, mode: 1, a: fff, b: 001, y: 000                                                                                                    #
+
+         12(             1300000): FAIL, mode: 0, a: fff, b: 001, y (actual): 7ff, y (expected): 00000fff                                                                                            #unsigned
+
+         13(             1400000): FAIL, mode: 2, a: 800, b: fff, y (actual): 800, y (expected): 000007ff                                                                                                    #
+
+         14(             1500000): FAIL, mode: 1, a: 800, b: fff, y (actual): 7ff, y (expected): 00000800                                                                                                    #
+
+         15(             1600000): FAIL, mode: 0, a: 800, b: fff, y (actual): 7ff, y (expected): 00000fff                                                                                                    #
+
+         16(             1700000): FAIL, mode: 0, a: 86c, b: fde, y (actual): 7ff, y (expected): 00000fff             ;ó      ãj`    î	P   ?ƒ  0 î	P    ;ßÄ     â     ;óÄ î?àîà   ;¢Ä     î?p    
+
+         17(             1800000): FAIL, mode: 0, a: 597, b: ecc, y (actual): 7ff, y (expected): 00000fff             ;ó      ãj`    î
+   
+?ƒ  0 î
+    ;ßÄ     â     ;óÄ î?àîà   ;¢Ä     î?p    
+
+         18(             1900000): FAIL, mode: 0, a: f93, b: 539, y (actual): 7ff, y (expected): 00000fff             ;ó      ;óÄ     î
+   
+?ƒ  0 î
+    ;ßÄ     â     ;óÄ î?àîà   ;¢Ä     î?p    
+
+         19(             2000000): FAIL, mode: 0, a: f68, b: d06, y (actual): 7ff, y (expected): 00000fff             ;ó      ;óÄ     î
+   
+?ƒ  0 î
+    ;ßÄ     â     ;óÄ î?àîà   ;¢Ä     î?p    
+
+         20(             2100000): PASS, mode: 0, a: 1a3, b: 2fc, y: 49f             ;ó      ;óÄ     î
+   
+?ƒ  0 î
+    ;ßÄ     â     ;óÄ î?àîà   ;¢Ä     î?p    
+
+         21(             2200000): PASS, mode: 0, a: 551, b: a5c, y: fad           ü;ó      ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à    î(    ;¢Ä î(      
+
+         22(             2300000): FAIL, mode: 0, a: d6d, b: f33, y (actual): 7ff, y (expected): 00000fff           ≠;ó      ;óÄ     î
+   
+   î?à      ;ßÄ     î?pîàî?à    î(    ;¢Ä î(      
+
+         23(             2400000): PASS, mode: 0, a: 0a8, b: c50, y: cf8             ;ó      ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à    î(    ;¢Ä î(      
+
+         24(             2500000): FAIL, mode: 0, a: 916, b: de9, y (actual): 7ff, y (expected): 00000fff           ¯;ó      ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à    î(    ;¢Ä î(      
+
+         25(             2600000): FAIL, mode: 0, a: d7b, b: 38a, y (actual): 7ff, y (expected): 00000fff             ;ó      ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à    î(    ;¢Ä î(      
+
+         26(             2700000): FAIL, mode: 0, a: a10, b: 8a8, y (actual): 7ff, y (expected): 00000fff             ;ó      ãj`    î
+   
+?ƒ  0 î
+    ;ßÄ     â     ;óÄ î?àîà   ;¢Ä     î?p    
+
+         27(             2800000): FAIL, mode: 0, a: f96, b: 9f9, y (actual): 7ff, y (expected): 00000fff             ;ó      ãj`    î
+   
+?ƒ  0 î
+    ;ßÄ     â     ;óÄ î?àîà   ;¢Ä     î?p    
+
+         28(             2900000): PASS, mode: 0, a: 6f0, b: 0ed, y: 7dd             ;ó      ãj`    î
+   
+?ƒ  0 î
+    ;ßÄ     â     ;óÄ î?àîà   ;¢Ä     î?p    
+
+         29(             3000000): FAIL, mode: 0, a: 5e5, b: e82, y (actual): 7ff, y (expected): 00000fff           ›;ó      ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à    î(    ;¢Ä î(      
+
+         30(             3100000): FAIL, mode: 0, a: d34, b: 564, y (actual): 7ff, y (expected): 00000fff             ;ó      ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à    î(    ;¢Ä î(      
+
+         31(             3200000): FAIL, mode: 1, a: 893, b: ba1, y (actual): 434, y (expected): 00000800             ;ó      ;óÄ     î
+   
+?ƒ  0 î
+    ;ßÄ     â     ;óÄ î?àîà   ;¢Ä     î?p    
+
+         32(             3300000): PASS, mode: 1, a: af1, b: eb7, y: 9a8             ;ó    4ãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         33(             3400000): FAIL, mode: 1, a: a04, b: c54, y (actual): 658, y (expected): 00000800             ;ó    	®ãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         34(             3500000): FAIL, mode: 1, a: 84e, b: a98, y (actual): 2e6, y (expected): 00000800             ;ó    Xãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         35(             3600000): FAIL, mode: 1, a: 967, b: 8e9, y (actual): 250, y (expected): 00000800             ;ó    Êãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         36(             3700000): FAIL, mode: 1, a: af7, b: ce5, y (actual): 7dc, y (expected): 00000800             ;ó    Pãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         37(             3800000): FAIL, mode: 1, a: 92d, b: c4b, y (actual): 578, y (expected): 00000800             ;ó    ‹ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         38(             3900000): FAIL, mode: 1, a: acf, b: bcb, y (actual): 69a, y (expected): 00000800             ;ó    xãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         39(             4000000): PASS, mode: 1, a: bd6, b: c76, y: 84c             ;ó    öãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         40(             4100000): PASS, mode: 1, a: be0, b: d8b, y: 96b             ;ó    Lãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         41(             4200000): FAIL, mode: 1, a: a97, b: 864, y (actual): 2fb, y (expected): 00000800             ;ó    	kãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         42(             4300000): PASS, mode: 1, a: aa9, b: e2f, y: 8d8             ;ó    ˚ãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         43(             4400000): PASS, mode: 1, a: a03, b: e78, y: 87b             ;ó    ÿãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         44(             4500000): FAIL, mode: 1, a: 9ec, b: b94, y (actual): 580, y (expected): 00000800             ;ó    {ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         45(             4600000): FAIL, mode: 1, a: 92a, b: ccb, y (actual): 5f5, y (expected): 00000800             ;ó    Äãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         46(             4700000): FAIL, mode: 1, a: 50b, b: 6d3, y (actual): bde, y (expected): 000007ff             ;ó    ıãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         47(             4800000): FAIL, mode: 1, a: 5af, b: 405, y (actual): 9b4, y (expected): 000007ff             ;ó    ﬁãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         48(             4900000): FAIL, mode: 1, a: 747, b: 4a5, y (actual): bec, y (expected): 000007ff             ;ó    	¥ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         49(             5000000): PASS, mode: 1, a: 656, b: 02d, y: 683             ;ó    Ïãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         50(             5100000): FAIL, mode: 1, a: 568, b: 2ea, y (actual): 852, y (expected): 000007ff             ;ó    Éãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         51(             5200000): FAIL, mode: 1, a: 654, b: 2cc, y (actual): 920, y (expected): 000007ff             ;ó    Rãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         52(             5300000): PASS, mode: 1, a: 400, b: 301, y: 701             ;ó    	 ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         53(             5400000): FAIL, mode: 1, a: 589, b: 2a5, y (actual): 82e, y (expected): 000007ff             ;ó    ãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         54(             5500000): PASS, mode: 1, a: 426, b: 0df, y: 505             ;ó    .ãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         55(             5600000): FAIL, mode: 1, a: 436, b: 53a, y (actual): 970, y (expected): 000007ff             ;ó    ãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         56(             5700000): FAIL, mode: 1, a: 79f, b: 5cc, y (actual): d6b, y (expected): 000007ff             ;ó    	pãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         57(             5800000): FAIL, mode: 1, a: 691, b: 1ce, y (actual): 85f, y (expected): 000007ff             ;ó    
+kãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         58(             5900000): PASS, mode: 1, a: 6a8, b: 144, y: 7ec             ;ó    _ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         59(             6000000): PASS, mode: 1, a: 65b, b: 010, y: 66b             ;ó    Ïãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         60(             6100000): FAIL, mode: 1, a: 4f5, b: 6c6, y (actual): bbb, y (expected): 000007ff             ;ó    kãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         61(             6200000): PASS, mode: 1, a: e1c, b: 134, y: f50             ;ó    ªãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         62(             6300000): PASS, mode: 1, a: 8f8, b: 7ef, y: 0e7             ;ó    Pãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         63(             6400000): PASS, mode: 1, a: dfe, b: 17a, y: f78             ;ó     Áãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         64(             6500000): PASS, mode: 1, a: 90f, b: 318, y: c27             ;ó    xãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         65(             6600000): PASS, mode: 1, a: b8b, b: 7d3, y: 35e             ;ó    'ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         66(             6700000): PASS, mode: 1, a: ee8, b: 6dc, y: 5c4             ;ó    ^ãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         67(             6800000): PASS, mode: 1, a: d20, b: 7e0, y: 500             ;ó    ƒãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         68(             6900000): PASS, mode: 1, a: b7a, b: 24f, y: dc9             ;ó     ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         69(             7000000): PASS, mode: 1, a: c9f, b: 5b9, y: 258             ;ó    
+…ãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         70(             7100000): PASS, mode: 1, a: 995, b: 36f, y: d04             ;ó    Xãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         71(             7200000): PASS, mode: 1, a: cc3, b: 40c, y: 0cf             ;ó    
+ãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         72(             7300000): PASS, mode: 1, a: 812, b: 107, y: 919             ;ó     œãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         73(             7400000): PASS, mode: 1, a: 9fb, b: 194, y: b8f             ;ó    	ãj`    î
+   
+    0       ;ßÄ     î?p   ;óÄ î?àîà   ;¢Ä     î?p   
+
+         74(             7500000): PASS, mode: 1, a: 817, b: 6eb, y: f02             ;ó    èãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         75(             7600000): PASS, mode: 1, a: ac4, b: 40e, y: ed2             ;ó    ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         76(             7700000): PASS, mode: 1, a: ac4, b: 40e, y: ed2             ;ó    ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         77(             7800000): PASS, mode: 1, a: ac4, b: 40e, y: ed2             ;ó    ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         78(             7900000): PASS, mode: 1, a: ac4, b: 40e, y: ed2             ;ó    ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         79(             8000000): PASS, mode: 1, a: ac4, b: 40e, y: ed2             ;ó    ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         80(             8100000): PASS, mode: 1, a: ac4, b: 40e, y: ed2             ;ó    ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         81(             8200000): PASS, mode: 1, a: ac4, b: 40e, y: ed2             ;ó    ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         82(             8300000): PASS, mode: 1, a: ac4, b: 40e, y: ed2             ;ó    ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+         83(             8400000): PASS, mode: 1, a: ac4, b: 40e, y: ed2             ;ó    ãj`    î
+   
+   î?à      ;ßÄ     î?pîàî?à   î(    ;¢Ä î(      
+
+FAIL:          37 vectors failed
+
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/ece4743/lab3/project_1.runs/synth_1/satadd.dcp to C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/ece4743/lab3/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Sep  6 18:56:58 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab3/project_1.runs/synth_1/runme.log
+export_ip_user_files -of_objects  [get_files {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/ece4743/lab3/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Tue Sep  6 18:57:27 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab3/project_1.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_satadd'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_satadd' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_satadd_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module satadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab3/project_1.srcs/sim_1/imports/lab3/tb_satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_satadd
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" Line 3. Module satadd doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" Line 3. Module satadd doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.satadd
+Compiling module xil_defaultlib.tb_satadd
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_satadd_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_satadd_behav -key {Behavioral:sim_1:Functional:tb_satadd} -tclbatch {tb_satadd.tcl} -view {C:/ece4743/lab3/tb_satadd_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+source tb_satadd.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+          1(              200000): FAIL, mode: 2, a: 004, b: 005, y (actual): 001, y (expected): 00000009                                                                                                    #
+
+          2(              300000): FAIL, mode: 1, a: 004, b: 005, y (actual): 001, y (expected): 00000009                                                                                                    #
+
+          3(              400000): FAIL, mode: 1, a: 004, b: 005, y (actual): 001, y (expected): 00000009                                                                                                    #
+
+          4(              500000): FAIL, mode: 2, a: b00, b: 100, y (actual): 000, y (expected): 00000c00                                                                                                    #
+
+          5(              600000): FAIL, mode: 1, a: b00, b: 100, y (actual): 000, y (expected): 00000c00                                                                                                    #
+
+          6(              700000): FAIL, mode: 1, a: b00, b: 100, y (actual): 000, y (expected): 00000c00                                                                                                    #
+
+          7(              800000): FAIL, mode: 2, a: 7ff, b: 001, y (actual): 001, y (expected): 00000800                                                                                                    #
+
+          8(              900000): FAIL, mode: 1, a: 7ff, b: 001, y (actual): 000, y (expected): 000007ff                                                                                                    #
+
+          9(             1000000): FAIL, mode: 0, a: 7ff, b: 001, y (actual): 000, y (expected): 00000800                                                                                                    #
+
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_satadd_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1648.109 ; gain = 0.000
+run 10 us
+         10(             1100000): PASS, mode: 2, a: fff, b: 001, y: 000                                                                                                    #
+
+         11(             1200000): PASS, mode: 1, a: fff, b: 001, y: 000                                                                                                    #
+
+         12(             1300000): FAIL, mode: 0, a: fff, b: 001, y (actual): 001, y (expected): 00000fff                                                                                            #unsigned
+
+         13(             1400000): FAIL, mode: 2, a: 800, b: fff, y (actual): 000, y (expected): 000007ff                                                                                                    #
+
+         14(             1500000): FAIL, mode: 1, a: 800, b: fff, y (actual): 001, y (expected): 00000800                                                                                                    #
+
+         15(             1600000): FAIL, mode: 0, a: 800, b: fff, y (actual): 001, y (expected): 00000fff                                                                                                    #
+
+         16(             1700000): FAIL, mode: 0, a: 86c, b: fde, y (actual): 001, y (expected): 00000fff           ;ß   0    ®jà;ßÄ    ?ƒ    ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(                 
+
+         17(             1800000): FAIL, mode: 0, a: 597, b: ecc, y (actual): 001, y (expected): 00000fff     ;ß     ;ß   0 ;óÄ ®oò;ßÄ    
+?ƒ    ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(                 
+
+
+         18(             1900000): FAIL, mode: 0, a: f93, b: 539, y (actual): 001, y (expected): 00000fff     ;óÄ    ;ß   0 ;óÄ ®oò;ßÄ    
+?ƒ    ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(                 
+
+
+         19(             2000000): FAIL, mode: 0, a: f68, b: d06, y (actual): 001, y (expected): 00000fff     ;óÄ    ;ß   0 ;óÄ ®oò;ßÄ    
+?ƒ    ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(                 
+
+
+         20(             2100000): FAIL, mode: 0, a: 1a3, b: 2fc, y (actual): 001, y (expected): 0000049f ®:;óÄ    ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢Ø¿B ¢Ø–    ®9h   ®oò       
+
+
+         21(             2200000): FAIL, mode: 0, a: 551, b: a5c, y (actual): 001, y (expected): 00000fad     ;óÄ    ;ß   0 ;óÄ ®oò;ßÄ    
+?ƒ    ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(                 
+
+
+         22(             2300000): FAIL, mode: 0, a: d6d, b: f33, y (actual): 001, y (expected): 00000fff ®:;óÄ    ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢Ø†B ¢Ø∞    ®9h   ®oò       
+
+
+         23(             2400000): FAIL, mode: 0, a: 0a8, b: c50, y (actual): 000, y (expected): 00000cf8     ;óÄ        ®th      ;ßÄ     ®tP®6à®th;Œ  ®7(    ;¢Ä ®7(           ®th             
+
+         24(             2500000): FAIL, mode: 0, a: 916, b: de9, y (actual): 001, y (expected): 00000fff     ;óÄ        ®th      ;ßÄ     ®tP®6à®th;Œ  ®7(    ;¢Ä ®7(           ®th             
+
+         25(             2600000): FAIL, mode: 0, a: d7b, b: 38a, y (actual): 001, y (expected): 00000fff     ;ß          0 ;óÄ    ;ßÄ     ®tP   ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(                
+
+         26(             2700000): FAIL, mode: 0, a: a10, b: 8a8, y (actual): 001, y (expected): 00000fff     ;ß     ;ß   0 ;óÄ ®oò;ßÄ    
+?ƒ    ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(                
+
+
+         27(             2800000): FAIL, mode: 0, a: f96, b: 9f9, y (actual): 001, y (expected): 00000fff     ;ß     ;ß   0 ;óÄ ®oò;ßÄ    
+?ƒ    ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(                
+
+
+         28(             2900000): FAIL, mode: 0, a: 6f0, b: 0ed, y (actual): 001, y (expected): 000007dd     ;ß     ;ß   0 ;óÄ ®oò;ßÄ    
+?ƒ    ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(                
+
+
+         29(             3000000): FAIL, mode: 0, a: 5e5, b: e82, y (actual): 001, y (expected): 00000fff ®:;óÄ    ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢ØPB ¢Ø`    ®9h   ®oò      
+
+
+         30(             3100000): FAIL, mode: 0, a: d34, b: 564, y (actual): 001, y (expected): 00000fff ®:;óÄ    ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢≥B ¢≥     ®9h   ®oò      
+
+
+         31(             3200000): FAIL, mode: 1, a: 893, b: ba1, y (actual): 000, y (expected): 00000800     ;óÄ    ;ß   0 ;óÄ ®oò;ßÄ    
+?ƒ    ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(                
+
+
+         32(             3300000): FAIL, mode: 1, a: af1, b: eb7, y (actual): 000, y (expected): 000009a8 ®:;ß     ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢± B ¢±    ®9h   ®oò      
+
+
+         33(             3400000): FAIL, mode: 1, a: a04, b: c54, y (actual): 000, y (expected): 00000800 ®:;ß     ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢ØpB ¢ØÄ    ®9h   ®oò      
+
+
+         34(             3500000): FAIL, mode: 1, a: 84e, b: a98, y (actual): 000, y (expected): 00000800 ®:;ß     ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢± B ¢±    ®9h   ®oò      
+
+
+         35(             3600000): FAIL, mode: 1, a: 967, b: 8e9, y (actual): 000, y (expected): 00000800 ®:;óÄ    ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢±†B ¢±∞    ®9h   ®oò      
+
+
+         36(             3700000): FAIL, mode: 1, a: af7, b: ce5, y (actual): 000, y (expected): 00000800 ®:;óÄ    ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢ØpB ¢ØÄ    ®9h   ®oò      
+
+
+         37(             3800000): FAIL, mode: 1, a: 92d, b: c4b, y (actual): 000, y (expected): 00000800 ®:;óÄ    ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢≤0B ¢≤@    ®9h   ®oò      
+
+
+         38(             3900000): FAIL, mode: 1, a: acf, b: bcb, y (actual): 000, y (expected): 00000800 ®:;óÄ    ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢Ø¿B ¢Ø–    ®9h   ®oò      
+
+
+         39(             4000000): FAIL, mode: 1, a: bd6, b: c76, y (actual): 000, y (expected): 0000084c ®:;óÄ    ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢∞PB ¢∞`    ®9h   ®oò      
+
+
+         40(             4100000): FAIL, mode: 1, a: be0, b: d8b, y (actual): 001, y (expected): 0000096b ®:;ß     ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢Ø†B ¢Ø∞    ®9h   ®oò      
+
+
+         41(             4200000): FAIL, mode: 1, a: a97, b: 864, y (actual): 001, y (expected): 00000800    ;óÄ        ®th      ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         42(             4300000): FAIL, mode: 1, a: aa9, b: e2f, y (actual): 000, y (expected): 000008d8    ;ß     ;ß   0 ;óÄ ®oò;ßÄ    
+?ƒ    ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(               
+
+
+         43(             4400000): FAIL, mode: 1, a: a03, b: e78, y (actual): 001, y (expected): 0000087b    ;ß         ®th;óÄ    ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         44(             4500000): FAIL, mode: 1, a: 9ec, b: b94, y (actual): 000, y (expected): 00000800    ;óÄ        ®th      ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         45(             4600000): FAIL, mode: 1, a: 92a, b: ccb, y (actual): 001, y (expected): 00000800    ;ß         ®th;óÄ    ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         46(             4700000): FAIL, mode: 1, a: 50b, b: 6d3, y (actual): 000, y (expected): 000007ff    ;óÄ        ®th      ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         47(             4800000): FAIL, mode: 1, a: 5af, b: 405, y (actual): 000, y (expected): 000007ff    ;óÄ         0       ;ßÄ     ®tP   ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(                 
+
+         48(             4900000): FAIL, mode: 1, a: 747, b: 4a5, y (actual): 000, y (expected): 000007ff ®:;óÄ    ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢Ø0B ¢Ø@    ®9h   ®oò      
+
+
+         49(             5000000): FAIL, mode: 1, a: 656, b: 02d, y (actual): 001, y (expected): 00000683 ®:;óÄ    ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢Ø¿B ¢Ø–    ®9h   ®oò      
+
+
+         50(             5100000): FAIL, mode: 1, a: 568, b: 2ea, y (actual): 000, y (expected): 000007ff    ;ß         ®th;óÄ    ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         51(             5200000): FAIL, mode: 1, a: 654, b: 2cc, y (actual): 000, y (expected): 000007ff    ;ß          0 ;óÄ    ;ßÄ     ®tP   ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(                 
+
+         52(             5300000): FAIL, mode: 1, a: 400, b: 301, y (actual): 001, y (expected): 00000701 ®:;óÄ    ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢Ø†B ¢Ø∞    ®9h   ®oò      
+
+
+         53(             5400000): FAIL, mode: 1, a: 589, b: 2a5, y (actual): 000, y (expected): 000007ff    ;ß         ®th;óÄ    ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         54(             5500000): FAIL, mode: 1, a: 426, b: 0df, y (actual): 001, y (expected): 00000505    ;ß          0 ;óÄ    ;ßÄ     ®tP   ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(                 
+
+         55(             5600000): FAIL, mode: 1, a: 436, b: 53a, y (actual): 000, y (expected): 000007ff    ;ß         ®th;óÄ    ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         56(             5700000): FAIL, mode: 1, a: 79f, b: 5cc, y (actual): 001, y (expected): 000007ff    ;ß          0 ;óÄ    ;ßÄ     ®tP   ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(                 
+
+         57(             5800000): FAIL, mode: 1, a: 691, b: 1ce, y (actual): 001, y (expected): 000007ff    ;óÄ        ®th      ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         58(             5900000): FAIL, mode: 1, a: 6a8, b: 144, y (actual): 000, y (expected): 000007ec ®:;óÄ    ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢ØpB ¢ØÄ    ®9h   ®oò      
+
+
+         59(             6000000): FAIL, mode: 1, a: 65b, b: 010, y (actual): 001, y (expected): 0000066b    ;ß          0 ;óÄ    ;ßÄ     ®tP   ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(                 
+
+         60(             6100000): FAIL, mode: 1, a: 4f5, b: 6c6, y (actual): 001, y (expected): 000007ff    ;óÄ        ®th      ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         61(             6200000): FAIL, mode: 1, a: e1c, b: 134, y (actual): 000, y (expected): 00000f50 ®:;ß     ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢±ÄB ¢±ê    ®9h   ®oò      
+
+
+         62(             6300000): FAIL, mode: 1, a: 8f8, b: 7ef, y (actual): 001, y (expected): 000000e7    ;ß         ®th;óÄ    ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         63(             6400000): FAIL, mode: 1, a: dfe, b: 17a, y (actual): 000, y (expected): 00000f78    ;óÄ        ®th;óÄ    ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         64(             6500000): FAIL, mode: 1, a: 90f, b: 318, y (actual): 001, y (expected): 00000c27    ;óÄ         0 ;óÄ    ;ßÄ     ®tP   ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(                 
+
+         65(             6600000): FAIL, mode: 1, a: b8b, b: 7d3, y (actual): 000, y (expected): 0000035e    ;óÄ        ®th      ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         66(             6700000): FAIL, mode: 1, a: ee8, b: 6dc, y (actual): 000, y (expected): 000005c4    ;óÄ         0 ;óÄ    ;ßÄ     ®tP   ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(                 
+
+         67(             6800000): FAIL, mode: 1, a: d20, b: 7e0, y (actual): 000, y (expected): 00000500 ®:;óÄ    ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢Ø0B ¢Ø@    ®9h   ®oò      
+
+
+         68(             6900000): FAIL, mode: 1, a: b7a, b: 24f, y (actual): 001, y (expected): 00000dc9 ®:;óÄ    ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢ØpB ¢ØÄ    ®9h   ®oò      
+
+
+         69(             7000000): FAIL, mode: 1, a: c9f, b: 5b9, y (actual): 000, y (expected): 00000258    ;óÄ        ®th;óÄ    ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         70(             7100000): FAIL, mode: 1, a: 995, b: 36f, y (actual): 000, y (expected): 00000d04    ;óÄ         0 ;óÄ    ;ßÄ     ®tP   ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(                 
+
+         71(             7200000): FAIL, mode: 1, a: cc3, b: 40c, y (actual): 001, y (expected): 000000cf    ;óÄ    ;ß   0 ;óÄ ®oò;ßÄ    
+?ƒ    ;óÄ ®th®6à   ;¢Ä     ®tP;Œ  ®7(                 
+
+
+         72(             7300000): FAIL, mode: 1, a: 812, b: 107, y (actual): 001, y (expected): 00000919    ;óÄ        ®th;óÄ    ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         73(             7400000): FAIL, mode: 1, a: 9fb, b: 194, y (actual): 001, y (expected): 00000b8f ®:;óÄ    ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢≤B ¢≥     ®9h   ®oò      
+
+
+         74(             7500000): FAIL, mode: 1, a: 817, b: 6eb, y (actual): 000, y (expected): 00000f02 ®:;óÄ    ;ß      ;óÄ ®oò®:   
+?ƒ     ®:            ù  ¢± B ¢±    ®9h   ®oò      
+
+
+         75(             7600000): FAIL, mode: 1, a: ac4, b: 40e, y (actual): 000, y (expected): 00000ed2    ;óÄ        ®th      ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         76(             7700000): FAIL, mode: 1, a: ac4, b: 40e, y (actual): 000, y (expected): 00000ed2    ;óÄ        ®th      ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         77(             7800000): FAIL, mode: 1, a: ac4, b: 40e, y (actual): 000, y (expected): 00000ed2    ;óÄ        ®th      ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         78(             7900000): FAIL, mode: 1, a: ac4, b: 40e, y (actual): 000, y (expected): 00000ed2    ;óÄ        ®th      ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         79(             8000000): FAIL, mode: 1, a: ac4, b: 40e, y (actual): 000, y (expected): 00000ed2    ;óÄ        ®th      ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         80(             8100000): FAIL, mode: 1, a: ac4, b: 40e, y (actual): 000, y (expected): 00000ed2    ;óÄ        ®th      ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         81(             8200000): FAIL, mode: 1, a: ac4, b: 40e, y (actual): 000, y (expected): 00000ed2    ;óÄ        ®th      ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         82(             8300000): FAIL, mode: 1, a: ac4, b: 40e, y (actual): 000, y (expected): 00000ed2    ;óÄ        ®th      ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+         83(             8400000): FAIL, mode: 1, a: ac4, b: 40e, y (actual): 000, y (expected): 00000ed2    ;óÄ        ®th      ;ßÄ     ®tP®6à®th;Œ  ®7(   ;¢Ä ®7(           ®th             
+
+FAIL:          81 vectors failed
+
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/ece4743/lab3/project_1.runs/synth_1/satadd.dcp to C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/ece4743/lab3/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Sep  6 19:02:41 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab3/project_1.runs/synth_1/runme.log
+export_ip_user_files -of_objects  [get_files {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/ece4743/lab3/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Tue Sep  6 19:03:51 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab3/project_1.runs/synth_1/runme.log
+save_wave_config {C:/ece4743/lab3/tb_satadd_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_satadd'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_satadd' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_satadd_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module satadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab3/project_1.srcs/sim_1/imports/lab3/tb_satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_satadd
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" Line 3. Module satadd doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" Line 3. Module satadd doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.satadd
+Compiling module xil_defaultlib.tb_satadd
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_satadd_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_satadd_behav -key {Behavioral:sim_1:Functional:tb_satadd} -tclbatch {tb_satadd.tcl} -view {C:/ece4743/lab3/tb_satadd_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+source tb_satadd.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+          1(              200000): FAIL, mode: 2, a: 004, b: 005, y (actual): 001, y (expected): 00000009                                                                                                    #
+
+          2(              300000): FAIL, mode: 1, a: 004, b: 005, y (actual): 001, y (expected): 00000009                                                                                                    #
+
+          3(              400000): FAIL, mode: 1, a: 004, b: 005, y (actual): 001, y (expected): 00000009                                                                                                    #
+
+          4(              500000): FAIL, mode: 2, a: b00, b: 100, y (actual): 000, y (expected): 00000c00                                                                                                    #
+
+          5(              600000): FAIL, mode: 1, a: b00, b: 100, y (actual): 000, y (expected): 00000c00                                                                                                    #
+
+          6(              700000): FAIL, mode: 1, a: b00, b: 100, y (actual): 000, y (expected): 00000c00                                                                                                    #
+
+          7(              800000): FAIL, mode: 2, a: 7ff, b: 001, y (actual): 000, y (expected): 00000800                                                                                                    #
+
+          8(              900000): FAIL, mode: 1, a: 7ff, b: 001, y (actual): 001, y (expected): 000007ff                                                                                                    #
+
+          9(             1000000): FAIL, mode: 0, a: 7ff, b: 001, y (actual): 000, y (expected): 00000800                                                                                                    #
+
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_satadd_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1648.109 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/ece4743/lab3/project_1.runs/synth_1/satadd.dcp to C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/ece4743/lab3/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Sep  6 19:05:31 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab3/project_1.runs/synth_1/runme.log
+export_ip_user_files -of_objects  [get_files {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/ece4743/lab3/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Tue Sep  6 19:05:44 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab3/project_1.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_satadd'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_satadd' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_satadd_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module satadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab3/project_1.srcs/sim_1/imports/lab3/tb_satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_satadd
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" Line 3. Module satadd doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" Line 3. Module satadd doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.satadd
+Compiling module xil_defaultlib.tb_satadd
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_satadd_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_satadd_behav -key {Behavioral:sim_1:Functional:tb_satadd} -tclbatch {tb_satadd.tcl} -view {C:/ece4743/lab3/tb_satadd_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+source tb_satadd.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+          1(              200000): FAIL, mode: 2, a: 004, b: 005, y (actual): 001, y (expected): 00000009                                                                                                    #
+
+          2(              300000): FAIL, mode: 1, a: 004, b: 005, y (actual): 001, y (expected): 00000009                                                                                                    #
+
+          3(              400000): FAIL, mode: 1, a: 004, b: 005, y (actual): 001, y (expected): 00000009                                                                                                    #
+
+          4(              500000): FAIL, mode: 2, a: b00, b: 100, y (actual): 000, y (expected): 00000c00                                                                                                    #
+
+          5(              600000): FAIL, mode: 1, a: b00, b: 100, y (actual): 000, y (expected): 00000c00                                                                                                    #
+
+          6(              700000): FAIL, mode: 1, a: b00, b: 100, y (actual): 000, y (expected): 00000c00                                                                                                    #
+
+          7(              800000): FAIL, mode: 2, a: 7ff, b: 001, y (actual): 001, y (expected): 00000800                                                                                                    #
+
+          8(              900000): FAIL, mode: 1, a: 7ff, b: 001, y (actual): 000, y (expected): 000007ff                                                                                                    #
+
+          9(             1000000): FAIL, mode: 0, a: 7ff, b: 001, y (actual): 000, y (expected): 00000800                                                                                                    #
+
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_satadd_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1648.109 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/ece4743/lab3/project_1.runs/synth_1/satadd.dcp to C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/ece4743/lab3/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Sep  6 19:09:52 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab3/project_1.runs/synth_1/runme.log
+export_ip_user_files -of_objects  [get_files {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/ece4743/lab3/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Tue Sep  6 19:10:23 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab3/project_1.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_satadd'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_satadd' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_satadd_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module satadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab3/project_1.srcs/sim_1/imports/lab3/tb_satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_satadd
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" Line 3. Module satadd doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" Line 3. Module satadd doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.satadd
+Compiling module xil_defaultlib.tb_satadd
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_satadd_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_satadd_behav -key {Behavioral:sim_1:Functional:tb_satadd} -tclbatch {tb_satadd.tcl} -view {C:/ece4743/lab3/tb_satadd_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+source tb_satadd.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+          1(              200000): FAIL, mode: 2, a: 004, b: 005, y (actual): 001, y (expected): 00000009                                                                                                    #
+
+          2(              300000): FAIL, mode: 1, a: 004, b: 005, y (actual): 001, y (expected): 00000009                                                                                                    #
+
+          3(              400000): FAIL, mode: 1, a: 004, b: 005, y (actual): 001, y (expected): 00000009                                                                                                    #
+
+          4(              500000): FAIL, mode: 2, a: b00, b: 100, y (actual): 000, y (expected): 00000c00                                                                                                    #
+
+          5(              600000): FAIL, mode: 1, a: b00, b: 100, y (actual): 000, y (expected): 00000c00                                                                                                    #
+
+          6(              700000): FAIL, mode: 1, a: b00, b: 100, y (actual): 000, y (expected): 00000c00                                                                                                    #
+
+          7(              800000): FAIL, mode: 2, a: 7ff, b: 001, y (actual): 000, y (expected): 00000800                                                                                                    #
+
+          8(              900000): FAIL, mode: 1, a: 7ff, b: 001, y (actual): 000, y (expected): 000007ff                                                                                                    #
+
+          9(             1000000): FAIL, mode: 0, a: 7ff, b: 001, y (actual): 000, y (expected): 00000800                                                                                                    #
+
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_satadd_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1648.109 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/ece4743/lab3/project_1.runs/synth_1/satadd.dcp to C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/ece4743/lab3/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Sep  6 19:14:03 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab3/project_1.runs/synth_1/runme.log
+export_ip_user_files -of_objects  [get_files {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/ece4743/lab3/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Tue Sep  6 19:14:13 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab3/project_1.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_satadd'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_satadd' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_satadd_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module satadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab3/project_1.srcs/sim_1/imports/lab3/tb_satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_satadd
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" Line 3. Module satadd doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" Line 3. Module satadd doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.satadd
+Compiling module xil_defaultlib.tb_satadd
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_satadd_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_satadd_behav -key {Behavioral:sim_1:Functional:tb_satadd} -tclbatch {tb_satadd.tcl} -view {C:/ece4743/lab3/tb_satadd_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+source tb_satadd.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+          1(              200000): FAIL, mode: 2, a: 004, b: 005, y (actual): 001, y (expected): 00000009                                                                                                    #
+
+          2(              300000): FAIL, mode: 1, a: 004, b: 005, y (actual): 001, y (expected): 00000009                                                                                                    #
+
+          3(              400000): FAIL, mode: 1, a: 004, b: 005, y (actual): 001, y (expected): 00000009                                                                                                    #
+
+          4(              500000): FAIL, mode: 2, a: b00, b: 100, y (actual): 000, y (expected): 00000c00                                                                                                    #
+
+          5(              600000): FAIL, mode: 1, a: b00, b: 100, y (actual): 000, y (expected): 00000c00                                                                                                    #
+
+          6(              700000): FAIL, mode: 1, a: b00, b: 100, y (actual): 000, y (expected): 00000c00                                                                                                    #
+
+          7(              800000): FAIL, mode: 2, a: 7ff, b: 001, y (actual): 000, y (expected): 00000800                                                                                                    #
+
+          8(              900000): FAIL, mode: 1, a: 7ff, b: 001, y (actual): 001, y (expected): 000007ff                                                                                                    #
+
+          9(             1000000): FAIL, mode: 0, a: 7ff, b: 001, y (actual): 000, y (expected): 00000800                                                                                                    #
+
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_satadd_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1648.109 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/ece4743/lab3/project_1.runs/synth_1/satadd.dcp to C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/ece4743/lab3/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Sep  6 19:16:21 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab3/project_1.runs/synth_1/runme.log
+export_ip_user_files -of_objects  [get_files {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/ece4743/lab3/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Tue Sep  6 19:16:36 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/lab3/project_1.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_satadd'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_satadd' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_satadd_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module satadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab3/project_1.srcs/sim_1/imports/lab3/tb_satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_satadd
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" Line 3. Module satadd doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" Line 3. Module satadd doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.satadd
+Compiling module xil_defaultlib.tb_satadd
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_satadd_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_satadd_behav -key {Behavioral:sim_1:Functional:tb_satadd} -tclbatch {tb_satadd.tcl} -view {C:/ece4743/lab3/tb_satadd_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+source tb_satadd.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+          1(              200000): PASS, mode: 2, a: 004, b: 005, y: 009                                                                                                    #
+
+          2(              300000): PASS, mode: 1, a: 004, b: 005, y: 009                                                                                                    #
+
+          3(              400000): PASS, mode: 1, a: 004, b: 005, y: 009                                                                                                    #
+
+          4(              500000): PASS, mode: 2, a: b00, b: 100, y: c00                                                                                                    #
+
+          5(              600000): PASS, mode: 1, a: b00, b: 100, y: c00                                                                                                    #
+
+          6(              700000): PASS, mode: 1, a: b00, b: 100, y: c00                                                                                                    #
+
+          7(              800000): PASS, mode: 2, a: 7ff, b: 001, y: 800                                                                                                    #
+
+          8(              900000): PASS, mode: 1, a: 7ff, b: 001, y: 7ff                                                                                                    #
+
+          9(             1000000): PASS, mode: 0, a: 7ff, b: 001, y: 800                                                                                                    #
+
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_satadd_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1648.109 ; gain = 0.000
+run 10 us
+         10(             1100000): PASS, mode: 2, a: fff, b: 001, y: 000                                                                                                    #
+
+         11(             1200000): PASS, mode: 1, a: fff, b: 001, y: 000                                                                                                    #
+
+         12(             1300000): PASS, mode: 0, a: fff, b: 001, y: fff                                                                                            #unsigned
+
+         13(             1400000): PASS, mode: 2, a: 800, b: fff, y: 7ff                                                                                                    #
+
+         14(             1500000): PASS, mode: 1, a: 800, b: fff, y: 800                                                                                                    #
+
+         15(             1600000): PASS, mode: 0, a: 800, b: fff, y: fff                                                                                                    #
+
+         16(             1700000): PASS, mode: 0, a: 86c, b: fde, y: fff    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  ˇ         ;ÿÄ              öBX
+
+         17(             1800000): PASS, mode: 0, a: 597, b: ecc, y: fff     ;ŸÄ    ;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      ˇ  ˇB îê`    ö	h   ö?ò       
+
+
+         18(             1900000): PASS, mode: 0, a: f93, b: 539, y: fff öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      ˇ  ˇB îè–    ö	h   ö?ò       
+
+
+         19(             2000000): PASS, mode: 0, a: f68, b: d06, y: fff öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      ˇ  ˇB îìp    ö	h   ö?ò       
+
+
+         20(             2100000): PASS, mode: 0, a: 1a3, b: 2fc, y: 49f öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      ˇ  ˇB îëê    ö	h   ö?ò       
+
+
+         21(             2200000): PASS, mode: 0, a: 551, b: a5c, y: fad    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  ü  ˇ      ;ÿÄ              öBX
+
+         22(             2300000): PASS, mode: 0, a: d6d, b: f33, y: fff    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  ≠  ü      ;ÿÄ              öBX
+
+         23(             2400000): PASS, mode: 0, a: 0a8, b: c50, y: cf8    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  ˇ  †      ;ÿÄ              öBX
+
+         24(             2500000): PASS, mode: 0, a: 916, b: de9, y: fff    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  ¯  ˇ      ;ÿÄ              öBX
+
+         25(             2600000): PASS, mode: 0, a: d7b, b: 38a, y: fff    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  ˇ  ˇ      ;ÿÄ              öBX
+
+         26(             2700000): PASS, mode: 0, a: a10, b: 8a8, y: fff     ;ŸÄ    ;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      ˇ  ˇB îíê    ö	h   ö?ò       
+
+
+         27(             2800000): PASS, mode: 0, a: f96, b: 9f9, y: fff     ;ŸÄ    ;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      ˇ  ˇB îí0    ö	h   ö?ò       
+
+
+         28(             2900000): PASS, mode: 0, a: 6f0, b: 0ed, y: 7dd     ;ŸÄ    ;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      ˇ  ˇB îí     ö	h   ö?ò       
+
+
+         29(             3000000): PASS, mode: 0, a: 5e5, b: e82, y: fff    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  ›  ˇ      ;ÿÄ              öBX
+
+         30(             3100000): PASS, mode: 0, a: d34, b: 564, y: fff    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  ˇ  g      ;ÿÄ              öBX
+
+         31(             3200000): PASS, mode: 1, a: 893, b: ba1, y: 800 öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      ˇ  ˇB îíÄ    ö	h   ö?ò       
+
+
+         32(             3300000): PASS, mode: 1, a: af1, b: eb7, y: 9a8    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX     4      ;ÿÄ              öBX
+
+         33(             3400000): PASS, mode: 1, a: a04, b: c54, y: 800    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  	®         ;ÿÄ              öBX
+
+         34(             3500000): PASS, mode: 1, a: 84e, b: a98, y: 800    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX     X      ;ÿÄ              öBX
+
+         35(             3600000): PASS, mode: 1, a: 967, b: 8e9, y: 800 öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(          B îë    ö	h   ö?ò       
+
+
+         36(             3700000): PASS, mode: 1, a: af7, b: ce5, y: 800 öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(          B îìp    ö	h   ö?ò       
+
+
+         37(             3800000): PASS, mode: 1, a: 92d, b: c4b, y: 800 öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(          B îì@    ö	h   ö?ò       
+
+
+         38(             3900000): PASS, mode: 1, a: acf, b: bcb, y: 800 öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(          B îì@    ö	h   ö?ò       
+
+
+         39(             4000000): PASS, mode: 1, a: bd6, b: c76, y: 84c öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(          B îíÄ    ö	h   ö?ò       
+
+
+         40(             4100000): PASS, mode: 1, a: be0, b: d8b, y: 96b    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  L         ;ÿÄ              öBX
+
+         41(             4200000): PASS, mode: 1, a: a97, b: 864, y: 800    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  	k  L      ;ÿÄ              öBX
+
+         42(             4300000): PASS, mode: 1, a: aa9, b: e2f, y: 8d8    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX     ˚      ;ÿÄ              öBX
+
+         43(             4400000): PASS, mode: 1, a: a03, b: e78, y: 87b    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  ÿ         ;ÿÄ              öBX
+
+         44(             4500000): PASS, mode: 1, a: 9ec, b: b94, y: 800    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  {  ÿ      ;ÿÄ              öBX
+
+         45(             4600000): PASS, mode: 1, a: 92a, b: ccb, y: 800    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX     Ä      ;ÿÄ              öBX
+
+         46(             4700000): PASS, mode: 1, a: 50b, b: 6d3, y: 7ff öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(          B îí¿    ö	h   ö?ò       
+
+
+         47(             4800000): PASS, mode: 1, a: 5af, b: 405, y: 7ff öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      ˇ  ˇ      ;ÿÄ              öBX
+
+         48(             4900000): PASS, mode: 1, a: 747, b: 4a5, y: 7ff öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      ˇ  ˇB îê     ö	h   ö?ò       
+
+
+         49(             5000000): PASS, mode: 1, a: 656, b: 02d, y: 683 öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      ˇ  ˇB îíÄ    ö	h   ö?ò       
+
+
+         50(             5100000): PASS, mode: 1, a: 568, b: 2ea, y: 7ff    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  É  ˇ      ;ÿÄ              öBX
+
+         51(             5200000): PASS, mode: 1, a: 654, b: 2cc, y: 7ff    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  ˇ  R      ;ÿÄ              öBX
+
+         52(             5300000): PASS, mode: 1, a: 400, b: 301, y: 701 öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      ˇ  ˇB îê    ö	h   ö?ò       
+
+
+         53(             5400000): PASS, mode: 1, a: 589, b: 2a5, y: 7ff    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX    ˇ      ;ÿÄ              öBX
+
+         54(             5500000): PASS, mode: 1, a: 426, b: 0df, y: 505    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  ˇ  .      ;ÿÄ              öBX
+
+         55(             5600000): PASS, mode: 1, a: 436, b: 53a, y: 7ff    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX    ˇ      ;ÿÄ              öBX
+
+         56(             5700000): PASS, mode: 1, a: 79f, b: 5cc, y: 7ff    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  ˇ  	p      ;ÿÄ              öBX
+
+         57(             5800000): PASS, mode: 1, a: 691, b: 1ce, y: 7ff öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      ˇ  ˇB îíÄ    ö	h   ö?ò       
+
+
+         58(             5900000): PASS, mode: 1, a: 6a8, b: 144, y: 7ec öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      ˇ  ˇB îì    ö	h   ö?ò       
+
+
+         59(             6000000): PASS, mode: 1, a: 65b, b: 010, y: 66b    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  Ï  ˇ      ;ÿÄ              öBX
+
+         60(             6100000): PASS, mode: 1, a: 4f5, b: 6c6, y: 7ff    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  k  Ï      ;ÿÄ              öBX
+
+         61(             6200000): PASS, mode: 1, a: e1c, b: 134, y: f50    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  ˇ  ª      ;ÿÄ              öBX
+
+         62(             6300000): PASS, mode: 1, a: 8f8, b: 7ef, y: 0e7    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  P         ;ÿÄ              öBX
+
+         63(             6400000): PASS, mode: 1, a: dfe, b: 17a, y: f78 öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(       Á   Á      ;ÿÄ              öBX
+
+         64(             6500000): PASS, mode: 1, a: 90f, b: 318, y: c27 öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      x  x      ;ÿÄ              öBX
+
+         65(             6600000): PASS, mode: 1, a: b8b, b: 7d3, y: 35e    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  '  x      ;ÿÄ              öBX
+
+         66(             6700000): PASS, mode: 1, a: ee8, b: 6dc, y: 5c4 öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      ^  ^      ;ÿÄ              öBX
+
+         67(             6800000): PASS, mode: 1, a: d20, b: 7e0, y: 500    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  ƒ  ^      ;ÿÄ              öBX
+
+         68(             6900000): PASS, mode: 1, a: b7a, b: 24f, y: dc9    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX     ƒ      ;ÿÄ              öBX
+
+         69(             7000000): PASS, mode: 1, a: c9f, b: 5b9, y: 258 öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      
+…  
+…      ;ÿÄ              öBX
+
+         70(             7100000): PASS, mode: 1, a: 995, b: 36f, y: d04 öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      X  X      ;ÿÄ              öBX
+
+         71(             7200000): PASS, mode: 1, a: cc3, b: 40c, y: 0cf öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      
+  
+      ;ÿÄ              öBX
+
+         72(             7300000): PASS, mode: 1, a: 812, b: 107, y: 919 öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(       œ   œ      ;ÿÄ              öBX
+
+         73(             7400000): PASS, mode: 1, a: 9fb, b: 194, y: b8f öDh;ŸÄ öê;‘Ä    ;…Ä öBXöà   ;‘Ä         <   ö(      	  	      ;ÿÄ              öBX
+
+         74(             7500000): PASS, mode: 1, a: 817, b: 6eb, y: f02    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX  è  	      ;ÿÄ              öBX
+
+         75(             7600000): PASS, mode: 1, a: ac4, b: 40e, y: ed2    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX    è      ;ÿÄ              öBX
+
+         76(             7700000): PASS, mode: 1, a: ac4, b: 40e, y: ed2    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX    è      ;ÿÄ              öBX
+
+         77(             7800000): PASS, mode: 1, a: ac4, b: 40e, y: ed2    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX    è      ;ÿÄ              öBX
+
+         78(             7900000): PASS, mode: 1, a: ac4, b: 40e, y: ed2    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX    è      ;ÿÄ              öBX
+
+         79(             8000000): PASS, mode: 1, a: ac4, b: 40e, y: ed2    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX    è      ;ÿÄ              öBX
+
+         80(             8100000): PASS, mode: 1, a: ac4, b: 40e, y: ed2    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX    è      ;ÿÄ              öBX
+
+         81(             8200000): PASS, mode: 1, a: ac4, b: 40e, y: ed2    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX    è      ;ÿÄ              öBX
+
+         82(             8300000): PASS, mode: 1, a: ac4, b: 40e, y: ed2    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX    è      ;ÿÄ              öBX
+
+         83(             8400000): PASS, mode: 1, a: ac4, b: 40e, y: ed2    ;ŸÄ         öàöBX<   ö(    ;‘Ä ö(           öBX    è      ;ÿÄ              öBX
+
+PASS: All vectors passed.
+
+launch_runs impl_1 -jobs 4
+[Tue Sep  6 19:19:49 2022] Launched impl_1...
+Run output will be captured here: C:/ece4743/lab3/project_1.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1648.109 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1666.410 ; gain = 1.953
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1666.410 ; gain = 1.953
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2077.355 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2200.551 ; gain = 552.441
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190*" && VENDOR_NAME=="xilinx.com" ) || (BOARD_NAME =~"*vmk180*" && VENDOR_NAME=="xilinx.com" )||(BOARD_NAME =~"*vpk120*" && VENDOR_NAME=="xilinx.com" )} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190*" && VENDOR_NAME=="xilinx.com" ) || (BOARD_NAME =~"*vmk180*" && VENDOR_NAME=="xilinx.com" )||(BOARD_NAME =~"*vpk120*" && VENDOR_NAME=="xilinx.com" )} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190*" && VENDOR_NAME=="xilinx.com" ) || (BOARD_NAME =~"*vmk180*" && VENDOR_NAME=="xilinx.com" )||(BOARD_NAME =~"*vpk120*" && VENDOR_NAME=="xilinx.com" )} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190*" && VENDOR_NAME=="xilinx.com" ) || (BOARD_NAME =~"*vmk180*" && VENDOR_NAME=="xilinx.com" )||(BOARD_NAME =~"*vpk120*" && VENDOR_NAME=="xilinx.com" )} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190*" && VENDOR_NAME=="xilinx.com" ) || (BOARD_NAME =~"*vpk120*" && VENDOR_NAME=="xilinx.com" )} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190*" && VENDOR_NAME=="xilinx.com" ) || (BOARD_NAME =~"*vpk120*" && VENDOR_NAME=="xilinx.com" )} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*kcu105*" && VENDOR_NAME=="xilinx.com" )} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*kcu105*" && VENDOR_NAME=="xilinx.com" )} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190*" && VENDOR_NAME=="xilinx.com" )} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190*" && VENDOR_NAME=="xilinx.com" )} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190*" && VENDOR_NAME=="xilinx.com" ) || (BOARD_NAME =~"*vmk180*" && VENDOR_NAME=="xilinx.com" )} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190*" && VENDOR_NAME=="xilinx.com" ) || (BOARD_NAME =~"*vmk180*" && VENDOR_NAME=="xilinx.com" )} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190*" && VENDOR_NAME=="xilinx.com" ) || (BOARD_NAME =~"*vpk120*" && VENDOR_NAME=="xilinx.com" )} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190*" && VENDOR_NAME=="xilinx.com" ) || (BOARD_NAME =~"*vpk120*" && VENDOR_NAME=="xilinx.com" )} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190" && VENDOR_NAME=="xilinx.com" && PART_NAME=~"xcvc1902-vsva2197-2MP-e-S") || (BOARD_NAME =~"*vmk180" && VENDOR_NAME=="xilinx.com" && PART_NAME=~"xcvm1802-vsva2197-2MP-e-S")} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190" && VENDOR_NAME=="xilinx.com" && PART_NAME=~"xcvc1902-vsva2197-2MP-e-S") || (BOARD_NAME =~"*vmk180" && VENDOR_NAME=="xilinx.com" && PART_NAME=~"xcvm1802-vsva2197-2MP-e-S")} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190*" && VENDOR_NAME=="xilinx.com")|| (BOARD_NAME =~"*vmk180*" && VENDOR_NAME=="xilinx.com") || (BOARD_NAME =~"*vpk120*" && VENDOR_NAME=="xilinx.com")} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190*" && VENDOR_NAME=="xilinx.com")|| (BOARD_NAME =~"*vmk180*" && VENDOR_NAME=="xilinx.com") || (BOARD_NAME =~"*vpk120*" && VENDOR_NAME=="xilinx.com")} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190*" && VENDOR_NAME=="xilinx.com" ) || (BOARD_NAME =~"*vmk180*" && VENDOR_NAME=="xilinx.com" )||(BOARD_NAME =~"*vpk120*" && VENDOR_NAME=="xilinx.com" )||(BOARD_NAME =~"*vpk180*" && VENDOR_NAME=="xilinx.com")} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190*" && VENDOR_NAME=="xilinx.com" ) || (BOARD_NAME =~"*vmk180*" && VENDOR_NAME=="xilinx.com" )||(BOARD_NAME =~"*vpk120*" && VENDOR_NAME=="xilinx.com" )||(BOARD_NAME =~"*vpk180*" && VENDOR_NAME=="xilinx.com")} -latest_file_version'.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+can't read "newlist": no such variable
+can't read "newlist": no such variable
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190*" && VENDOR_NAME=="xilinx.com" ) || (BOARD_NAME =~"*vmk180*" && VENDOR_NAME=="xilinx.com" )||(BOARD_NAME =~"*vpk120*" && VENDOR_NAME=="xilinx.com" )} -latest_file_version'.
+WARNING: [Vivado 12-4842] No board parts matched 'get_board_parts -filter {(BOARD_NAME =~"*vck190*" && VENDOR_NAME=="xilinx.com" ) || (BOARD_NAME =~"*vmk180*" && VENDOR_NAME=="xilinx.com" )||(BOARD_NAME =~"*vpk120*" && VENDOR_NAME=="xilinx.com" )} -latest_file_version'.
+WARNING: [IP_Flow 19-240] Unknown architecture 'virtex7' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'virtex7' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'virtex7' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'virtex7' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'virtex7' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'virtex7' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'virtex7' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'virtex7' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'virtex7' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'virtex7' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'virtex7' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'virtex7' detected.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_satadd'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_satadd' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_satadd_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module satadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab3/project_1.srcs/sim_1/imports/lab3/tb_satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_satadd
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" Line 3. Module satadd doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/ece4743/lab3/project_1.srcs/sources_1/imports/lab3/satadd.v" Line 3. Module satadd doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.satadd
+Compiling module xil_defaultlib.tb_satadd
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_satadd_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_satadd_behav -key {Behavioral:sim_1:Functional:tb_satadd} -tclbatch {tb_satadd.tcl} -view {C:/ece4743/lab3/tb_satadd_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+source tb_satadd.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+          1(              200000): PASS, mode: 2, a: 004, b: 005, y: 009                                                                                                    #
+
+          2(              300000): PASS, mode: 1, a: 004, b: 005, y: 009                                                                                                    #
+
+          3(              400000): PASS, mode: 1, a: 004, b: 005, y: 009                                                                                                    #
+
+          4(              500000): PASS, mode: 2, a: b00, b: 100, y: c00                                                                                                    #
+
+          5(              600000): PASS, mode: 1, a: b00, b: 100, y: c00                                                                                                    #
+
+          6(              700000): PASS, mode: 1, a: b00, b: 100, y: c00                                                                                                    #
+
+          7(              800000): PASS, mode: 2, a: 7ff, b: 001, y: 800                                                                                                    #
+
+          8(              900000): PASS, mode: 1, a: 7ff, b: 001, y: 7ff                                                                                                    #
+
+          9(             1000000): PASS, mode: 0, a: 7ff, b: 001, y: 800                                                                                                    #
+
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_satadd_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 2522.098 ; gain = 8.379
+run 10 us
+         10(             1100000): PASS, mode: 2, a: fff, b: 001, y: 000                                                                                                    #
+
+         11(             1200000): PASS, mode: 1, a: fff, b: 001, y: 000                                                                                                    #
+
+         12(             1300000): PASS, mode: 0, a: fff, b: 001, y: fff                                                                                            #unsigned
+
+         13(             1400000): PASS, mode: 2, a: 800, b: fff, y: 7ff                                                                                                    #
+
+         14(             1500000): PASS, mode: 1, a: 800, b: fff, y: 800                                                                                                    #
+
+         15(             1600000): PASS, mode: 0, a: 800, b: fff, y: fff                                                                                                    #
+
+         16(             1700000): PASS, mode: 0, a: 86c, b: fde, y: fff    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  ˇ         ;ÿÄ              †2X
+
+         17(             1800000): PASS, mode: 0, a: 597, b: ecc, y: fff     ;ŸÄ    ;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      ˇ  ˇB öy‡    ü˘h   †/ò       
+
+
+         18(             1900000): PASS, mode: 0, a: f93, b: 539, y: fff †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      ˇ  ˇB öz0    ü˘h   †/ò       
+
+
+         19(             2000000): PASS, mode: 0, a: f68, b: d06, y: fff †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      ˇ  ˇB ö{P    ü˘h   †/ò       
+
+
+         20(             2100000): PASS, mode: 0, a: 1a3, b: 2fc, y: 49f †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      ˇ  ˇB öy@    ü˘h   †/ò       
+
+
+         21(             2200000): PASS, mode: 0, a: 551, b: a5c, y: fad    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  ü  ˇ      ;ÿÄ              †2X
+
+         22(             2300000): PASS, mode: 0, a: d6d, b: f33, y: fff    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  ≠  ü      ;ÿÄ              †2X
+
+         23(             2400000): PASS, mode: 0, a: 0a8, b: c50, y: cf8    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  ˇ  †      ;ÿÄ              †2X
+
+         24(             2500000): PASS, mode: 0, a: 916, b: de9, y: fff    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  ¯  ˇ      ;ÿÄ              †2X
+
+         25(             2600000): PASS, mode: 0, a: d7b, b: 38a, y: fff    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  ˇ  ˇ      ;ÿÄ              †2X
+
+         26(             2700000): PASS, mode: 0, a: a10, b: 8a8, y: fff     ;ŸÄ    ;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      ˇ  ˇB öy@    ü˘h   †/ò       
+
+
+         27(             2800000): PASS, mode: 0, a: f96, b: 9f9, y: fff     ;ŸÄ    ;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      ˇ  ˇB öz0    ü˘h   †/ò       
+
+
+         28(             2900000): PASS, mode: 0, a: 6f0, b: 0ed, y: 7dd     ;ŸÄ    ;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      ˇ  ˇB öx‡    ü˘h   †/ò       
+
+
+         29(             3000000): PASS, mode: 0, a: 5e5, b: e82, y: fff    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  ›  ˇ      ;ÿÄ              †2X
+
+         30(             3100000): PASS, mode: 0, a: d34, b: 564, y: fff    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  ˇ  g      ;ÿÄ              †2X
+
+         31(             3200000): PASS, mode: 1, a: 893, b: ba1, y: 800 †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      ˇ  ˇB öx    ü˘h   †/ò       
+
+
+         32(             3300000): PASS, mode: 1, a: af1, b: eb7, y: 9a8    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X     4      ;ÿÄ              †2X
+
+         33(             3400000): PASS, mode: 1, a: a04, b: c54, y: 800    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  	®         ;ÿÄ              †2X
+
+         34(             3500000): PASS, mode: 1, a: 84e, b: a98, y: 800    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X     X      ;ÿÄ              †2X
+
+         35(             3600000): PASS, mode: 1, a: 967, b: 8e9, y: 800 †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(          B öz∞    ü˘h   †/ò       
+
+
+         36(             3700000): PASS, mode: 1, a: af7, b: ce5, y: 800 †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(          B öz–    ü˘h   †/ò       
+
+
+         37(             3800000): PASS, mode: 1, a: 92d, b: c4b, y: 800 †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(          B öyê    ü˘h   †/ò       
+
+
+         38(             3900000): PASS, mode: 1, a: acf, b: bcb, y: 800 †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(          B öx0    ü˘h   †/ò       
+
+
+         39(             4000000): PASS, mode: 1, a: bd6, b: c76, y: 84c †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(          B öx     ü˘h   †/ò       
+
+
+         40(             4100000): PASS, mode: 1, a: be0, b: d8b, y: 96b    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  L         ;ÿÄ              †2X
+
+         41(             4200000): PASS, mode: 1, a: a97, b: 864, y: 800    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  	k  L      ;ÿÄ              †2X
+
+         42(             4300000): PASS, mode: 1, a: aa9, b: e2f, y: 8d8    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X     ˚      ;ÿÄ              †2X
+
+         43(             4400000): PASS, mode: 1, a: a03, b: e78, y: 87b    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  ÿ         ;ÿÄ              †2X
+
+         44(             4500000): PASS, mode: 1, a: 9ec, b: b94, y: 800    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  {  ÿ      ;ÿÄ              †2X
+
+         45(             4600000): PASS, mode: 1, a: 92a, b: ccb, y: 800    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X     Ä      ;ÿÄ              †2X
+
+         46(             4700000): PASS, mode: 1, a: 50b, b: 6d3, y: 7ff †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(          B öz0    ü˘h   †/ò       
+
+
+         47(             4800000): PASS, mode: 1, a: 5af, b: 405, y: 7ff †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      ˇ  ˇ      ;ÿÄ              †2X
+
+         48(             4900000): PASS, mode: 1, a: 747, b: 4a5, y: 7ff †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      ˇ  ˇB öz0    ü˘h   †/ò       
+
+
+         49(             5000000): PASS, mode: 1, a: 656, b: 02d, y: 683 †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      ˇ  ˇB öx    ü˘h   †/ò       
+
+
+         50(             5100000): PASS, mode: 1, a: 568, b: 2ea, y: 7ff    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  É  ˇ      ;ÿÄ              †2X
+
+         51(             5200000): PASS, mode: 1, a: 654, b: 2cc, y: 7ff    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  ˇ  R      ;ÿÄ              †2X
+
+         52(             5300000): PASS, mode: 1, a: 400, b: 301, y: 701 †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      ˇ  ˇB öz0    ü˘h   †/ò       
+
+
+         53(             5400000): PASS, mode: 1, a: 589, b: 2a5, y: 7ff    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X    ˇ      ;ÿÄ              †2X
+
+         54(             5500000): PASS, mode: 1, a: 426, b: 0df, y: 505    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  ˇ  .      ;ÿÄ              †2X
+
+         55(             5600000): PASS, mode: 1, a: 436, b: 53a, y: 7ff    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X    ˇ      ;ÿÄ              †2X
+
+         56(             5700000): PASS, mode: 1, a: 79f, b: 5cc, y: 7ff    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  ˇ  	p      ;ÿÄ              †2X
+
+         57(             5800000): PASS, mode: 1, a: 691, b: 1ce, y: 7ff †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      ˇ  ˇB öz0    ü˘h   †/ò       
+
+
+         58(             5900000): PASS, mode: 1, a: 6a8, b: 144, y: 7ec †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      ˇ  ˇB öx    ü˘h   †/ò       
+
+
+         59(             6000000): PASS, mode: 1, a: 65b, b: 010, y: 66b    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  Ï  ˇ      ;ÿÄ              †2X
+
+         60(             6100000): PASS, mode: 1, a: 4f5, b: 6c6, y: 7ff    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  k  Ï      ;ÿÄ              †2X
+
+         61(             6200000): PASS, mode: 1, a: e1c, b: 134, y: f50    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  ˇ  ª      ;ÿÄ              †2X
+
+         62(             6300000): PASS, mode: 1, a: 8f8, b: 7ef, y: 0e7    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  P         ;ÿÄ              †2X
+
+         63(             6400000): PASS, mode: 1, a: dfe, b: 17a, y: f78 †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(       Á   Á      ;ÿÄ              †2X
+
+         64(             6500000): PASS, mode: 1, a: 90f, b: 318, y: c27 †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      x  x      ;ÿÄ              †2X
+
+         65(             6600000): PASS, mode: 1, a: b8b, b: 7d3, y: 35e    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  '  x      ;ÿÄ              †2X
+
+         66(             6700000): PASS, mode: 1, a: ee8, b: 6dc, y: 5c4 †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      ^  ^      ;ÿÄ              †2X
+
+         67(             6800000): PASS, mode: 1, a: d20, b: 7e0, y: 500    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  ƒ  ^      ;ÿÄ              †2X
+
+         68(             6900000): PASS, mode: 1, a: b7a, b: 24f, y: dc9    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X     ƒ      ;ÿÄ              †2X
+
+         69(             7000000): PASS, mode: 1, a: c9f, b: 5b9, y: 258 †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      
+…  
+…      ;ÿÄ              †2X
+
+         70(             7100000): PASS, mode: 1, a: 995, b: 36f, y: d04 †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      X  X      ;ÿÄ              †2X
+
+         71(             7200000): PASS, mode: 1, a: cc3, b: 40c, y: 0cf †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      
+  
+      ;ÿÄ              †2X
+
+         72(             7300000): PASS, mode: 1, a: 812, b: 107, y: 919 †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(       œ   œ      ;ÿÄ              †2X
+
+         73(             7400000): PASS, mode: 1, a: 9fb, b: 194, y: b8f †4h;ŸÄ ü˚ê;‘Ä    ;…Ä †2Xüˆà   ;‘Ä         <   ü˜(      	  	      ;ÿÄ              †2X
+
+         74(             7500000): PASS, mode: 1, a: 817, b: 6eb, y: f02    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X  è  	      ;ÿÄ              †2X
+
+         75(             7600000): PASS, mode: 1, a: ac4, b: 40e, y: ed2    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X    è      ;ÿÄ              †2X
+
+         76(             7700000): PASS, mode: 1, a: ac4, b: 40e, y: ed2    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X    è      ;ÿÄ              †2X
+
+         77(             7800000): PASS, mode: 1, a: ac4, b: 40e, y: ed2    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X    è      ;ÿÄ              †2X
+
+         78(             7900000): PASS, mode: 1, a: ac4, b: 40e, y: ed2    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X    è      ;ÿÄ              †2X
+
+         79(             8000000): PASS, mode: 1, a: ac4, b: 40e, y: ed2    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X    è      ;ÿÄ              †2X
+
+         80(             8100000): PASS, mode: 1, a: ac4, b: 40e, y: ed2    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X    è      ;ÿÄ              †2X
+
+         81(             8200000): PASS, mode: 1, a: ac4, b: 40e, y: ed2    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X    è      ;ÿÄ              †2X
+
+         82(             8300000): PASS, mode: 1, a: ac4, b: 40e, y: ed2    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X    è      ;ÿÄ              †2X
+
+         83(             8400000): PASS, mode: 1, a: ac4, b: 40e, y: ed2    ;ŸÄ         üˆà†2X<   ü˜(    ;‘Ä ü˜(           †2X    è      ;ÿÄ              †2X
+
+PASS: All vectors passed.
+
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Tue Sep  6 19:35:54 2022] Launched impl_1...
+Run output will be captured here: C:/ece4743/lab3/project_1.runs/impl_1/runme.log
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2531.445 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 2531.445 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 2531.445 ; gain = 0.000
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+report_utilization -name utilization_1
+launch_simulation -mode post-implementation -type timing
+Command: launch_simulation  -mode post-implementation -type timing
+INFO: [Vivado 12-12493] Simulation top is 'tb_satadd'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching post-implementation timing simulation in 'C:/ece4743/lab3/project_1.sim/sim_1/impl/timing/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-31] Writing simulation netlist file for design 'impl_1'...
+INFO: [SIM-utils-32] write_verilog -mode timesim -nolib -sdf_anno true -force -file "C:/ece4743/lab3/project_1.sim/sim_1/impl/timing/xsim/tb_satadd_time_impl.v"
+INFO: [SIM-utils-34] Writing SDF file...
+INFO: [SIM-utils-35] write_sdf -mode timesim -process_corner slow -force -file "C:/ece4743/lab3/project_1.sim/sim_1/impl/timing/xsim/tb_satadd_time_impl.sdf"
+INFO: [SIM-utils-36] Netlist generated:C:/ece4743/lab3/project_1.sim/sim_1/impl/timing/xsim/tb_satadd_time_impl.v
+INFO: [SIM-utils-37] SDF generated:C:/ece4743/lab3/project_1.sim/sim_1/impl/timing/xsim/tb_satadd_time_impl.sdf
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_satadd' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/impl/timing/xsim'
+"xvlog --incr --relax -prj tb_satadd_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab3/project_1.sim/sim_1/impl/timing/xsim/tb_satadd_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module satadd
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab3/project_1.srcs/sim_1/imports/lab3/tb_satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_satadd
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/impl/timing/xsim'
+"xelab --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_satadd_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_satadd_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "tb_satadd_time_impl.sdf", for root module "tb_satadd/uut".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "tb_satadd_time_impl.sdf", for root module "tb_satadd/uut".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.x_lut3_mux8
+Compiling module simprims_ver.LUT3(INIT=8'b0100100)
+Compiling module simprims_ver.CARRY4
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module xil_defaultlib.satadd
+Compiling module xil_defaultlib.tb_satadd
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_satadd_time_impl
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2539.188 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/impl/timing/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_satadd_time_impl -key {Post-Implementation:sim_1:Timing:tb_satadd} -tclbatch {tb_satadd.tcl} -view {C:/ece4743/lab3/tb_satadd_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+WARNING: Simulation object /tb_satadd/uut/r was not found in the design.
+source tb_satadd.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: file ../../../../satadd_vectors.txt could not be opened
+          1(              200000): PASS, mode: 2, a: 004, b: 005, y: 009                                                                                                    #
+
+          2(              300000): PASS, mode: 1, a: 004, b: 005, y: 009                                                                                                    #
+
+          3(              400000): PASS, mode: 1, a: 004, b: 005, y: 009                                                                                                    #
+
+          4(              500000): PASS, mode: 2, a: b00, b: 100, y: c00                                                                                                    #
+
+          5(              600000): PASS, mode: 1, a: b00, b: 100, y: c00                                                                                                    #
+
+          6(              700000): PASS, mode: 1, a: b00, b: 100, y: c00                                                                                                    #
+
+          7(              800000): PASS, mode: 2, a: 7ff, b: 001, y: 800                                                                                                    #
+
+          8(              900000): PASS, mode: 1, a: 7ff, b: 001, y: 7ff                                                                                                    #
+
+          9(             1000000): PASS, mode: 0, a: 7ff, b: 001, y: 800                                                                                                    #
+
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_satadd_time_impl' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 2539.188 ; gain = 2.566
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -mode post-implementation -type timing
+Command: launch_simulation  -mode post-implementation -type timing
+INFO: [Vivado 12-12493] Simulation top is 'tb_satadd'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching post-implementation timing simulation in 'C:/ece4743/lab3/project_1.sim/sim_1/impl/timing/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-31] Writing simulation netlist file for design 'impl_1'...
+INFO: [SIM-utils-32] write_verilog -mode timesim -nolib -sdf_anno true -force -file "C:/ece4743/lab3/project_1.sim/sim_1/impl/timing/xsim/tb_satadd_time_impl.v"
+INFO: [SIM-utils-34] Writing SDF file...
+INFO: [SIM-utils-35] write_sdf -mode timesim -process_corner slow -force -file "C:/ece4743/lab3/project_1.sim/sim_1/impl/timing/xsim/tb_satadd_time_impl.sdf"
+INFO: [SIM-utils-36] Netlist generated:C:/ece4743/lab3/project_1.sim/sim_1/impl/timing/xsim/tb_satadd_time_impl.v
+INFO: [SIM-utils-37] SDF generated:C:/ece4743/lab3/project_1.sim/sim_1/impl/timing/xsim/tb_satadd_time_impl.sdf
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_satadd' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/impl/timing/xsim'
+"xvlog --incr --relax -prj tb_satadd_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab3/project_1.sim/sim_1/impl/timing/xsim/tb_satadd_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module satadd
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab3/project_1.srcs/sim_1/imports/lab3/tb_satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_satadd
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/impl/timing/xsim'
+"xelab --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_satadd_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_satadd_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "tb_satadd_time_impl.sdf", for root module "tb_satadd/uut".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "tb_satadd_time_impl.sdf", for root module "tb_satadd/uut".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.x_lut3_mux8
+Compiling module simprims_ver.LUT3(INIT=8'b0100100)
+Compiling module simprims_ver.CARRY4
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module xil_defaultlib.satadd
+Compiling module xil_defaultlib.tb_satadd
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_satadd_time_impl
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/ece4743/lab3/project_1.sim/sim_1/impl/timing/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_satadd_time_impl -key {Post-Implementation:sim_1:Timing:tb_satadd} -tclbatch {tb_satadd.tcl} -view {C:/ece4743/lab3/tb_satadd_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+WARNING: Simulation object /tb_satadd/uut/r was not found in the design.
+source tb_satadd.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: file ../../../../satadd_vectors.txt could not be opened
+          1(              200000): PASS, mode: 2, a: 004, b: 005, y: 009                                                                                                    #
+
+          2(              300000): PASS, mode: 1, a: 004, b: 005, y: 009                                                                                                    #
+
+          3(              400000): PASS, mode: 1, a: 004, b: 005, y: 009                                                                                                    #
+
+          4(              500000): PASS, mode: 2, a: b00, b: 100, y: c00                                                                                                    #
+
+          5(              600000): PASS, mode: 1, a: b00, b: 100, y: c00                                                                                                    #
+
+          6(              700000): PASS, mode: 1, a: b00, b: 100, y: c00                                                                                                    #
+
+          7(              800000): PASS, mode: 2, a: 7ff, b: 001, y: 800                                                                                                    #
+
+          8(              900000): PASS, mode: 1, a: 7ff, b: 001, y: 7ff                                                                                                    #
+
+          9(             1000000): PASS, mode: 0, a: 7ff, b: 001, y: 800                                                                                                    #
+
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_satadd_time_impl' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 2539.684 ; gain = 0.496
+run 10 us
+         10(             1100000): PASS, mode: 2, a: fff, b: 001, y: 000                                                                                                    #
+
+         11(             1200000): PASS, mode: 1, a: fff, b: 001, y: 000                                                                                                    #
+
+         12(             1300000): PASS, mode: 0, a: fff, b: 001, y: fff                                                                                            #unsigned
+
+         13(             1400000): PASS, mode: 2, a: 800, b: fff, y: 7ff                                                                                                    #
+
+         14(             1500000): PASS, mode: 1, a: 800, b: fff, y: 800                                                                                                    #
+
+         15(             1600000): PASS, mode: 0, a: 800, b: fff, y: fff                                                                                                    #
+
+         16(             1700000): PASS, mode: 0, a: 86c, b: fde, y: fff        
+   ≤∑Ä ≤Ω  £| ≤Ω         ˚¸˙wòı‡       
+   ˙wò   
+≤∑Ä    
+≤Ω  ≤Ω      ›,       
+
+
+         17(             1800000): PASS, mode: 0, a: 597, b: ecc, y: fff     ˜»»    ;…  ˙?`¯à¯h¯H                       ;‹  £uË   ¢æ»˜Á¯  œ         @4    v
+
+         18(             1900000): PASS, mode: 0, a: f93, b: 539, y: fff           ≤∑Ä ≤Ω  £ä ≤Ω         
+†˙é`ı‡          ˙é`   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˙é`    
+
+         19(             2000000): PASS, mode: 0, a: f68, b: d06, y: fff     ˙ã†    ö⁄p    ¯à¯h¯H                       ;‹  £Üx   ¢∑»˜˜∏  E       : @;   ©
+
+         20(             2100000): PASS, mode: 0, a: 1a3, b: 2fc, y: 49f     ˜»»    ;…  ˙?`˜˘»˜¯®˜˜à                       ;‹  £uh   ¢ƒx˜‡   ¢         @;   ©
+
+         21(             2200000): PASS, mode: 0, a: 551, b: a5c, y: fad           ≤∑Ä ≤Ω  ¢˘ ≤Ω         °Â˚! ı‡          ˚!    ≤∑Ä    ≤Ω  ≤Ω      ›,       
+
+         22(             2300000): PASS, mode: 0, a: d6d, b: f33, y: fff           ≤∑Ä ≤Ω  £} ≤Ω          (É˚! ı‡          ˚!    ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚!     
+
+         23(             2400000): PASS, mode: 0, a: 0a8, b: c50, y: cf8        	   ≤∑Ä ≤Ω  £g ≤Ω         !Æ{˚eÿı‡       	   ˚eÿ   ≤∑Ä    	≤Ω  ≤Ω  ı‡›,˚eÿ    
+
+         24(             2500000): PASS, mode: 0, a: 916, b: de9, y: fff           ≤∑Ä ≤Ω  ¢˘ ≤Ω         #5Ã˚! ı‡          ˚!    ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚!     
+
+         25(             2600000): PASS, mode: 0, a: d7b, b: 38a, y: fff           ≤∑Ä ≤Ω  £ä ≤Ω         $º ˙é`ı‡          ˙é`   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˙é`    
+
+         26(             2700000): PASS, mode: 0, a: a10, b: 8a8, y: fff           ≤∑Ä ≤Ω  £ ≤Ω         &C˙wòı‡       
+   ˙wò   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˙wò    
+
+         27(             2800000): PASS, mode: 0, a: f96, b: 9f9, y: fff           ≤∑Ä ≤Ω  £ä ≤Ω         '»˙wòı‡       
+   ˙wò   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˙wò    
+
+         28(             2900000): PASS, mode: 0, a: 6f0, b: 0ed, y: 7dd     <       ;…      ˜˘»˜¯®˜˜à                       ;‹  ¢’Ë   ¢œ»˜…ò   5       : @;   ©
+
+         29(             3000000): PASS, mode: 0, a: 5e5, b: e82, y: fff           ≤∑Ä ≤Ω  ¢Ú ≤Ω         *÷Ê˙‘ı‡          ˙‘   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˙‘    
+
+         30(             3100000): PASS, mode: 0, a: d34, b: 564, y: fff           ≤∑Ä ≤Ω  £  ≤Ω         ,] ˙é`ı‡          ˙é`   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˙é`    
+
+         31(             3200000): PASS, mode: 1, a: 893, b: ba1, y: 800     <       ;…      ˜Í˜ËË˜Á»                       ;‹  £ì    £uÿ˜‡           @;   ©
+
+         32(             3300000): PASS, mode: 1, a: af1, b: eb7, y: 9a8           ≤∑Ä ≤Ω  ¢˜ ≤Ω         /jo˚pı‡          ˚p   ≤∑Ä    ≤Ω  ≤Ω      ›,       
+
+         33(             3400000): PASS, mode: 1, a: a04, b: c54, y: 800           ≤∑Ä ≤Ω  ¢˘ ≤Ω         0Ò~˚! ı‡          ˚!    ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚!     
+
+         34(             3500000): PASS, mode: 1, a: 84e, b: a98, y: 800           ≤∑Ä ≤Ω  £ ≤Ω         2v%˚)xı‡          ˚)x   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚)x    
+
+         35(             3600000): PASS, mode: 1, a: 967, b: 8e9, y: 800     <       ;…      ˜–(˜œ˜ÕË                       ;‹  £§   £Üh˜Œ  ì       : @-¿   G
+
+         36(             3700000): PASS, mode: 1, a: af7, b: ce5, y: 800     ˜Á(    ;…  ˙,–¯à¯h¯H                       ;‹  £Üx   ¢∑»˜˜∏  π         @;   ©
+
+         37(             3800000): PASS, mode: 1, a: 92d, b: c4b, y: 800           ≤∑Ä ≤Ω  £# ≤Ω         7v˚)xı‡          ˚)x   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚)x    
+
+         38(             3900000): PASS, mode: 1, a: acf, b: bcb, y: 800           ≤∑Ä ≤Ω  £ä ≤Ω         8íı˚pı‡          ˚p   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚p    
+
+         39(             4000000): PASS, mode: 1, a: bd6, b: c76, y: 84c           ≤∑Ä ≤Ω  £{ ≤Ω         : ˚)xı‡          ˚)x   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚)x    
+
+         40(             4100000): PASS, mode: 1, a: be0, b: d8b, y: 96b           ≤∑Ä ≤Ω  ¢˘ ≤Ω         ;ü}˚! ı‡          ˚!    ≤∑Ä    ≤Ω  ≤Ω      ›,       
+
+         41(             4200000): PASS, mode: 1, a: a97, b: 864, y: 800           ≤∑Ä ≤Ω  £| ≤Ω         =&N˙‘ı‡          ˙‘   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˙‘    
+
+         42(             4300000): PASS, mode: 1, a: aa9, b: e2f, y: 8d8           ≤∑Ä ≤Ω  £{ ≤Ω         >®b˚)xı‡          ˚)x   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚)x    
+
+         43(             4400000): PASS, mode: 1, a: a03, b: e78, y: 87b           ≤∑Ä ≤Ω  £ ≤Ω         @2∆˚]Äı‡          ˚]Ä   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚]Ä    
+
+         44(             4500000): PASS, mode: 1, a: 9ec, b: b94, y: 800           ≤∑Ä ≤Ω  ¢Ú ≤Ω         AπÕ˙‘ı‡          ˙‘   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˙‘    
+
+         45(             4600000): PASS, mode: 1, a: 92a, b: ccb, y: 800           ≤∑Ä ≤Ω  ¢˙ ≤Ω         C<»˚)xı‡          ˚)x   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚)x    
+
+         46(             4700000): PASS, mode: 1, a: 50b, b: 6d3, y: 7ff     <       ;…      ˜Í˜ËË˜Á»                       ;‹  £uË   ¢æ»˜Á¯  ≠       c @4    v
+
+         47(             4800000): PASS, mode: 1, a: 5af, b: 405, y: 7ff           ≤∑Ä ≤Ω  £} ≤Ω         FM•˙o@ı‡           ˙o@   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˙o@    
+
+         48(             4900000): PASS, mode: 1, a: 747, b: 4a5, y: 7ff     <       ;…      ¯à¯h¯H                       ;‹  £cX   £d»˜∆8  Ω         @;   ©
+
+         49(             5000000): PASS, mode: 1, a: 656, b: 02d, y: 683     <       ;…      ˜–(˜œ˜ÕË                       ;‹  ¢úË   £tÿ¯6∏   Ë         @-¿   G
+
+         50(             5100000): PASS, mode: 1, a: 568, b: 2ea, y: 7ff           ≤∑Ä ≤Ω  £ò ≤Ω         J·ü˚]Äı‡          ˚]Ä   ≤∑Ä    ≤Ω  ≤Ω      ›,       
+
+         51(             5200000): PASS, mode: 1, a: 654, b: 2cc, y: 7ff           ≤∑Ä ≤Ω  £ ≤Ω         LhΩ˚)xı‡          ˚)x   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚)x    
+
+         52(             5300000): PASS, mode: 1, a: 400, b: 301, y: 701     <       ;…      ¯à¯h¯H                       ;‹  £Üx   ¢∑»˜˜∏   {         @;   ©
+
+         53(             5400000): PASS, mode: 1, a: 589, b: 2a5, y: 7ff           ≤∑Ä ≤Ω  £} ≤Ω         Ou„˚! ı‡          ˚!    ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚!     
+
+         54(             5500000): PASS, mode: 1, a: 426, b: 0df, y: 505           ≤∑Ä ≤Ω  £ ≤Ω         P¯h˚)xı‡          ˚)x   ≤∑Ä    ≤Ω  ≤Ω      ›,       
+
+         55(             5600000): PASS, mode: 1, a: 436, b: 53a, y: 7ff           ≤∑Ä ≤Ω  £ ≤Ω         RÉK˚]Äı‡          ˚]Ä   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚]Ä    
+
+         56(             5700000): PASS, mode: 1, a: 79f, b: 5cc, y: 7ff           ≤∑Ä ≤Ω  £ ≤Ω         T»˚)xı‡          ˚)x   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚)x    
+
+         57(             5800000): PASS, mode: 1, a: 691, b: 1ce, y: 7ff     <       ;…      ¯à¯h¯H                       ;‹  ¢úË   £§¸¯6∏  6         @;   ©
+
+         58(             5900000): PASS, mode: 1, a: 6a8, b: 144, y: 7ec           ≤∑Ä ≤Ω  ¢˙ ≤Ω         Wò˚)xı‡          ˚)x   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚)x    
+
+         59(             6000000): PASS, mode: 1, a: 65b, b: 010, y: 66b           ≤∑Ä ≤Ω  £" ≤Ω         Xû‹˚pı‡          ˚p   ≤∑Ä    ≤Ω  ≤Ω      ›,       
+
+         60(             6100000): PASS, mode: 1, a: 4f5, b: 6c6, y: 7ff           ≤∑Ä ≤Ω  £ò ≤Ω         Z$˚]Äı‡          ˚]Ä   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚]Ä    
+
+         61(             6200000): PASS, mode: 1, a: e1c, b: 134, y: f50           ≤∑Ä ≤Ω  ¢Û ≤Ω         [©„˙wòı‡       
+   ˙wò   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˙wò    
+
+         62(             6300000): PASS, mode: 1, a: 8f8, b: 7ef, y: 0e7           ≤∑Ä ≤Ω  £« ≤Ω         ]0/˚)xı‡          ˚)x   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚)x    
+
+         63(             6400000): PASS, mode: 1, a: dfe, b: 17a, y: f78           ≤∑Ä ≤Ω  £} ≤Ω         ^∏,˚! ı‡          ˚!    ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚!     
+
+         64(             6500000): PASS, mode: 1, a: 90f, b: 318, y: c27           ≤∑Ä ≤Ω  £$ ≤Ω         `>h˚]Äı‡          ˚]Ä   ≤∑Ä    ≤Ω  ≤Ω      ›,       
+
+         65(             6600000): PASS, mode: 1, a: b8b, b: 7d3, y: 35e           ≤∑Ä ≤Ω  £# ≤Ω         a≈c˚! ı‡          ˚!    ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚!     
+
+         66(             6700000): PASS, mode: 1, a: ee8, b: 6dc, y: 5c4           ≤∑Ä ≤Ω  £| ≤Ω         cL˙‘ı‡          ˙‘   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˙‘    
+
+         67(             6800000): PASS, mode: 1, a: d20, b: 7e0, y: 500           ≤∑Ä ≤Ω  £ ≤Ω         d“¨˚! ı‡          ˚!    ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚!     
+
+         68(             6900000): PASS, mode: 1, a: b7a, b: 24f, y: dc9           ≤∑Ä ≤Ω  ¢˛ ≤Ω         fY˛˚]Äı‡          ˚]Ä   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚]Ä    
+
+         69(             7000000): PASS, mode: 1, a: c9f, b: 5b9, y: 258           ≤∑Ä ≤Ω  £} ≤Ω         gﬂ„˚! ı‡          ˚!    ≤∑Ä    ≤Ω  ≤Ω      ›,       
+
+         70(             7100000): PASS, mode: 1, a: 995, b: 36f, y: d04           ≤∑Ä ≤Ω  £g ≤Ω         if]˚]Äı‡          ˚]Ä   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚]Ä    
+
+         71(             7200000): PASS, mode: 1, a: cc3, b: 40c, y: 0cf           ≤∑Ä ≤Ω  £ ≤Ω         jÌK˚]Äı‡          ˚]Ä   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚]Ä    
+
+         72(             7300000): PASS, mode: 1, a: 812, b: 107, y: 919           ≤∑Ä ≤Ω  £g ≤Ω         lt|˚]Äı‡          ˚]Ä   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚]Ä    
+
+         73(             7400000): PASS, mode: 1, a: 9fb, b: 194, y: b8f           ≤∑Ä ≤Ω  £ ≤Ω         m˙c˚! ı‡          ˚!    ≤∑Ä    ≤Ω  ≤Ω      ›,       
+
+         74(             7500000): PASS, mode: 1, a: 817, b: 6eb, y: f02           ≤∑Ä ≤Ω  £# ≤Ω         oÅ˚! ı‡          ˚!    ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚!     
+
+         75(             7600000): PASS, mode: 1, a: ac4, b: 40e, y: ed2           ≤∑Ä ≤Ω  ¢˛ ≤Ω         qÀ˚]Äı‡          ˚]Ä   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚]Ä    
+
+         76(             7700000): PASS, mode: 1, a: ac4, b: 40e, y: ed2           ≤∑Ä ≤Ω  ¢˛ ≤Ω         qÀ˚]Äı‡          ˚]Ä   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚]Ä    
+
+         77(             7800000): PASS, mode: 1, a: ac4, b: 40e, y: ed2           ≤∑Ä ≤Ω  ¢˛ ≤Ω         qÀ˚]Äı‡          ˚]Ä   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚]Ä    
+
+         78(             7900000): PASS, mode: 1, a: ac4, b: 40e, y: ed2           ≤∑Ä ≤Ω  ¢˛ ≤Ω         qÀ˚]Äı‡          ˚]Ä   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚]Ä    
+
+         79(             8000000): PASS, mode: 1, a: ac4, b: 40e, y: ed2           ≤∑Ä ≤Ω  ¢˛ ≤Ω         qÀ˚]Äı‡          ˚]Ä   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚]Ä    
+
+         80(             8100000): PASS, mode: 1, a: ac4, b: 40e, y: ed2           ≤∑Ä ≤Ω  ¢˛ ≤Ω         qÀ˚]Äı‡          ˚]Ä   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚]Ä    
+
+         81(             8200000): PASS, mode: 1, a: ac4, b: 40e, y: ed2           ≤∑Ä ≤Ω  ¢˛ ≤Ω         qÀ˚]Äı‡          ˚]Ä   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚]Ä    
+
+         82(             8300000): PASS, mode: 1, a: ac4, b: 40e, y: ed2           ≤∑Ä ≤Ω  ¢˛ ≤Ω         qÀ˚]Äı‡          ˚]Ä   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚]Ä    
+
+         83(             8400000): PASS, mode: 1, a: ac4, b: 40e, y: ed2           ≤∑Ä ≤Ω  ¢˛ ≤Ω         qÀ˚]Äı‡          ˚]Ä   ≤∑Ä    ≤Ω  ≤Ω  ı‡›,˚]Ä    
+
+PASS: All vectors passed.
+
+report_utilization -name utilization_2
+report_utilization -name utilization_3

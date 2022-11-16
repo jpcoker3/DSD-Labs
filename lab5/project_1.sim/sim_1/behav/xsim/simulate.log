@@ -1,0 +1,23 @@
+Time resolution is 1 ps
+PASS               400000: x1: 080, x2: 100, x3: 3c0, y: 080
+PASS               700000: x1: 0e2, x2: 386, x3: 31d, y: 3b4
+PASS              1000000: x1: 0ef, x2: 381, x3: 0c7, y: 2d5
+PASS              1300000: x1: 099, x2: 0fc, x3: 024, y: 03f
+PASS              1600000: x1: 3b9, x2: 0ff, x3: 3a5, y: 0f0
+PASS              1900000: x1: 3a9, x2: 3b8, x3: 31a, y: 071
+PASS              2200000: x1: 376, x2: 031, x3: 024, y: 051
+PASS              2500000: x1: 3b5, x2: 301, x3: 3f5, y: 38b
+PASS              2800000: x1: 34c, x2: 359, x3: 05a, y: 3c4
+PASS              3100000: x1: 37f, x2: 038, x3: 015, y: 059
+PASS              3400000: x1: 0a9, x2: 05c, x3: 35d, y: 036
+PASS              3700000: x1: 393, x2: 096, x3: 341, y: 0f3
+PASS              4000000: x1: 3bd, x2: 3f0, x3: 061, y: 3e7
+PASS              4300000: x1: 011, x2: 32d, x3: 0e5, y: 301
+PASS              4600000: x1: 373, x2: 310, x3: 3d1, y: 3c8
+PASS              4900000: x1: 066, x2: 0a6, x3: 3cf, y: 04d
+PASS              5200000: x1: 3b2, x2: 0f9, x3: 30d, y: 13c
+PASS              5500000: x1: 314, x2: 08e, x3: 31a, y: 141
+PASS              5800000: x1: 3ae, x2: 0fd, x3: 349, y: 122
+PASS: All vectors passed.
+
+$finish called at time : 6050 ns : File "C:/ece4743/lab5/project_1.srcs/sim_1/imports/lab5/tb_lab5dpath.v" Line 77

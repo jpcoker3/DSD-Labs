@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_satadd_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_satadd" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="10,999,983 ps"></ZoomStartTime>
+      <ZoomEndTime time="11,000,012 ps"></ZoomEndTime>
+      <Cursor1Time time="11,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="275"></NameColumnWidth>
+      <ValueColumnWidth column_width="122"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/tb_satadd/uut/a" type="array">
+      <obj_property name="ElementShortName">a[11:0]</obj_property>
+      <obj_property name="ObjectShortName">a[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_satadd/uut/b" type="array">
+      <obj_property name="ElementShortName">b[11:0]</obj_property>
+      <obj_property name="ObjectShortName">b[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_satadd/uut/mode" type="array">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_satadd/uut/y" type="array">
+      <obj_property name="ElementShortName">y[11:0]</obj_property>
+      <obj_property name="ObjectShortName">y[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_satadd/uut/r" type="array">
+      <obj_property name="ElementShortName">r[12:0]</obj_property>
+      <obj_property name="ObjectShortName">r[12:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../../../Lab3_part2/project_1.gen/sources_1/ip/ip_addsub/sim/ip_addsub.vhd" \
+
+nosort

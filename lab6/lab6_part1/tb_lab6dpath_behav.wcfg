@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_lab6dpath_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_lab6dpath" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="9.022596 us"></ZoomEndTime>
+      <Cursor1Time time="0.683132 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="284"></NameColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/tb_lab6dpath/uut/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/irdy" type="logic">
+      <obj_property name="ElementShortName">irdy</obj_property>
+      <obj_property name="ObjectShortName">irdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/din" type="array">
+      <obj_property name="ElementShortName">din[9:0]</obj_property>
+      <obj_property name="ObjectShortName">din[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/dout" type="array">
+      <obj_property name="ElementShortName">dout[9:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/ordy" type="logic">
+      <obj_property name="ElementShortName">ordy</obj_property>
+      <obj_property name="ObjectShortName">ordy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/nstate" type="array">
+      <obj_property name="ElementShortName">nstate[1:0]</obj_property>
+      <obj_property name="ObjectShortName">nstate[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/pstate" type="array">
+      <obj_property name="ElementShortName">pstate[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pstate[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/selX" type="array">
+      <obj_property name="ElementShortName">selX[1:0]</obj_property>
+      <obj_property name="ObjectShortName">selX[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/selY" type="array">
+      <obj_property name="ElementShortName">selY[1:0]</obj_property>
+      <obj_property name="ObjectShortName">selY[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/set_ordy" type="array">
+      <obj_property name="ElementShortName">set_ordy[1:0]</obj_property>
+      <obj_property name="ObjectShortName">set_ordy[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/clr_ordy" type="array">
+      <obj_property name="ElementShortName">clr_ordy[1:0]</obj_property>
+      <obj_property name="ObjectShortName">clr_ordy[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/ldR1" type="array">
+      <obj_property name="ElementShortName">ldR1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ldR1[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/ldR2" type="array">
+      <obj_property name="ElementShortName">ldR2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ldR2[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/R1out" type="array">
+      <obj_property name="ElementShortName">R1out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">R1out[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/R2out" type="array">
+      <obj_property name="ElementShortName">R2out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">R2out[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/R2in" type="array">
+      <obj_property name="ElementShortName">R2in[11:0]</obj_property>
+      <obj_property name="ObjectShortName">R2in[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/k_select" type="array">
+      <obj_property name="ElementShortName">k_select[11:0]</obj_property>
+      <obj_property name="ObjectShortName">k_select[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/k1" type="array">
+      <obj_property name="ElementShortName">k1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">k1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/k2" type="array">
+      <obj_property name="ElementShortName">k2[11:0]</obj_property>
+      <obj_property name="ObjectShortName">k2[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/k3" type="array">
+      <obj_property name="ElementShortName">k3[11:0]</obj_property>
+      <obj_property name="ObjectShortName">k3[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/mult_soln2" type="array">
+      <obj_property name="ElementShortName">mult_soln2[11:0]</obj_property>
+      <obj_property name="ObjectShortName">mult_soln2[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab6dpath/uut/mult_soln" type="array">
+      <obj_property name="ElementShortName">mult_soln[23:0]</obj_property>
+      <obj_property name="ObjectShortName">mult_soln[23:0]</obj_property>
+   </wvobject>
+</wave_config>

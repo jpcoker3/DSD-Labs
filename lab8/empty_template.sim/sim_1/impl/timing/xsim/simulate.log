@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+WARNING: file ../../../fifo_vectors.txt could not be opened
+WARNING: file ../../../../fifo_vectors.txt could not be opened
+Cannot open vectors file 'fifo_vectors.txt.txt', simulation exiting
+$finish called at time : 1 ns : File "C:/ece4743/lab8/tb_fifo.v" Line 87

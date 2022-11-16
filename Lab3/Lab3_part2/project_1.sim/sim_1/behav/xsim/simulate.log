@@ -1,0 +1,19 @@
+Time resolution is 1 ps
+          1(              200000): PASS, mode: 2, a: 004, b: 005, y: 009                                                                                                    #
+
+          2(              300000): PASS, mode: 1, a: 004, b: 005, y: 009                                                                                                    #
+
+          3(              400000): PASS, mode: 1, a: 004, b: 005, y: 009                                                                                                    #
+
+          4(              500000): PASS, mode: 2, a: b00, b: 100, y: c00                                                                                                    #
+
+          5(              600000): PASS, mode: 1, a: b00, b: 100, y: c00                                                                                                    #
+
+          6(              700000): PASS, mode: 1, a: b00, b: 100, y: c00                                                                                                    #
+
+          7(              800000): PASS, mode: 2, a: 7ff, b: 001, y: 800                                                                                                    #
+
+          8(              900000): FAIL, mode: 1, a: 7ff, b: 001, y (actual): 800, y (expected): 000007ff                                                                                                    #
+
+          9(             1000000): PASS, mode: 0, a: 7ff, b: 001, y: 800                                                                                                    #
+

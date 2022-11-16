@@ -1,0 +1,42 @@
+Time resolution is 1 ps
+WARNING: file ../../../../multadd_vectors.txt could not be opened
+          0(              140000):FAIL, x1: 080, x2: 100, x3: 3c0, y (actual): 000, y (expected): 00000080
+
+          0(              180000):PASS, x1: 0e2, x2: 386, x3: 31d, y: 3b4
+
+          0(              220000):PASS, x1: 0ef, x2: 381, x3: 0c7, y: 2d5
+
+          0(              260000):PASS, x1: 099, x2: 0fc, x3: 024, y: 03f
+
+          0(              300000):FAIL, x1: 3b9, x2: 0ff, x3: 3a5, y (actual): 070, y (expected): 000000f0
+
+          0(              340000):PASS, x1: 3a9, x2: 3b8, x3: 31a, y: 071
+
+          0(              380000):PASS, x1: 376, x2: 031, x3: 024, y: 051
+
+          0(              420000):PASS, x1: 3b5, x2: 301, x3: 3f5, y: 38b
+
+          0(              460000):FAIL, x1: 34c, x2: 359, x3: 05a, y (actual): 044, y (expected): 000003c4
+
+          0(              500000):PASS, x1: 37f, x2: 038, x3: 015, y: 059
+
+          0(              540000):PASS, x1: 0a9, x2: 05c, x3: 35d, y: 036
+
+          0(              580000):PASS, x1: 393, x2: 096, x3: 341, y: 0f3
+
+          0(              620000):PASS, x1: 3bd, x2: 3f0, x3: 061, y: 3e7
+
+          0(              660000):FAIL, x1: 011, x2: 32d, x3: 0e5, y (actual): 381, y (expected): 00000301
+
+          0(              700000):FAIL, x1: 373, x2: 310, x3: 3d1, y (actual): 048, y (expected): 000003c8
+
+          0(              740000):FAIL, x1: 066, x2: 0a6, x3: 3cf, y (actual): 0cd, y (expected): 0000004d
+
+          0(              780000):PASS, x1: 3b2, x2: 0f9, x3: 30d, y: 13c
+
+          0(              820000):PASS, x1: 314, x2: 08e, x3: 31a, y: 141
+
+          0(              860000):FAIL, x1: 3ae, x2: 0fd, x3: 349, y (actual): 0a2, y (expected): 00000122
+
+FAIL:           7 vectors failed
+

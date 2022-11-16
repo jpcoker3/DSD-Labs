@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="part_2_mult_synth_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1664323463">
+  <File Type="PA-TCL" Name="part_2_mult.tcl"/>
+  <File Type="REPORTS-TCL" Name="part_2_mult_reports.tcl"/>
+  <File Type="RDS-RDS" Name="part_2_mult.vds"/>
+  <File Type="RDS-UTIL" Name="part_2_mult_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="part_2_mult_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="part_2_mult.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/part_2_mult">
+    <File Path="$PSRCDIR/sources_1/ip/part_2_mult/part_2_mult.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="part_2_mult"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/part_2_mult">
+    <File Path="$PSRCDIR/sources_1/ip/part_2_mult/part_2_mult.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="part_2_mult"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/lab5dpath.dcp">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/lab5dpath.dcp"/>
+        <Attr Name="ImportTime" Val="1664321311"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

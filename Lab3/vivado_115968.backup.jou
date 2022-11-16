@@ -1,0 +1,117 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Sep  6 18:39:51 2022
+# Process ID: 115968
+# Current directory: C:/ece4743/lab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent116700 C:\ece4743\lab3\project_1.xpr
+# Log file: C:/ece4743/lab3/vivado.log
+# Journal file: C:/ece4743/lab3\vivado.jou
+# Running On: Lenovo-9i-Joe-Laptop, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 4, Host memory: 16901 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/ece4743/lab3/project_1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+source tb_satadd.tcl
+run 10 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+source tb_satadd.tcl
+run 10 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+save_wave_config {C:/ece4743/lab3/tb_satadd_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+source tb_satadd.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+source tb_satadd.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+source tb_satadd.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+source tb_satadd.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+source tb_satadd.tcl
+run 10 us
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+close_sim
+launch_simulation
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+source tb_satadd.tcl
+run 10 us
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+refresh_design
+report_utilization -name utilization_1
+launch_simulation -mode post-implementation -type timing
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+source tb_satadd.tcl
+close_sim
+launch_simulation -mode post-implementation -type timing
+open_wave_config C:/ece4743/lab3/tb_satadd_behav.wcfg
+source tb_satadd.tcl
+run 10 us
+report_utilization -name utilization_2
+report_utilization -name utilization_3

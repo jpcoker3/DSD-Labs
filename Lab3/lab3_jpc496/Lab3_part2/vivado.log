@@ -1,0 +1,604 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Sep 27 19:48:20 2022
+# Process ID: 93884
+# Current directory: C:/ece4743/Lab3/lab3_jpc496/Lab3_part2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent89316 C:\ece4743\Lab3\lab3_jpc496\Lab3_part2\project_1.xpr
+# Log file: C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/vivado.log
+# Journal file: C:/ece4743/Lab3/lab3_jpc496/Lab3_part2\vivado.jou
+# Running On: Lenovo-9i-Joe-Laptop, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 4, Host memory: 16901 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/ece4743/Lab3_part2' since last save.
+INFO: [filemgmt 56-1] IPUserFilesDir: Directory not found as 'C:/ece4743/Lab3/lab3_jpc496/Lab2/project_1/project_1.ip_user_files'; using path 'C:/ece4743/Lab2/project_1/project_1.ip_user_files' instead.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:07 . Memory (MB): peak = 1611.574 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.runs/synth_1/satadd.dcp to C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs synth_1 -jobs 4
+[Tue Sep 27 19:56:31 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.runs/synth_1/runme.log
+import_files -fileset utils_1 {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/satadd.dcp}}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Sep 27 19:56:52 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_satadd'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2022.1/data/xsim/xsim.ini' copied to run dir:'C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_satadd' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_satadd_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.srcs/sources_1/imports/Lab3_part2/satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module satadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.srcs/sim_1/imports/Lab3_part2/tb_satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_satadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj tb_satadd_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.gen/sources_1/ip/ip_addsub/sim/ip_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ip_addsub'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_14 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_14 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.srcs/sources_1/imports/Lab3_part2/satadd.v" Line 3. Module satadd doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.srcs/sources_1/imports/Lab3_part2/satadd.v" Line 3. Module satadd doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package c_addsub_v12_0_14.c_addsub_v12_0_14_viv_comp
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv_comp
+Compiling package xbip_addsub_v3_0_6.xbip_addsub_v3_0_6_viv_comp
+Compiling package c_addsub_v12_0_14.c_addsub_v12_0_14_pkg
+Compiling package c_addsub_v12_0_14.c_addsub_v12_0_14_pkg_legacy
+Compiling package c_reg_fd_v12_0_6.c_reg_fd_v12_0_6_viv_comp
+Compiling package unisim.vcomponents
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity c_addsub_v12_0_14.c_addsub_v12_0_14 [\c_addsub_v12_0_14(c_xdevicefami...]
+Compiling architecture ip_addsub_arch of entity xil_defaultlib.ip_addsub [ip_addsub_default]
+Compiling module xil_defaultlib.satadd
+Compiling module xil_defaultlib.tb_satadd
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_satadd_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_satadd_behav -key {Behavioral:sim_1:Functional:tb_satadd} -tclbatch {tb_satadd.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_satadd.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+          1(              200000): PASS, mode: 2, a: 004, b: 005, y: 009                                                                                                    #
+
+          2(              300000): PASS, mode: 1, a: 004, b: 005, y: 009                                                                                                    #
+
+          3(              400000): PASS, mode: 1, a: 004, b: 005, y: 009                                                                                                    #
+
+          4(              500000): PASS, mode: 2, a: b00, b: 100, y: c00                                                                                                    #
+
+          5(              600000): PASS, mode: 1, a: b00, b: 100, y: c00                                                                                                    #
+
+          6(              700000): PASS, mode: 1, a: b00, b: 100, y: c00                                                                                                    #
+
+          7(              800000): PASS, mode: 2, a: 7ff, b: 001, y: 800                                                                                                    #
+
+          8(              900000): FAIL, mode: 1, a: 7ff, b: 001, y (actual): 800, y (expected): 000007ff                                                                                                    #
+
+          9(             1000000): PASS, mode: 0, a: 7ff, b: 001, y: 800                                                                                                    #
+
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_satadd_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1611.574 ; gain = 0.000
+ru n10 us
+ERROR: [Simtcl 6-18] Time value n10 is missing the numeric part.
+run 10 us
+         10(             1100000): PASS, mode: 2, a: fff, b: 001, y: 000                                                                                                    #
+
+         11(             1200000): PASS, mode: 1, a: fff, b: 001, y: 000                                                                                                    #
+
+         12(             1300000): FAIL, mode: 0, a: fff, b: 001, y (actual): 000, y (expected): 00000fff                                                                                            #unsigned
+
+         13(             1400000): PASS, mode: 2, a: 800, b: fff, y: 7ff                                                                                                    #
+
+         14(             1500000): FAIL, mode: 1, a: 800, b: fff, y (actual): 7ff, y (expected): 00000800                                                                                                    #
+
+         15(             1600000): FAIL, mode: 0, a: 800, b: fff, y (actual): 7ff, y (expected): 00000fff                                                                                                    #
+
+         16(             1700000): FAIL, mode: 0, a: 86c, b: fde, y (actual): 84a, y (expected): 00000fff                                                                                                    #
+
+         17(             1800000): FAIL, mode: 0, a: 597, b: ecc, y (actual): 463, y (expected): 00000fff Ë‘  ¶(    Ë®Ä¶(          ¶§†  J   J      Ë¨Ä   Ëù        ¶§†¶ä8  Ë j ¶§†ËÆÄ   
+
+         18(             1900000): FAIL, mode: 0, a: f93, b: 539, y (actual): 4cc, y (expected): 00000fff Ë‘  ¶(    Ë®Ä¶(          ¶§†  c  Á      Ë¨Ä   Ëù        ¶§†¶ä8  Ë †¶§†ËÆÄ   
+
+         19(             2000000): FAIL, mode: 0, a: f68, b: d06, y (actual): c6e, y (expected): 00000fff Ë‘  ¶(    Ë®Ä¶(          ¶§†  Ã  »      Ë¨Ä   Ëù        ¶§†¶ä8  Ë w@¶§†ËÆÄ   
+
+         20(             2100000): PASS, mode: 0, a: 1a3, b: 2fc, y: 49f Ë‘  ¶(    Ë®Ä¶(          ¶§†  n  Ó      Ë¨Ä   Ëù        ¶§†¶ä8  Ë ˝‡¶§†ËÆÄ   
+
+         21(             2200000): PASS, mode: 0, a: 551, b: a5c, y: fad Ë‘  ¶(    Ë®Ä¶(          ¶§†  ü  ø      Ë¨Ä   Ëù        ¶§†¶ä8  Ë ÑÄ¶§†ËÆÄ   
+
+         22(             2300000): FAIL, mode: 0, a: d6d, b: f33, y (actual): ca0, y (expected): 00000fff ¶§†¶à   Ë®Ä        Ë‘  ¶(      ≠  ≠Â‚X       ¶
+pËù     Â‚X¶∂¶ä8    ¶ä            
+
+         23(             2400000): PASS, mode: 0, a: 0a8, b: c50, y: cf8 Ë‘  ¶(    Ë®Ä¶(          ¶§†  †  Ä      Ë¨Ä   Ëù        ¶§†¶ä8  Ë !ë¿¶§†ËÆÄ   
+
+         24(             2500000): FAIL, mode: 0, a: 916, b: de9, y (actual): 6ff, y (expected): 00000fff Ë‘  ¶(    Ë®Ä¶(          ¶§†  ¯  
+¯      Ë¨Ä   Ëù        ¶§†¶ä8  Ë #`¶§†ËÆÄ   
+
+         25(             2600000): FAIL, mode: 0, a: d7b, b: 38a, y (actual): 105, y (expected): 00000fff Ë‘  ¶(    Ë®Ä¶(          ¶§†  ˇ  ˇ      Ë¨Ä   Ëù        ¶§†¶ä8  Ë $ü ¶§†ËÆÄ   
+
+         26(             2700000): FAIL, mode: 0, a: a10, b: 8a8, y (actual): 2b8, y (expected): 00000fff Ë‘  ¶(    Ë®Ä¶(          ¶§†           Ë¨Ä   Ëù        ¶§†¶ä8  Ë &%†¶§†ËÆÄ   
+
+         27(             2800000): FAIL, mode: 0, a: f96, b: 9f9, y (actual): 98f, y (expected): 00000fff Ë‘  ¶(    Ë®Ä¶(          ¶§†  ∏  ¯      Ë¨Ä   Ëù        ¶§†¶ä8  Ë '¨@¶§†ËÆÄ   
+
+         28(             2900000): PASS, mode: 0, a: 6f0, b: 0ed, y: 7dd Ë‘  ¶(    Ë®Ä¶(          ¶§†  	è        Ë¨Ä   Ëù        ¶§†¶ä8  Ë )2‡¶§†ËÆÄ   
+
+         29(             3000000): FAIL, mode: 0, a: 5e5, b: e82, y (actual): 467, y (expected): 00000fff Ë‘  ¶(    Ë®Ä¶(          ¶§†  ›  ›      Ë¨Ä   Ëù        ¶§†¶ä8  Ë *πÄ¶§†ËÆÄ   
+
+         30(             3100000): FAIL, mode: 0, a: d34, b: 564, y (actual): 298, y (expected): 00000fff Ë‘  ¶(    Ë®Ä¶(          ¶§†  g  o      Ë¨Ä   Ëù        ¶§†¶ä8  Ë ,@ ¶§†ËÆÄ   
+
+         31(             3200000): FAIL, mode: 1, a: 893, b: ba1, y (actual): 434, y (expected): 00000800 Ë‘  ¶(    Ë®Ä¶(          ¶§†  ò        Ë¨Ä   Ëù        ¶§†¶ä8  Ë -∆¿¶§†ËÆÄ   
+
+         32(             3300000): PASS, mode: 1, a: af1, b: eb7, y: 9a8 Ë‘  ¶(    Ë®Ä¶(          ¶§†  4   0      Ë¨Ä   Ëù        ¶§†¶ä8  Ë /M`¶§†ËÆÄ   
+
+         33(             3400000): FAIL, mode: 1, a: a04, b: c54, y (actual): 658, y (expected): 00000800 Ë‘  ¶(    Ë®Ä¶(          ¶§†  	®  	†      Ë¨Ä   Ëù        ¶§†¶ä8  Ë 0‘ ¶§†ËÆÄ   
+
+         34(             3500000): FAIL, mode: 1, a: 84e, b: a98, y (actual): 2e6, y (expected): 00000800 Ë‘  ¶(    Ë®Ä¶(          ¶§†  X  ÿ      Ë¨Ä   Ëù        ¶§†¶ä8  Ë 2Z†¶§†ËÆÄ   
+
+         35(             3600000): FAIL, mode: 1, a: 967, b: 8e9, y (actual): 250, y (expected): 00000800 Ë‘  ¶(    Ë®Ä¶(          ¶§†  Ê  Ê      Ë¨Ä   Ëù        ¶§†¶ä8  Ë 3·@¶§†ËÆÄ   
+
+         36(             3700000): FAIL, mode: 1, a: af7, b: ce5, y (actual): 7dc, y (expected): 00000800 Ë‘  ¶(    Ë®Ä¶(          ¶§†  P  @      Ë¨Ä   Ëù        ¶§†¶ä8  Ë 5g‡¶§†ËÆÄ   
+
+         37(             3800000): FAIL, mode: 1, a: 92d, b: c4b, y (actual): 578, y (expected): 00000800 Ë‘  ¶(    Ë®Ä¶(          ¶§†  ‹  ¸      Ë¨Ä   Ëù        ¶§†¶ä8  Ë 6ÓÄ¶§†ËÆÄ   
+
+         38(             3900000): FAIL, mode: 1, a: acf, b: bcb, y (actual): 69a, y (expected): 00000800 Ë‘  ¶(    Ë®Ä¶(          ¶§†  x        Ë¨Ä   Ëù        ¶§†¶ä8  Ë 8u ¶§†ËÆÄ   
+
+         39(             4000000): PASS, mode: 1, a: bd6, b: c76, y: 84c Ë‘  ¶(    Ë®Ä¶(          ¶§†  ö  ö      Ë¨Ä   Ëù        ¶§†¶ä8  Ë 9˚¿¶§†ËÆÄ   
+
+         40(             4100000): PASS, mode: 1, a: be0, b: d8b, y: 96b Ë‘  ¶(    Ë®Ä¶(          ¶§†  L         Ë¨Ä   Ëù        ¶§†¶ä8  Ë ;Ç`¶§†ËÆÄ   
+
+         41(             4200000): FAIL, mode: 1, a: a97, b: 864, y (actual): 2fb, y (expected): 00000800 Ë‘  ¶(    Ë®Ä¶(          ¶§†  	k  	˚      Ë¨Ä   Ëù        ¶§†¶ä8  Ë =	 ¶§†ËÆÄ   
+
+         42(             4300000): PASS, mode: 1, a: aa9, b: e2f, y: 8d8 Ë‘  ¶(    Ë®Ä¶(          ¶§†  ˚  ˇ      Ë¨Ä   Ëù        ¶§†¶ä8  Ë >è†¶§†ËÆÄ   
+
+         43(             4400000): PASS, mode: 1, a: a03, b: e78, y: 87b Ë‘  ¶(    Ë®Ä¶(          ¶§†  ÿ  –      Ë¨Ä   Ëù        ¶§†¶ä8  Ë @@¶§†ËÆÄ   
+
+         44(             4500000): FAIL, mode: 1, a: 9ec, b: b94, y (actual): 580, y (expected): 00000800 Ë‘  ¶(    Ë®Ä¶(          ¶§†  {  ˚      Ë¨Ä   Ëù        ¶§†¶ä8  Ë Aú‡¶§†ËÆÄ   
+
+         45(             4600000): FAIL, mode: 1, a: 92a, b: ccb, y (actual): 5f5, y (expected): 00000800 Ë‘  ¶(    Ë®Ä¶(          ¶§†  Ä         Ë¨Ä   Ëù        ¶§†¶ä8  Ë C#Ä¶§†ËÆÄ   
+
+         46(             4700000): FAIL, mode: 1, a: 50b, b: 6d3, y (actual): bde, y (expected): 000007ff Ë‘  ¶(    Ë®Ä¶(          ¶§†  ı  ı      Ë¨Ä   Ëù        ¶§†¶ä8  Ë D™ ¶§†ËÆÄ   
+
+         47(             4800000): FAIL, mode: 1, a: 5af, b: 405, y (actual): 9b4, y (expected): 000007ff Ë‘  ¶(    Ë®Ä¶(          ¶§†  ﬁ  ˛      Ë¨Ä   Ëù        ¶§†¶ä8  Ë F0¿¶§†ËÆÄ   
+
+         48(             4900000): FAIL, mode: 1, a: 747, b: 4a5, y (actual): bec, y (expected): 000007ff Ë‘  ¶(    Ë®Ä¶(          ¶§†  	¥  ¥      Ë¨Ä   Ëù        ¶§†¶ä8  Ë G∑`¶§†ËÆÄ   
+
+         49(             5000000): PASS, mode: 1, a: 656, b: 02d, y: 683 Ë‘  ¶(    Ë®Ä¶(          ¶§†  Ï  \      Ë¨Ä   Ëù        ¶§†¶ä8  Ë I> ¶§†ËÆÄ   
+
+         50(             5100000): FAIL, mode: 1, a: 568, b: 2ea, y (actual): 852, y (expected): 000007ff Ë‘  ¶(    Ë®Ä¶(          ¶§†  É        Ë¨Ä   Ëù        ¶§†¶ä8  Ë Jƒ†¶§†ËÆÄ   
+
+         51(             5200000): FAIL, mode: 1, a: 654, b: 2cc, y (actual): 920, y (expected): 000007ff Ë‘  ¶(    Ë®Ä¶(          ¶§†  R   R      Ë¨Ä   Ëù        ¶§†¶ä8  Ë LK@¶§†ËÆÄ   
+
+         52(             5300000): PASS, mode: 1, a: 400, b: 301, y: 701 Ë‘  ¶(    Ë®Ä¶(          ¶§†  	   	       Ë¨Ä   Ëù        ¶§†¶ä8  Ë M—‡¶§†ËÆÄ   
+
+         53(             5400000): FAIL, mode: 1, a: 589, b: 2a5, y (actual): 82e, y (expected): 000007ff Ë‘  ¶(    Ë®Ä¶(          ¶§†          Ë¨Ä   Ëù        ¶§†¶ä8  Ë OXÄ¶§†ËÆÄ   
+
+         54(             5500000): PASS, mode: 1, a: 426, b: 0df, y: 505 Ë‘  ¶(    Ë®Ä¶(          ¶§†  .   .      Ë¨Ä   Ëù        ¶§†¶ä8  Ë Pﬂ ¶§†ËÆÄ   
+
+         55(             5600000): FAIL, mode: 1, a: 436, b: 53a, y (actual): 970, y (expected): 000007ff Ë‘  ¶(    Ë®Ä¶(          ¶§†          Ë¨Ä   Ëù        ¶§†¶ä8  Ë Re¿¶§†ËÆÄ   
+
+         56(             5700000): FAIL, mode: 1, a: 79f, b: 5cc, y (actual): d6b, y (expected): 000007ff Ë‘  ¶(    Ë®Ä¶(          ¶§†  	p  p      Ë¨Ä   Ëù        ¶§†¶ä8  Ë SÏ`¶§†ËÆÄ   
+
+         57(             5800000): FAIL, mode: 1, a: 691, b: 1ce, y (actual): 85f, y (expected): 000007ff Ë‘  ¶(    Ë®Ä¶(          ¶§†  
+k  
+Î      Ë¨Ä   Ëù        ¶§†¶ä8  Ë Us ¶§†ËÆÄ   
+
+         58(             5900000): PASS, mode: 1, a: 6a8, b: 144, y: 7ec Ë‘  ¶(    Ë®Ä¶(          ¶§†  _        Ë¨Ä   Ëù        ¶§†¶ä8  Ë V˘†¶§†ËÆÄ   
+
+         59(             6000000): PASS, mode: 1, a: 65b, b: 010, y: 66b Ë‘  ¶(    Ë®Ä¶(          ¶§†  Ï  Ï      Ë¨Ä   Ëù        ¶§†¶ä8  Ë XÄ@¶§†ËÆÄ   
+
+         60(             6100000): FAIL, mode: 1, a: 4f5, b: 6c6, y (actual): bbb, y (expected): 000007ff Ë‘  ¶(    Ë®Ä¶(          ¶§†  k  À      Ë¨Ä   Ëù        ¶§†¶ä8  Ë Z‡¶§†ËÆÄ   
+
+         61(             6200000): PASS, mode: 1, a: e1c, b: 134, y: f50 Ë‘  ¶(    Ë®Ä¶(          ¶§†  ª  ˚      Ë¨Ä   Ëù        ¶§†¶ä8  Ë [çÄ¶§†ËÆÄ   
+
+         62(             6300000): PASS, mode: 1, a: 8f8, b: 7ef, y: 0e7 ¶§†¶à   Ë®Ä        Ë‘  ¶(      P  PÂ‚X       ¶
+pËù     Â‚X¶∂¶ä8    ¶ä            
+
+         63(             6400000): PASS, mode: 1, a: dfe, b: 17a, y: f78 ¶§†¶à   Ë®Ä        Ë‘  ¶(       Á   ÁÂ‚X       ¶
+pËù     Â‚X¶∂¶ä8    ¶ä            
+
+         64(             6500000): PASS, mode: 1, a: 90f, b: 318, y: c27 ¶§†¶à   Ë®Ä        Ë‘  ¶(      x  xÂ·∏       ¶
+pËù     Â·∏¶∂¶ä8    ¶ä            
+
+         65(             6600000): PASS, mode: 1, a: b8b, b: 7d3, y: 35e Ë‘  ¶(    Ë®Ä¶(          ¶§†  '  /      Ë¨Ä   Ëù        ¶§†¶ä8  Ë a® ¶§†ËÆÄ   
+
+         66(             6700000): PASS, mode: 1, a: ee8, b: 6dc, y: 5c4 Ë‘  ¶(    Ë®Ä¶(          ¶§†  ^  ~      Ë¨Ä   Ëù        ¶§†¶ä8  Ë c.†¶§†ËÆÄ   
+
+         67(             6800000): PASS, mode: 1, a: d20, b: 7e0, y: 500 Ë‘  ¶(    Ë®Ä¶(          ¶§†  ƒ  Ñ      Ë¨Ä   Ëù        ¶§†¶ä8  Ë dµ@¶§†ËÆÄ   
+
+         68(             6900000): PASS, mode: 1, a: b7a, b: 24f, y: dc9 Ë‘  ¶(    Ë®Ä¶(          ¶§†            Ë¨Ä   Ëù        ¶§†¶ä8  Ë f;‡¶§†ËÆÄ   
+
+         69(             7000000): PASS, mode: 1, a: c9f, b: 5b9, y: 258 Ë‘  ¶(    Ë®Ä¶(          ¶§†  
+…  
+â      Ë¨Ä   Ëù        ¶§†¶ä8  Ë g¬Ä¶§†ËÆÄ   
+
+         70(             7100000): PASS, mode: 1, a: 995, b: 36f, y: d04 Ë‘  ¶(    Ë®Ä¶(          ¶§†  X   ò      Ë¨Ä   Ëù        ¶§†¶ä8  Ë iI ¶§†ËÆÄ   
+
+         71(             7200000): PASS, mode: 1, a: cc3, b: 40c, y: 0cf Ë‘  ¶(    Ë®Ä¶(          ¶§†  
+        Ë¨Ä   Ëù        ¶§†¶ä8  Ë jœ¿¶§†ËÆÄ   
+
+         72(             7300000): PASS, mode: 1, a: 812, b: 107, y: 919 Ë‘  ¶(    Ë®Ä¶(          ¶§†   œ   ﬂ      Ë¨Ä   Ëù        ¶§†¶ä8  Ë lV`¶§†ËÆÄ   
+
+         73(             7400000): PASS, mode: 1, a: 9fb, b: 194, y: b8f Ë‘  ¶(    Ë®Ä¶(          ¶§†  	  	      Ë¨Ä   Ëù        ¶§†¶ä8  Ë m› ¶§†ËÆÄ   
+
+         74(             7500000): PASS, mode: 1, a: 817, b: 6eb, y: f02 Ë‘  ¶(    Ë®Ä¶(          ¶§†  è  ü      Ë¨Ä   Ëù        ¶§†¶ä8  Ë oc†¶§†ËÆÄ   
+
+         75(             7600000): PASS, mode: 1, a: ac4, b: 40e, y: ed2 Ë‘  ¶(    Ë®Ä¶(          ¶§†          Ë¨Ä   Ëù        ¶§†¶ä8  Ë pÍ@¶§†ËÆÄ   
+
+         76(             7700000): PASS, mode: 1, a: ac4, b: 40e, y: ed2 Ë‘  ¶(    Ë®Ä¶(          ¶§†          Ë¨Ä   Ëù        ¶§†¶ä8  Ë pÍ@¶§†ËÆÄ   
+
+         77(             7800000): PASS, mode: 1, a: ac4, b: 40e, y: ed2 Ë‘  ¶(    Ë®Ä¶(          ¶§†          Ë¨Ä   Ëù        ¶§†¶ä8  Ë pÍ@¶§†ËÆÄ   
+
+         78(             7900000): PASS, mode: 1, a: ac4, b: 40e, y: ed2 Ë‘  ¶(    Ë®Ä¶(          ¶§†          Ë¨Ä   Ëù        ¶§†¶ä8  Ë pÍ@¶§†ËÆÄ   
+
+         79(             8000000): PASS, mode: 1, a: ac4, b: 40e, y: ed2 Ë‘  ¶(    Ë®Ä¶(          ¶§†          Ë¨Ä   Ëù        ¶§†¶ä8  Ë pÍ@¶§†ËÆÄ   
+
+         80(             8100000): PASS, mode: 1, a: ac4, b: 40e, y: ed2 Ë‘  ¶(    Ë®Ä¶(          ¶§†          Ë¨Ä   Ëù        ¶§†¶ä8  Ë pÍ@¶§†ËÆÄ   
+
+         81(             8200000): PASS, mode: 1, a: ac4, b: 40e, y: ed2 Ë‘  ¶(    Ë®Ä¶(          ¶§†          Ë¨Ä   Ëù        ¶§†¶ä8  Ë pÍ@¶§†ËÆÄ   
+
+         82(             8300000): PASS, mode: 1, a: ac4, b: 40e, y: ed2 Ë‘  ¶(    Ë®Ä¶(          ¶§†          Ë¨Ä   Ëù        ¶§†¶ä8  Ë pÍ@¶§†ËÆÄ   
+
+         83(             8400000): PASS, mode: 1, a: ac4, b: 40e, y: ed2 Ë‘  ¶(    Ë®Ä¶(          ¶§†          Ë¨Ä   Ëù        ¶§†¶ä8  Ë pÍ@¶§†ËÆÄ   
+
+FAIL:          35 vectors failed
+
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_satadd'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2022.1/data/xsim/xsim.ini' copied to run dir:'C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_satadd' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_satadd_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.srcs/sources_1/imports/Lab3_part2/satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module satadd
+WARNING: [VRFC 10-8658] /* is inside a comment [C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.srcs/sources_1/imports/Lab3_part2/satadd.v:43]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.srcs/sim_1/imports/Lab3_part2/tb_satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_satadd
+"xvhdl --incr --relax -prj tb_satadd_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_14 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_14 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_satadd_behav xil_defaultlib.tb_satadd xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.srcs/sources_1/imports/Lab3_part2/satadd.v" Line 3. Module satadd doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.srcs/sources_1/imports/Lab3_part2/satadd.v" Line 3. Module satadd doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package c_addsub_v12_0_14.c_addsub_v12_0_14_viv_comp
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv_comp
+Compiling package xbip_addsub_v3_0_6.xbip_addsub_v3_0_6_viv_comp
+Compiling package c_addsub_v12_0_14.c_addsub_v12_0_14_pkg
+Compiling package c_addsub_v12_0_14.c_addsub_v12_0_14_pkg_legacy
+Compiling package c_reg_fd_v12_0_6.c_reg_fd_v12_0_6_viv_comp
+Compiling package unisim.vcomponents
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity c_addsub_v12_0_14.c_addsub_v12_0_14 [\c_addsub_v12_0_14(c_xdevicefami...]
+Compiling architecture ip_addsub_arch of entity xil_defaultlib.ip_addsub [ip_addsub_default]
+Compiling module xil_defaultlib.satadd
+Compiling module xil_defaultlib.tb_satadd
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_satadd_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/ece4743/Lab3/lab3_jpc496/Lab3_part2/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_satadd_behav -key {Behavioral:sim_1:Functional:tb_satadd} -tclbatch {tb_satadd.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_satadd.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+          1(              200000): PASS, mode: 2, a: 004, b: 005, y: 009                                                                                                    #
+
+          2(              300000): PASS, mode: 1, a: 004, b: 005, y: 009                                                                                                    #
+
+          3(              400000): PASS, mode: 1, a: 004, b: 005, y: 009                                                                                                    #
+
+          4(              500000): PASS, mode: 2, a: b00, b: 100, y: c00                                                                                                    #
+
+          5(              600000): PASS, mode: 1, a: b00, b: 100, y: c00                                                                                                    #
+
+          6(              700000): PASS, mode: 1, a: b00, b: 100, y: c00                                                                                                    #
+
+          7(              800000): PASS, mode: 2, a: 7ff, b: 001, y: 800                                                                                                    #
+
+          8(              900000): PASS, mode: 1, a: 7ff, b: 001, y: 7ff                                                                                                    #
+
+          9(             1000000): PASS, mode: 0, a: 7ff, b: 001, y: 800                                                                                                    #
+
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_satadd_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1611.574 ; gain = 0.000
+run 10 us
+         10(             1100000): PASS, mode: 2, a: fff, b: 001, y: 000                                                                                                    #
+
+         11(             1200000): PASS, mode: 1, a: fff, b: 001, y: 000                                                                                                    #
+
+         12(             1300000): PASS, mode: 0, a: fff, b: 001, y: fff                                                                                            #unsigned
+
+         13(             1400000): PASS, mode: 2, a: 800, b: fff, y: 7ff                                                                                                    #
+
+         14(             1500000): PASS, mode: 1, a: 800, b: fff, y: 800                                                                                                    #
+
+         15(             1600000): PASS, mode: 0, a: 800, b: fff, y: fff                                                                                                    #
+
+         16(             1700000): PASS, mode: 0, a: 86c, b: fde, y: fff  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  ˇ         77Ä          
+
+         17(             1800000): PASS, mode: 0, a: 597, b: ecc, y: fff  0 78  aÿ78Ä  ºò73Ä    7(Ä a( ∂à   73Ä         7_   ∑(      ˇ  ˇ        ?p    7:     
+
+         18(             1900000): PASS, mode: 0, a: f93, b: 539, y: fff  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(      ˇ  ˇ        ?p    7:     
+
+         19(             2000000): PASS, mode: 0, a: f68, b: d06, y: fff  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(      ˇ  ˇ        ?p    7:     
+
+         20(             2100000): PASS, mode: 0, a: 1a3, b: 2fc, y: 49f  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(      ˇ  ˇ        ?p    7:     
+
+         21(             2200000): PASS, mode: 0, a: 551, b: a5c, y: fad  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  ü  ü      77Ä   7:     
+
+         22(             2300000): PASS, mode: 0, a: d6d, b: f33, y: fff  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  ≠  ≠      77Ä   7:     
+
+         23(             2400000): PASS, mode: 0, a: 0a8, b: c50, y: cf8  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(      ˇ  ˇ        ?p    7:     
+
+         24(             2500000): PASS, mode: 0, a: 916, b: de9, y: fff  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  ¯  ¯      77Ä   7:     
+
+         25(             2600000): PASS, mode: 0, a: d7b, b: 38a, y: fff  bà    ΩP73Ä         7_   Ω      ˇ  ˇ          7_   ∑(      ˇ  ˇ        ?p    7:     
+
+         26(             2700000): PASS, mode: 0, a: a10, b: 8a8, y: fff  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(      ˇ  ˇ        ?p   7:     
+
+         27(             2800000): PASS, mode: 0, a: f96, b: 9f9, y: fff  bà    ΩP73Ä         7_   Ω      ˇ  ˇ          7_   ∑(      ˇ  ˇ        ?p    7:     
+
+         28(             2900000): PASS, mode: 0, a: 6f0, b: 0ed, y: 7dd  0 78  aÿ78Ä  ºò73Ä    7(Ä a( ∂à   73Ä         7_   ∑(      ˇ  ˇ        ?p    7:     
+
+         29(             3000000): PASS, mode: 0, a: 5e5, b: e82, y: fff  0 78  aÿ78Ä  ºò73Ä    7(Ä a( ∂à   73Ä         7_   ∑(      ›  ›      77Ä   7:     
+
+         30(             3100000): PASS, mode: 0, a: d34, b: 564, y: fff  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(      ˇ  ˇ        ?p   7:     
+
+         31(             3200000): PASS, mode: 1, a: 893, b: ba1, y: 800  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(      ˇ  ˇ        ?p    7:     
+
+         32(             3300000): PASS, mode: 1, a: af1, b: eb7, y: 9a8  bà    ΩP73Ä         7_   Ω      ˇ  ˇ          7_   ∑(                  ?p    7:     
+
+         33(             3400000): PASS, mode: 1, a: a04, b: c54, y: 800  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  	®  	†      77Ä   7:     
+
+         34(             3500000): PASS, mode: 1, a: 84e, b: a98, y: 800  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(             77Ä   7:     
+
+         35(             3600000): PASS, mode: 1, a: 967, b: 8e9, y: 800  bà    ΩP73Ä         7_   Ω      ˇ  ˇ          7_   ∑(                  ?p    7:     
+
+         36(             3700000): PASS, mode: 1, a: af7, b: ce5, y: 800  bà    ΩP73Ä         7_   Ω      ˇ  ˇ          7_   ∑(                  ?p    7:     
+
+         37(             3800000): PASS, mode: 1, a: 92d, b: c4b, y: 800  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(             77Ä   7:     
+
+         38(             3900000): PASS, mode: 1, a: acf, b: bcb, y: 800  bà    ΩP73Ä         7_   Ω      ˇ  ˇ          7_   ∑(                  ?p    7:     
+
+         39(             4000000): PASS, mode: 1, a: bd6, b: c76, y: 84c  bà    ΩP73Ä         7_   Ω      ˇ  ˇ          7_   ∑(                  ?p    7:     
+
+         40(             4100000): PASS, mode: 1, a: be0, b: d8b, y: 96b  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  L         77Ä   7:     
+
+         41(             4200000): PASS, mode: 1, a: a97, b: 864, y: 800  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  	k  	k      77Ä   7:     
+
+         42(             4300000): PASS, mode: 1, a: aa9, b: e2f, y: 8d8  bà    ΩP73Ä         7_   Ω      ˇ  ˇ          7_   ∑(                  ?p   7:     
+
+         43(             4400000): PASS, mode: 1, a: a03, b: e78, y: 87b  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  ÿ  –      77Ä   7:     
+
+         44(             4500000): PASS, mode: 1, a: 9ec, b: b94, y: 800  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  {  {      77Ä   7:     
+
+         45(             4600000): PASS, mode: 1, a: 92a, b: ccb, y: 800  bà    ΩP73Ä         7_   Ω      ˇ  ˇ          7_   ∑(                  ?p    7:     
+
+         46(             4700000): PASS, mode: 1, a: 50b, b: 6d3, y: 7ff  bà    ΩP73Ä         7_   Ω      ˇ  ˇ          7_   ∑(                  ?p    7:     
+
+         47(             4800000): PASS, mode: 1, a: 5af, b: 405, y: 7ff  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(      ˇ  ˇ        ?p    7:     
+
+         48(             4900000): PASS, mode: 1, a: 747, b: 4a5, y: 7ff  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(      ˇ  ˇ        ?p    7:     
+
+         49(             5000000): PASS, mode: 1, a: 656, b: 02d, y: 683  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(      ˇ  ˇ        ?p    7:     
+
+         50(             5100000): PASS, mode: 1, a: 568, b: 2ea, y: 7ff  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  É        77Ä   7:     
+
+         51(             5200000): PASS, mode: 1, a: 654, b: 2cc, y: 7ff  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  ˇ   R      77Ä   7:     
+
+         52(             5300000): PASS, mode: 1, a: 400, b: 301, y: 701  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(      ˇ  ˇ        ?p    7:     
+
+         53(             5400000): PASS, mode: 1, a: 589, b: 2a5, y: 7ff  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(          77Ä   7:     
+
+         54(             5500000): PASS, mode: 1, a: 426, b: 0df, y: 505  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  ˇ   .      77Ä   7:     
+
+         55(             5600000): PASS, mode: 1, a: 436, b: 53a, y: 7ff  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(          77Ä   7:     
+
+         56(             5700000): PASS, mode: 1, a: 79f, b: 5cc, y: 7ff  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(      ˇ  ˇ        ?p   7:     
+
+         57(             5800000): PASS, mode: 1, a: 691, b: 1ce, y: 7ff  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(      ˇ  ˇ        ?p    7:     
+
+         58(             5900000): PASS, mode: 1, a: 6a8, b: 144, y: 7ec  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(      ˇ  ˇ        ?p    7:     
+
+         59(             6000000): PASS, mode: 1, a: 65b, b: 010, y: 66b  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  Ï  Ï      77Ä   7:     
+
+         60(             6100000): PASS, mode: 1, a: 4f5, b: 6c6, y: 7ff  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  k  K      77Ä   7:     
+
+         61(             6200000): PASS, mode: 1, a: e1c, b: 134, y: f50  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(      ˇ  ˇ        ?p   7:     
+
+         62(             6300000): PASS, mode: 1, a: 8f8, b: 7ef, y: 0e7  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(      P  P        ?p   7:     
+
+         63(             6400000): PASS, mode: 1, a: dfe, b: 17a, y: f78  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(       Á   Á        ?p   7:     
+
+         64(             6500000): PASS, mode: 1, a: 90f, b: 318, y: c27  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(      x  x        ?p   7:     
+
+         65(             6600000): PASS, mode: 1, a: b8b, b: 7d3, y: 35e  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  '  '      77Ä   7:     
+
+         66(             6700000): PASS, mode: 1, a: ee8, b: 6dc, y: 5c4  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(      ^  ^      77Ä   7:     
+
+         67(             6800000): PASS, mode: 1, a: d20, b: 7e0, y: 500  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  ƒ  Ñ      77Ä   7:     
+
+         68(             6900000): PASS, mode: 1, a: b7a, b: 24f, y: dc9  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(            77Ä   7:     
+
+         69(             7000000): PASS, mode: 1, a: c9f, b: 5b9, y: 258  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  
+…  
+â      77Ä   7:     
+
+         70(             7100000): PASS, mode: 1, a: 995, b: 36f, y: d04  0     ΩP78Ä            7(Ä a( ∂à   73Ä         7_   ∑(      X  X      77Ä   7:     
+
+         71(             7200000): PASS, mode: 1, a: cc3, b: 40c, y: 0cf  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  
+        77Ä   7:     
+
+         72(             7300000): PASS, mode: 1, a: 812, b: 107, y: 919  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(   œ   œ      77Ä   7:     
+
+         73(             7400000): PASS, mode: 1, a: 9fb, b: 194, y: b8f  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  	  	      77Ä   7:     
+
+         74(             7500000): PASS, mode: 1, a: 817, b: 6eb, y: f02  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(  è  è      77Ä   7:     
+
+         75(             7600000): PASS, mode: 1, a: ac4, b: 40e, y: ed2  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(          77Ä   7:     
+
+         76(             7700000): PASS, mode: 1, a: ac4, b: 40e, y: ed2  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(          77Ä   7:     
+
+         77(             7800000): PASS, mode: 1, a: ac4, b: 40e, y: ed2  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(          77Ä   7:     
+
+         78(             7900000): PASS, mode: 1, a: ac4, b: 40e, y: ed2  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(          77Ä   7:     
+
+         79(             8000000): PASS, mode: 1, a: ac4, b: 40e, y: ed2  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(          77Ä   7:     
+
+         80(             8100000): PASS, mode: 1, a: ac4, b: 40e, y: ed2  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(          77Ä   7:     
+
+         81(             8200000): PASS, mode: 1, a: ac4, b: 40e, y: ed2  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(          77Ä   7:     
+
+         82(             8300000): PASS, mode: 1, a: ac4, b: 40e, y: ed2  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(          77Ä   7:     
+
+         83(             8400000): PASS, mode: 1, a: ac4, b: 40e, y: ed2  a(      78Ä         ∂à a(7_   ∑(    73Ä  ∑(           a(          77Ä   7:     
+
+PASS: All vectors passed.
+
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 27 20:04:31 2022...

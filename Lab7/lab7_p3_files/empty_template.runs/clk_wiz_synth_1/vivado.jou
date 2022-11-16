@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Nov  1 22:58:00 2022
+# Process ID: 89248
+# Current directory: C:/ece4743/Lab7/lab7_p3_files/empty_template.runs/clk_wiz_synth_1
+# Command line: vivado.exe -log clk_wiz.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_wiz.tcl
+# Log file: C:/ece4743/Lab7/lab7_p3_files/empty_template.runs/clk_wiz_synth_1/clk_wiz.vds
+# Journal file: C:/ece4743/Lab7/lab7_p3_files/empty_template.runs/clk_wiz_synth_1\vivado.jou
+# Running On: Lenovo-9i-Joe-Laptop, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 4, Host memory: 16901 MB
+#-----------------------------------------------------------
+source clk_wiz.tcl -notrace

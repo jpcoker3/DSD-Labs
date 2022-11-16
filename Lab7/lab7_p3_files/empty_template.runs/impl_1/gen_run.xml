@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1667401524">
+  <File Type="ROUTE-PWR" Name="timertop_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="timertop.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="timertop_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="timertop_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="timertop.msk"/>
+  <File Type="ROUTE-CLK" Name="timertop_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="timertop.vdi"/>
+  <File Type="BG-BIT" Name="timertop.bit"/>
+  <File Type="BG-DRC" Name="timertop.drc"/>
+  <File Type="BG-BGN" Name="timertop.bgn"/>
+  <File Type="BG-BIN" Name="timertop.bin"/>
+  <File Type="BITSTR-RBT" Name="timertop.rbt"/>
+  <File Type="BITSTR-NKY" Name="timertop.nky"/>
+  <File Type="BITSTR-BMM" Name="timertop_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="timertop.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="timertop_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="timertop.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="timertop.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="timertop_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="timertop.hwdef"/>
+  <File Type="PLACE-IO" Name="timertop_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="timertop_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="timertop_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="timertop_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="timertop_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="timertop_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="timertop_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="timertop_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="timertop_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="timertop_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="timertop_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="timertop_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="timertop_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="timertop_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="timertop_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="timertop_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="timertop_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="timertop_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="timertop_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="timertop_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="timertop_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="timertop_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="timertop_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="timertop_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="timertop_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="timertop_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="timertop_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="timertop_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="timertop_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="timertop.pdi"/>
+  <File Type="RCFI_FILE" Name="timertop.rcfi"/>
+  <File Type="CFI_FILE" Name="timertop.cfi"/>
+  <File Type="RNPI_FILE" Name="timertop.rnpi"/>
+  <File Type="NPI_FILE" Name="timertop.npi"/>
+  <File Type="RBD_FILE" Name="timertop.rbd"/>
+  <File Type="ROUTE-RQS" Name="timertop_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="timertop_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/timer32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/timer_p3.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="timertop"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/timertop.dcp">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/jpcok/Desktop/School Docs/Junior_1/Digital_System_Design/github files/lab1/empty_template.srcs/utils_1/imports/synth_1/timertop.dcp"/>
+        <Attr Name="ImportTime" Val="1667362434"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz"/>
+</GenRun>

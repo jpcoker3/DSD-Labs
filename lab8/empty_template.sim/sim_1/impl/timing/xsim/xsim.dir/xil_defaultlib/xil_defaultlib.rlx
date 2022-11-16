@@ -1,0 +1,6 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/ece4743/lab8/empty_template.sim/sim_1/impl/timing/xsim/tb_fifo_time_impl.v,1668196044,verilog,,C:/ece4743/lab8/tb_fifo.v,,blk_mem_gen;blk_mem_gen_generic_cstr;blk_mem_gen_prim_width;blk_mem_gen_prim_wrapper;blk_mem_gen_top;blk_mem_gen_v8_4_5;blk_mem_gen_v8_4_5_synth;fifo;glbl,,,,,,,,
+C:/ece4743/lab8/tb_fifo.v,1667855536,verilog,,,,tb_fifo,,,,,,,,

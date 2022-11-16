@@ -1,0 +1,591 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Aug 30 18:54:18 2022
+# Process ID: 93148
+# Current directory: C:/ece4743/Lab2/lab2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent72320 C:\ece4743\Lab2\lab2\try_again.xpr
+# Log file: C:/ece4743/Lab2/lab2/vivado.log
+# Journal file: C:/ece4743/Lab2/lab2\vivado.jou
+# Running On: Lenovo-9i-Joe-Laptop, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 4, Host memory: 16901 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/ece4743/Lab2/lab2/try_again.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab1' since last save.
+INFO: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/ece4743/Lab2/lab2/try_again.gen/sources_1', nor could it be found using path 'C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab1/empty_template.gen/sources_1'.
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/ece4743/vivado_2016/empty_template/empty_template.ip_user_files', nor could it be found using path 'C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/vivado_2016/empty_template/empty_template.ip_user_files'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/ece4743/Lab2/lab2/lab1 - Copy.v', nor could it be found using path 'C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab1/lab1 - Copy.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/ece4743/Lab2/lab2/tb_lab1 - Copy.v', nor could it be found using path 'C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab1/tb_lab1 - Copy.v'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 1648.375 ; gain = 0.000
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/ece4743/Lab2/lab2/lab1 - Copy.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/ece4743/Lab2/lab2/lab1 - Copy.v}}
+remove_files  {{C:/ece4743/Lab2/lab2/lab1 - Copy.v}}
+WARNING: [Vivado 12-818] No files matched 'C:/ece4743/Lab2/lab2/lab1 - Copy.v'
+export_ip_user_files -of_objects  [get_files {{C:/ece4743/Lab2/lab2/tb_lab1 - Copy.v}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/ece4743/Lab2/lab2/tb_lab1 - Copy.v}}
+delete_fileset [ get_filesets utils_1 ]
+ERROR: [Common 17-53] User Exception: Sorry, cannot delete utils_1 fileset
+import_files -norecurse C:/ece4743/Lab2/lab2/max3sint16b.v
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse C:/ece4743/Lab2/lab2/tb_max3sint16b.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_runs synth_1 -jobs 4
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Tue Aug 30 18:56:41 2022] Launched synth_1...
+Run output will be captured here: C:/ece4743/Lab2/lab2/try_again.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Aug 30 18:57:21 2022] Launched impl_1...
+Run output will be captured here: C:/ece4743/Lab2/lab2/try_again.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1648.375 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 1648.375 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 1648.375 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1990.461 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 2095.512 ; gain = 447.137
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+launch_simulation -mode post-implementation -type timing
+Command: launch_simulation  -mode post-implementation -type timing
+INFO: [Vivado 12-12493] Simulation top is 'tb_max3sint16b'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching post-implementation timing simulation in 'C:/ece4743/Lab2/lab2/try_again.sim/sim_1/impl/timing/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-31] Writing simulation netlist file for design 'impl_1'...
+INFO: [SIM-utils-32] write_verilog -mode timesim -nolib -sdf_anno true -force -file "C:/ece4743/Lab2/lab2/try_again.sim/sim_1/impl/timing/xsim/tb_max3sint16b_time_impl.v"
+INFO: [SIM-utils-34] Writing SDF file...
+INFO: [SIM-utils-35] write_sdf -mode timesim -process_corner slow -force -file "C:/ece4743/Lab2/lab2/try_again.sim/sim_1/impl/timing/xsim/tb_max3sint16b_time_impl.sdf"
+INFO: [SIM-utils-36] Netlist generated:C:/ece4743/Lab2/lab2/try_again.sim/sim_1/impl/timing/xsim/tb_max3sint16b_time_impl.v
+INFO: [SIM-utils-37] SDF generated:C:/ece4743/Lab2/lab2/try_again.sim/sim_1/impl/timing/xsim/tb_max3sint16b_time_impl.sdf
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_max3sint16b' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/ece4743/Lab2/lab2/try_again.sim/sim_1/impl/timing/xsim'
+"xvlog --incr --relax -prj tb_max3sint16b_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/Lab2/lab2/try_again.sim/sim_1/impl/timing/xsim/tb_max3sint16b_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module max3sint16b
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/Lab2/lab2/try_again.srcs/sim_1/imports/lab2/tb_max3sint16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_max3sint16b
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/ece4743/Lab2/lab2/try_again.sim/sim_1/impl/timing/xsim'
+"xelab --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_max3sint16b_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_max3sint16b xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_max3sint16b_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_max3sint16b xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "tb_max3sint16b_time_impl.sdf", for root module "tb_max3sint16b/uut".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "tb_max3sint16b_time_impl.sdf", for root module "tb_max3sint16b/uut".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.LUT4
+Compiling module simprims_ver.CARRY4
+Compiling module xil_defaultlib.max3sint16b
+Compiling module xil_defaultlib.tb_max3sint16b
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_max3sint16b_time_impl
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 2198.887 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/ece4743/Lab2/lab2/try_again.sim/sim_1/impl/timing/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_max3sint16b_time_impl -key {Post-Implementation:sim_1:Timing:tb_max3sint16b} -tclbatch {tb_max3sint16b.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_max3sint16b.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: file ../../../../max3sint16b_vectors.txt could not be opened
+          1(              150000): PASS, a: -19809, b: -28280, c:   1702, y:   1702
+
+          2(              200000): PASS, a:  22880, b: -11241, c: -20807, y:  22880
+
+          3(              250000): PASS, a:   1000, b:   2000, c:    500, y:   2000
+
+          4(              300000): PASS, a:  -9749, b:  19487, c:   2050, y:  19487
+
+          5(              350000): PASS, a: -10951, b: -22090, c:  11991, y:  11991
+
+          6(              400000): PASS, a: -21369, b:   6842, c: -20038, y:   6842
+
+          7(              450000): PASS, a:  24539, b:   -992, c:  -7868, y:  24539
+
+          8(              500000): PASS, a: -23425, b: -32344, c:  26936, y:  26936
+
+          9(              550000): PASS, a: -26957, b:  10757, c: -22881, y:  10757
+
+         10(              600000): PASS, a:  31298, b: -19483, c: -24812, y:  31298
+
+         11(              650000): PASS, a:    629, b:  12210, c: -13199, y:  12210
+
+         12(              700000): PASS, a: -21005, b: -31924, c: -11688, y: -11688
+
+         13(              750000): PASS, a: -25940, b:  22632, c:  27086, y:  27086
+
+         14(              800000): PASS, a: -13042, b: -22848, c:  32630, y:  32630
+
+         15(              850000): PASS, a: -13943, b: -27980, c:   5517, y:   5517
+
+         16(              900000): PASS, a:   5961, b:   2287, c: -20402, y:   5961
+
+         17(              950000): PASS, a:  13729, b:  -9493, c:  23247, y:  23247
+
+         18(             1000000): PASS, a:   2603, b:  19114, c: -11338, y:  19114
+
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_max3sint16b_time_impl' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 2226.230 ; gain = 40.570
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_max3sint16b/uut}} 
+run 10 us
+         19(             1050000): PASS, a:  22207, b:  17233, c: -15165, y:  22207
+
+         20(             1100000): PASS, a: -32661, b: -26686, c: -14444, y: -14444
+
+         21(             1150000): PASS, a:    427, b:  19919, c:   3920, y:  19919
+
+         22(             1200000): PASS, a:   1732, b:  18750, c: -24116, y:  18750
+
+         23(             1250000): PASS, a:  -4309, b:   -984, c:  13126, y:  13126
+
+         24(             1300000): PASS, a:   2486, b:   7151, c:  25842, y:  25842
+
+         25(             1350000): PASS, a:   3597, b:   1488, c:  11885, y:  11885
+
+         26(             1400000): PASS, a:  -7571, b:  20937, c:  -2143, y:  20937
+
+         27(             1450000): PASS, a: -25075, b:   1453, c: -25691, y:   1453
+
+         28(             1500000): PASS, a:  15913, b:  -5451, c:  -7007, y:  15913
+
+         29(             1550000): PASS, a:  26867, b:  18955, c: -31547, y:  26867
+
+         30(             1600000): PASS, a: -12938, b:   9368, c:  19732, y:  19732
+
+         31(             1650000): PASS, a: -25688, b:   8971, c:  14110, y:  14110
+
+         32(             1700000): PASS, a:   9708, b:   4733, c:  -2529, y:   9708
+
+         33(             1750000): PASS, a:  30056, b:   6836, c: -13194, y:  30056
+
+         34(             1800000): PASS, a: -28297, b: -27882, c: -12413, y: -12413
+
+         35(             1850000): PASS, a:  29048, b:  -9789, c: -20555, y:  29048
+
+         36(             1900000): PASS, a:  27078, b:  -1557, c: -27965, y:  27078
+
+         37(             1950000): PASS, a:   3052, b: -25789, c:  31102, y:  31102
+
+         38(             2000000): PASS, a:  16225, b:  12911, c:   4120, y:  16225
+
+         39(             2050000): PASS, a:   -580, b:  -4899, c:   1543, y:   1543
+
+         40(             2100000): PASS, a:  27236, b: -19925, c: -28329, y:  27236
+
+         41(             2150000): PASS, a: -17741, b: -28402, c:  -4791, y:  -4791
+
+         42(             2200000): PASS, a: -30434, b:  -6270, c:  12803, y:  12803
+
+         43(             2250000): PASS, a: -21667, b:  31410, c:  13836, y:  31410
+
+         44(             2300000): PASS, a:  20573, b:  -2264, c:   2856, y:  20573
+
+         45(             2350000): PASS, a: -28755, b:  17195, c:     92, y:  17195
+
+         46(             2400000): PASS, a:  26076, b:   2813, c:  -3264, y:  26076
+
+         47(             2450000): PASS, a:  17451, b:  30412, c:  27919, y:  30412
+
+         48(             2500000): PASS, a:  20493, b:  27779, c: -21523, y:  27779
+
+         49(             2550000): PASS, a:  10116, b:  -3388, c:   7264, y:  10116
+
+         50(             2600000): PASS, a: -16264, b:  27084, c:  14507, y:  27084
+
+         51(             2650000): PASS, a:  16962, b:  -2063, c:   4359, y:  16962
+
+         52(             2700000): PASS, a: -31183, b:  16047, c:  12191, y:  16047
+
+         53(             2750000): PASS, a: -19822, b: -17548, c: -31002, y: -17548
+
+         54(             2800000): PASS, a:  31757, b: -15446, c:   4102, y:  31757
+
+         55(             2850000): PASS, a:  13609, b:  22554, c: -25135, y:  22554
+
+         56(             2900000): PASS, a:   1268, b:  -9985, c: -31411, y:   1268
+
+         57(             2950000): PASS, a: -22850, b: -31534, c: -30517, y: -22850
+
+         58(             3000000): PASS, a:  -8640, b: -14625, c: -16517, y:  -8640
+
+         59(             3050000): PASS, a:   9916, b: -32070, c: -20914, y:   9916
+
+         60(             3100000): PASS, a:   9833, b:   5129, c:  17742, y:  17742
+
+         61(             3150000): PASS, a:  26974, b:   8465, c: -24644, y:  26974
+
+         62(             3200000): PASS, a: -16654, b:  -6564, c:  21401, y:  21401
+
+         63(             3250000): PASS, a: -19608, b:  20322, c:  28303, y:  28303
+
+         64(             3300000): PASS, a:  29218, b: -29304, c:  16437, y:  29218
+
+         65(             3350000): PASS, a: -29110, b: -28877, c:  21618, y:  21618
+
+         66(             3400000): PASS, a: -31375, b: -18869, c:   1995, y:   1995
+
+         67(             3450000): PASS, a:  13831, b:  21144, c:  30253, y:  30253
+
+         68(             3500000): PASS, a: -25464, b:   6852, c:  -2877, y:   6852
+
+         69(             3550000): PASS, a:  31567, b:   2535, c:  10161, y:  31567
+
+         70(             3600000): PASS, a: -30281, b:  -7938, c:  22747, y:  22747
+
+         71(             3650000): PASS, a:  11536, b:   7653, c:  30379, y:  30379
+
+         72(             3700000): PASS, a:   9662, b: -29988, c:  26947, y:  26947
+
+         73(             3750000): PASS, a:   5955, b:  -4650, c:   1444, y:   5955
+
+         74(             3800000): PASS, a: -10069, b: -14012, c:  -3070, y:  -3070
+
+         75(             3850000): PASS, a:  18367, b: -25831, c: -20855, y:  18367
+
+         76(             3900000): PASS, a: -23310, b:  21825, c:  19984, y:  21825
+
+         77(             3950000): PASS, a:  -3383, b:  24926, c: -10912, y:  24926
+
+         78(             4000000): PASS, a:  22992, b:   -721, c:  26922, y:  26922
+
+         79(             4050000): PASS, a:  28304, b:  19315, c: -11320, y:  28304
+
+         80(             4100000): PASS, a: -16891, b:  12911, c:  30567, y:  30567
+
+         81(             4150000): PASS, a:  32489, b:   3523, c:  14017, y:  32489
+
+         82(             4200000): PASS, a:  -8083, b: -29966, c:  25284, y:  25284
+
+         83(             4250000): PASS, a: -13908, b:   2555, c:  -8700, y:   2555
+
+         84(             4300000): PASS, a: -22764, b:   6514, c: -15610, y:   6514
+
+         85(             4350000): PASS, a:  29729, b:    519, c:  19481, y:  29729
+
+         86(             4400000): PASS, a: -26925, b: -32677, c:  32472, y:  32472
+
+         87(             4450000): PASS, a:  -5785, b: -22200, c: -18448, y:  -5785
+
+         88(             4500000): PASS, a:  31003, b: -14092, c:  10942, y:  31003
+
+         89(             4550000): PASS, a: -18223, b:   1482, c:  -3493, y:   1482
+
+         90(             4600000): PASS, a: -29327, b:   9194, c:   9074, y:   9194
+
+         91(             4650000): PASS, a:  25410, b:  12781, c:   1136, y:  25410
+
+         92(             4700000): PASS, a: -17212, b:   7733, c: -24663, y:   7733
+
+         93(             4750000): PASS, a: -23408, b:  28206, c: -15018, y:  28206
+
+         94(             4800000): PASS, a: -32111, b:    367, c:   -197, y:    367
+
+         95(             4850000): PASS, a:   4840, b:  14068, c:   8659, y:  14068
+
+         96(             4900000): PASS, a:  -7270, b:  15747, c: -26938, y:  15747
+
+         97(             4950000): PASS, a:   2142, b:  -7239, c:  30915, y:  30915
+
+         98(             5000000): PASS, a: -15507, b:   8465, c: -17831, y:   8465
+
+         99(             5050000): PASS, a:   -944, b:  10356, c:  -2780, y:  10356
+
+        100(             5100000): PASS, a: -13970, b:  10116, c:  26474, y:  26474
+
+        101(             5150000): PASS, a:  -7298, b:  26360, c:   8928, y:  26360
+
+        102(             5200000): PASS, a:  26599, b:    595, c:  20933, y:  26599
+
+        103(             5250000): PASS, a:     47, b:  23897, c: -25047, y:  23897
+
+        104(             5300000): PASS, a:  19671, b:   1306, c:  14543, y:  19671
+
+        105(             5350000): PASS, a: -29827, b: -22106, c:  -7139, y:  -7139
+
+        106(             5400000): PASS, a:  -7291, b:  16236, c: -12008, y:  16236
+
+        107(             5450000): PASS, a:  32142, b: -31650, c:   9045, y:  32142
+
+        108(             5500000): PASS, a:  32624, b: -17996, c:  -9570, y:  32624
+
+        109(             5550000): PASS, a: -29045, b:  26566, c:  13314, y:  26566
+
+        110(             5600000): PASS, a:  21283, b:  -7960, c:  -4652, y:  21283
+
+        111(             5650000): PASS, a: -24997, b:  26007, c:  17804, y:  26007
+
+        112(             5700000): PASS, a:  -8500, b:  16560, c:  -6013, y:  16560
+
+        113(             5750000): PASS, a:   8052, b:  18437, c:  27631, y:  27631
+
+        114(             5800000): PASS, a:  14097, b:  -4926, c:   9354, y:  14097
+
+        115(             5850000): PASS, a:  25602, b: -25661, c:  27126, y:  27126
+
+        116(             5900000): PASS, a:  16164, b:     77, c:  24749, y:  24749
+
+        117(             5950000): PASS, a:  -9366, b: -26052, c:  29358, y:  29358
+
+        118(             6000000): PASS, a: -17684, b: -23522, c:   3973, y:   3973
+
+        119(             6050000): PASS, a:  14435, b:  -7903, c:  15828, y:  15828
+
+        120(             6100000): PASS, a:  25929, b:  10392, c:   -901, y:  25929
+
+        121(             6150000): PASS, a:  27050, b:  26552, c:   2285, y:  27050
+
+        122(             6200000): PASS, a:    -66, b: -19959, c:  -3098, y:    -66
+
+        123(             6250000): PASS, a:   3321, b: -19213, c:  11994, y:  11994
+
+        124(             6300000): PASS, a:  10974, b: -13062, c: -10260, y:  10974
+
+        125(             6350000): PASS, a:  -7122, b:   6142, c:  -5555, y:   6142
+
+        126(             6400000): PASS, a: -23361, b: -28073, c:  32084, y:  32084
+
+        127(             6450000): PASS, a: -18591, b:  10737, c: -30171, y:  10737
+
+        128(             6500000): PASS, a:  12869, b:  -1369, c:  -5090, y:  12869
+
+        129(             6550000): PASS, a:  28724, b:  14231, c: -29334, y:  28724
+
+        130(             6600000): PASS, a:  -2056, b:   8555, c:   4221, y:   8555
+
+        131(             6650000): PASS, a: -13150, b:   7036, c: -20139, y:   7036
+
+        132(             6700000): PASS, a:  -9686, b:  30999, c: -15113, y:  30999
+
+        133(             6750000): PASS, a:  21453, b: -19433, c:  16487, y:  21453
+
+        134(             6800000): PASS, a: -13914, b:  18783, c:  11812, y:  18783
+
+        135(             6850000): PASS, a:  -9060, b:  19056, c:  15255, y:  19056
+
+        136(             6900000): PASS, a:   4451, b:  18139, c:  -7283, y:  18139
+
+        137(             6950000): PASS, a:   6300, b:   7139, c:  -6308, y:   7139
+
+        138(             7000000): PASS, a:  -3939, b:  -3639, c: -30840, y:  -3639
+
+        139(             7050000): PASS, a:  20605, b:  19674, c:   2164, y:  20605
+
+        140(             7100000): PASS, a:   -713, b:   1954, c: -12232, y:   1954
+
+        141(             7150000): PASS, a:   5695, b: -18054, c: -26837, y:   5695
+
+        142(             7200000): PASS, a:  -8137, b: -26603, c:  -9741, y:  -8137
+
+        143(             7250000): PASS, a:  18150, b:  28484, c:  20614, y:  28484
+
+        144(             7300000): PASS, a:  27552, b: -13101, c:  -2287, y:  27552
+
+        145(             7350000): PASS, a:  31440, b:  28721, c:  24337, y:  31440
+
+        146(             7400000): PASS, a: -19572, b: -19995, c:   3897, y:   3897
+
+        147(             7450000): PASS, a:  21010, b: -14528, c:  31440, y:  31440
+
+        148(             7500000): PASS, a:   4078, b: -11617, c: -18178, y:   4078
+
+        149(             7550000): PASS, a:  20202, b: -24460, c:   2788, y:  20202
+
+        150(             7600000): PASS, a:  -2710, b:  -4162, c:  10812, y:  10812
+
+        151(             7650000): PASS, a:  19228, b: -22909, c:  25966, y:  25966
+
+        152(             7700000): PASS, a:  -6458, b: -28043, c:  13417, y:  13417
+
+        153(             7750000): PASS, a:  24570, b:   3200, c:  31069, y:  31069
+
+        154(             7800000): PASS, a:  -2575, b:   5694, c:    308, y:   5694
+
+        155(             7850000): PASS, a:  -7697, b: -11515, c:  -4999, y:  -4999
+
+        156(             7900000): PASS, a:   8015, b: -30376, c: -26072, y:   8015
+
+        157(             7950000): PASS, a:  -2301, b:  13444, c:   1458, y:  13444
+
+        158(             8000000): PASS, a:   4042, b: -17457, c:  31198, y:  31198
+
+        159(             8050000): PASS, a:  -2363, b: -20973, c: -23108, y:  -2363
+
+        160(             8100000): PASS, a: -17140, b:   3511, c: -14123, y:   3511
+
+        161(             8150000): PASS, a: -20228, b:  -9309, c: -12691, y:  -9309
+
+        162(             8200000): PASS, a:  22339, b:  -1135, c: -30575, y:  22339
+
+        163(             8250000): PASS, a:  25211, b: -13715, c: -12756, y:  25211
+
+        164(             8300000): PASS, a:  21942, b:   2411, c: -14582, y:  21942
+
+        165(             8350000): PASS, a:   3151, b:  -6853, c: -22632, y:   3151
+
+        166(             8400000): PASS, a:  12496, b:  -8122, c: -14762, y:  12496
+
+        167(             8450000): PASS, a: -19727, b:   1607, c: -31400, y:   1607
+
+        168(             8500000): PASS, a:   1287, b: -26113, c:   9266, y:   9266
+
+        169(             8550000): PASS, a:  15162, b: -30226, c:   8351, y:  15162
+
+        170(             8600000): PASS, a:  26718, b:  12969, c: -31473, y:  26718
+
+        171(             8650000): PASS, a: -27403, b: -25613, c:  23861, y:  23861
+
+        172(             8700000): PASS, a:  23106, b:  29450, c: -16025, y:  29450
+
+        173(             8750000): PASS, a:  30112, b:  15324, c: -18631, y:  30112
+
+        174(             8800000): PASS, a:  32295, b:   7907, c:  21901, y:  32295
+
+        175(             8850000): PASS, a:  -2333, b:  -9606, c:  17916, y:  17916
+
+        176(             8900000): PASS, a:  15124, b:  28853, c:   -958, y:  28853
+
+        177(             8950000): PASS, a:   5259, b: -10359, c:   7526, y:   7526
+
+        178(             9000000): PASS, a:  29163, b: -24567, c: -10710, y:  29163
+
+        179(             9050000): PASS, a: -25371, b:   4558, c: -25491, y:   4558
+
+        180(             9100000): PASS, a: -16365, b:   6588, c: -13103, y:   6588
+
+        181(             9150000): PASS, a: -30121, b:  -7769, c:  25730, y:  25730
+
+        182(             9200000): PASS, a:  25679, b:   1397, c: -10262, y:  25679
+
+        183(             9250000): PASS, a:   8256, b:  -1298, c: -13712, y:   8256
+
+        184(             9300000): PASS, a: -23767, b:   6728, c:  28566, y:  28566
+
+        185(             9350000): PASS, a:  -3760, b:  16426, c: -17694, y:  16426
+
+        186(             9400000): PASS, a: -16483, b:  24084, c: -27895, y:  24084
+
+        187(             9450000): PASS, a:  32162, b:   8592, c:   6301, y:  32162
+
+        188(             9500000): PASS, a:  12633, b:   -712, c: -17380, y:  12633
+
+        189(             9550000): PASS, a:  15418, b: -14017, c: -15415, y:  15418
+
+        190(             9600000): PASS, a:   3118, b:  -7381, c: -26513, y:   3118
+
+        191(             9650000): PASS, a:  21366, b: -31833, c: -22539, y:  21366
+
+        192(             9700000): PASS, a:   3239, b: -23677, c:  17947, y:  17947
+
+        193(             9750000): PASS, a: -22518, b:  15528, c:  24900, y:  24900
+
+        194(             9800000): PASS, a:  29160, b:  17680, c:  22674, y:  29160
+
+        195(             9850000): PASS, a:   2869, b:  13122, c:   5165, y:  13122
+
+        196(             9900000): PASS, a: -15529, b:  18518, c: -17071, y:  18518
+
+        197(             9950000): PASS, a: -13843, b:  18351, c:   4293, y:  18351
+
+        198(            10000000): PASS, a: -19956, b:  13501, c:  -6400, y:  13501
+
+        199(            10050000): PASS, a:  14135, b: -21291, c:  15163, y:  15163
+
+        200(            10100000): PASS, a:  13934, b: -23470, c: -18743, y:  13934
+
+PASS: All vectors passed.
+
+$finish called at time : 10100 ns : File "C:/ece4743/Lab2/lab2/try_again.srcs/sim_1/imports/lab2/tb_max3sint16b.v" Line 107
+save_wave_config {C:/ece4743/Lab2/lab2/tb_max3sint16b_time_impl.wcfg}
+add_files -fileset sim_1 -norecurse C:/ece4743/Lab2/lab2/tb_max3sint16b_time_impl.wcfg
+set_property xsim.view C:/ece4743/Lab2/lab2/tb_max3sint16b_time_impl.wcfg [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 30 19:06:01 2022...

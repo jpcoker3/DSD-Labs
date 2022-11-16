@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Nov  2 10:05:26 2022
+# Process ID: 15412
+# Current directory: C:/ece4743/Lab7/lab7_p3_files/empty_template.runs/synth_1
+# Command line: vivado.exe -log timertop.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source timertop.tcl
+# Log file: C:/ece4743/Lab7/lab7_p3_files/empty_template.runs/synth_1/timertop.vds
+# Journal file: C:/ece4743/Lab7/lab7_p3_files/empty_template.runs/synth_1\vivado.jou
+# Running On: Lenovo-9i-Joe-Laptop, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 4, Host memory: 16901 MB
+#-----------------------------------------------------------
+source timertop.tcl -notrace

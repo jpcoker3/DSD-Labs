@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Aug 22 20:35:51 2022
+# Process ID: 10376
+# Current directory: C:/ece4743/Lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent37308 C:\ece4743\Lab1\lab1.xpr
+# Log file: C:/ece4743/Lab1/vivado.log
+# Journal file: C:/ece4743/Lab1\vivado.jou
+# Running On: Lenovo-9i-Joe-Laptop, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 4, Host memory: 16901 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/ece4743/Lab1/lab1.xpr
+add_files -norecurse {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab1/lab1.v}}
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab1/Basys3_Master.xdc}}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab1/tb_lab1.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_leds.tcl
+run 1 us
+run 10 us
+run 3 us
+close_sim
+launch_simulation
+source tb_leds.tcl
+run 20 us
+save_wave_config {C:/ece4743/Lab1/tb_leds_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/ece4743/Lab1/tb_leds_behav.wcfg
+set_property xsim.view C:/ece4743/Lab1/tb_leds_behav.wcfg [get_filesets sim_1]
+close_sim
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -url localhost:3121 -allow_non_jtag
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183B5ABB9A]
+set_property PARAM.FREQUENCY 30000000 [get_hw_targets */xilinx_tcf/Digilent/210183B5ABB9A]
+open_hw_target
+set_property PROGRAM.FILE {C:/ece4743/Lab1/lab1.runs/impl_1/lab1.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/ece4743/Lab1/lab1.runs/impl_1/lab1.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/ece4743/Lab1/lab1.runs/impl_1/lab1.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

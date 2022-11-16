@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../empty_template.gen/sources_1/ip/multiply/sim/multiply.vhd" \
+
+# Do not sort compile order
+nosort

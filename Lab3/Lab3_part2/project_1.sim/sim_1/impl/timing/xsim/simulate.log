@@ -1,0 +1,20 @@
+Time resolution is 1 ps
+WARNING: file ../../../../satadd_vectors.txt could not be opened
+          1(              200000): FAIL, mode: 2, a: 004, b: 005, y (actual): zzz, y (expected): 00000009                                                                                                    #
+
+          2(              300000): FAIL, mode: 1, a: 004, b: 005, y (actual): zzz, y (expected): 00000009                                                                                                    #
+
+          3(              400000): FAIL, mode: 1, a: 004, b: 005, y (actual): zzz, y (expected): 00000009                                                                                                    #
+
+          4(              500000): FAIL, mode: 2, a: b00, b: 100, y (actual): zzz, y (expected): 00000c00                                                                                                    #
+
+          5(              600000): FAIL, mode: 1, a: b00, b: 100, y (actual): zzz, y (expected): 00000c00                                                                                                    #
+
+          6(              700000): FAIL, mode: 1, a: b00, b: 100, y (actual): zzz, y (expected): 00000c00                                                                                                    #
+
+          7(              800000): FAIL, mode: 2, a: 7ff, b: 001, y (actual): zzz, y (expected): 00000800                                                                                                    #
+
+          8(              900000): FAIL, mode: 1, a: 7ff, b: 001, y (actual): zzz, y (expected): 000007ff                                                                                                    #
+
+          9(             1000000): FAIL, mode: 0, a: 7ff, b: 001, y (actual): zzz, y (expected): 00000800                                                                                                    #
+

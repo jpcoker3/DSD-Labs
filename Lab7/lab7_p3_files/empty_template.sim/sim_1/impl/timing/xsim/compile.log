@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/Lab7/lab7_p3_files/empty_template.sim/sim_1/impl/timing/xsim/timertop_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz
+INFO: [VRFC 10-311] analyzing module clk_wiz_clk_wiz
+INFO: [VRFC 10-311] analyzing module timer32
+INFO: [VRFC 10-311] analyzing module timer32__parameterized0
+INFO: [VRFC 10-311] analyzing module timer32__parameterized1
+INFO: [VRFC 10-311] analyzing module timer32__parameterized2
+INFO: [VRFC 10-311] analyzing module timer32__parameterized3
+INFO: [VRFC 10-311] analyzing module timer32__parameterized4
+INFO: [VRFC 10-311] analyzing module timer32__parameterized5
+INFO: [VRFC 10-311] analyzing module timertop
+INFO: [VRFC 10-311] analyzing module glbl

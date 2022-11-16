@@ -1,0 +1,636 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "fifo")
+(DATE "Fri Nov 11 13:47:24 2022")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2022.1")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "BUFG")
+  (INSTANCE clk_IBUF_BUFG_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (91.0:96.0:96.0) (91.0:96.0:96.0))
+    )
+  )
+    (TIMINGCHECK
+      (PERIOD (posedge I) (2155.2:2155.2:2155.2))
+      (PERIOD (negedge I) (2155.2:2155.2:2155.2))
+    )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE clk_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (804.7:938.0:938.0) (804.7:938.0:938.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE din_IBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (803.1:936.4:936.4) (803.1:936.4:936.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE din_IBUF\[1\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (797.6:930.9:930.9) (797.6:930.9:930.9))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE din_IBUF\[2\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (801.0:934.3:934.3) (801.0:934.3:934.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE din_IBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (801.7:935.0:935.0) (801.7:935.0:935.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE din_IBUF\[4\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (811.3:944.7:944.7) (811.3:944.7:944.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE din_IBUF\[5\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (801.5:934.7:934.7) (801.5:934.7:934.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE din_IBUF\[6\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (810.5:943.9:943.9) (810.5:943.9:943.9))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE din_IBUF\[7\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (802.5:935.8:935.8) (802.5:935.8:935.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE dout_OBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2452.1:2608.1:2608.1) (2452.1:2608.1:2608.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE dout_OBUF\[1\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2432.2:2588.1:2588.1) (2432.2:2588.1:2588.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE dout_OBUF\[2\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2443.3:2599.2:2599.2) (2443.3:2599.2:2599.2))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE dout_OBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2444.6:2600.6:2600.6) (2444.6:2600.6:2600.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE dout_OBUF\[4\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2442.0:2597.9:2597.9) (2442.0:2597.9:2597.9))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE dout_OBUF\[5\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2442.1:2598.0:2598.0) (2442.1:2598.0:2598.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE dout_OBUF\[6\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2444.6:2600.6:2600.6) (2444.6:2600.6:2600.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE dout_OBUF\[7\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2445.0:2601.0:2601.0) (2445.0:2601.0:2601.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE empty_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2437.0:2593.0:2593.0) (2437.0:2593.0:2593.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE empty_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE full_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2436.5:2592.4:2592.4) (2436.5:2592.4:2592.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE full_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "RAMB18E1")
+  (INSTANCE mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH CLKBWRCLK DOBDO[15:0] (1353.0:2454.0:2454.0) (1353.0:2454.0:2454.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge ENARDEN) (posedge CLKARDCLK) (-227.0:443.0:443.0) (227.0:227.0:227.0))
+      (SETUPHOLD (negedge ENARDEN) (posedge CLKARDCLK) (-227.0:443.0:443.0) (227.0:227.0:227.0))
+      (SETUPHOLD (posedge ENBWREN) (posedge CLKBWRCLK) (-227.0:443.0:443.0) (227.0:227.0:227.0))
+      (SETUPHOLD (negedge ENBWREN) (posedge CLKBWRCLK) (-227.0:443.0:443.0) (227.0:227.0:227.0))
+      (SETUPHOLD (posedge RSTRAMARSTRAM) (posedge CLKARDCLK) (-453.0:359.0:359.0) (453.0:453.0:453.0))
+      (SETUPHOLD (negedge RSTRAMARSTRAM) (posedge CLKARDCLK) (-453.0:359.0:359.0) (453.0:453.0:453.0))
+      (SETUPHOLD (posedge RSTRAMB) (posedge CLKBWRCLK) (-453.0:359.0:359.0) (453.0:453.0:453.0))
+      (SETUPHOLD (negedge RSTRAMB) (posedge CLKBWRCLK) (-453.0:359.0:359.0) (453.0:453.0:453.0))
+      (SETUPHOLD (posedge DIPADIP[1:0]) (posedge CLKARDCLK) (-667.0:737.0:737.0) (667.0:667.0:667.0))
+      (SETUPHOLD (negedge DIPADIP[1:0]) (posedge CLKARDCLK) (-667.0:737.0:737.0) (667.0:667.0:667.0))
+      (SETUPHOLD (posedge WEA[1:0]) (posedge CLKARDCLK) (-197.0:532.0:532.0) (197.0:197.0:197.0))
+      (SETUPHOLD (negedge WEA[1:0]) (posedge CLKARDCLK) (-197.0:532.0:532.0) (197.0:197.0:197.0))
+      (SETUPHOLD (posedge DIADI[15:0]) (posedge CLKARDCLK) (-667.0:737.0:737.0) (667.0:667.0:667.0))
+      (SETUPHOLD (negedge DIADI[15:0]) (posedge CLKARDCLK) (-667.0:737.0:737.0) (667.0:667.0:667.0))
+      (SETUPHOLD (posedge ADDRARDADDR[13:0]) (posedge CLKARDCLK) (-360.0:566.0:566.0) (360.0:360.0:360.0))
+      (SETUPHOLD (negedge ADDRARDADDR[13:0]) (posedge CLKARDCLK) (-360.0:566.0:566.0) (360.0:360.0:360.0))
+      (SETUPHOLD (posedge WEBWE[3:0]) (posedge CLKBWRCLK) (-197.0:532.0:532.0) (197.0:197.0:197.0))
+      (SETUPHOLD (negedge WEBWE[3:0]) (posedge CLKBWRCLK) (-197.0:532.0:532.0) (197.0:197.0:197.0))
+      (SETUPHOLD (posedge DIPBDIP[1:0]) (posedge CLKBWRCLK) (-667.0:737.0:737.0) (667.0:667.0:667.0))
+      (SETUPHOLD (negedge DIPBDIP[1:0]) (posedge CLKBWRCLK) (-667.0:737.0:737.0) (667.0:667.0:667.0))
+      (SETUPHOLD (posedge DIBDI[15:0]) (posedge CLKBWRCLK) (-667.0:737.0:737.0) (667.0:667.0:667.0))
+      (SETUPHOLD (negedge DIBDI[15:0]) (posedge CLKBWRCLK) (-667.0:737.0:737.0) (667.0:667.0:667.0))
+      (SETUPHOLD (posedge ADDRBWRADDR[13:0]) (posedge CLKBWRCLK) (-360.0:566.0:566.0) (360.0:360.0:360.0))
+      (SETUPHOLD (negedge ADDRBWRADDR[13:0]) (posedge CLKBWRCLK) (-360.0:566.0:566.0) (360.0:360.0:360.0))
+    )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE mem0_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE mem0_i_2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE r_counter\[0\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT5")
+  (INSTANCE r_counter\[1\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I4 O (122.0:152.0:152.0) (122.0:152.0:152.0))
+      (IOPATH I3 O (95.0:118.0:118.0) (95.0:118.0:118.0))
+      (IOPATH I2 O (122.0:152.0:152.0) (122.0:152.0:152.0))
+      (IOPATH I1 O (121.0:150.0:150.0) (121.0:150.0:150.0))
+      (IOPATH I0 O (121.0:150.0:150.0) (121.0:150.0:150.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE r_counter\[2\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDCE")
+  (INSTANCE r_counter_reg\[0\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH (posedge CLR) Q (662.0:821.0:821.0))
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (RECREM (negedge CLR) (posedge C) (326.0:404.0:404.0) (-248.0:-248.0:-248.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDCE")
+  (INSTANCE r_counter_reg\[1\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH (posedge CLR) Q (616.0:764.0:764.0))
+      (IOPATH C Q (244.0:303.0:303.0) (244.0:303.0:303.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (RECREM (negedge CLR) (posedge C) (326.0:404.0:404.0) (-248.0:-248.0:-248.0))
+      (SETUPHOLD (posedge D) (posedge C) (-57.0:-46.0:-46.0) (225.0:225.0:225.0))
+      (SETUPHOLD (negedge D) (posedge C) (-57.0:-46.0:-46.0) (225.0:225.0:225.0))
+      (PERIOD (posedge C) (870.0:1000.0:1000.0))
+      (WIDTH (posedge C) (435.0:500.0:500.0))
+      (WIDTH (negedge C) (435.0:500.0:500.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDCE")
+  (INSTANCE r_counter_reg\[2\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH (posedge CLR) Q (662.0:821.0:821.0))
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (RECREM (negedge CLR) (posedge C) (326.0:404.0:404.0) (-248.0:-248.0:-248.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+    )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE rden_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (817.6:951.1:951.1) (817.6:951.1:951.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE reset_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (800.2:933.5:933.5) (800.2:933.5:933.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE sclr_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (815.4:948.8:948.8) (815.4:948.8:948.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE w_counter\[0\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT5")
+  (INSTANCE w_counter\[1\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I4 O (124.0:154.0:154.0) (124.0:154.0:154.0))
+      (IOPATH I3 O (123.0:153.0:153.0) (123.0:153.0:153.0))
+      (IOPATH I2 O (97.0:120.0:120.0) (97.0:120.0:120.0))
+      (IOPATH I1 O (123.0:153.0:153.0) (123.0:153.0:153.0))
+      (IOPATH I0 O (124.0:154.0:154.0) (124.0:154.0:154.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE w_counter\[2\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDCE")
+  (INSTANCE w_counter_reg\[0\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH (posedge CLR) Q (662.0:821.0:821.0))
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (RECREM (negedge CLR) (posedge C) (326.0:404.0:404.0) (-248.0:-248.0:-248.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDCE")
+  (INSTANCE w_counter_reg\[1\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH (posedge CLR) Q (616.0:764.0:764.0))
+      (IOPATH C Q (244.0:303.0:303.0) (244.0:303.0:303.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (RECREM (negedge CLR) (posedge C) (326.0:404.0:404.0) (-248.0:-248.0:-248.0))
+      (SETUPHOLD (posedge D) (posedge C) (-57.0:-46.0:-46.0) (225.0:225.0:225.0))
+      (SETUPHOLD (negedge D) (posedge C) (-57.0:-46.0:-46.0) (225.0:225.0:225.0))
+      (PERIOD (posedge C) (870.0:1000.0:1000.0))
+      (WIDTH (posedge C) (435.0:500.0:500.0))
+      (WIDTH (negedge C) (435.0:500.0:500.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDCE")
+  (INSTANCE w_counter_reg\[2\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH (posedge CLR) Q (662.0:821.0:821.0))
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (RECREM (negedge CLR) (posedge C) (326.0:404.0:404.0) (-248.0:-248.0:-248.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+    )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE wren_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (804.6:937.8:937.8) (804.6:937.8:937.8))
+    )
+  )
+)
+(CELL 
+    (CELLTYPE "fifo")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+      (INTERCONNECT clk_IBUF_BUFG_inst/O r_counter_reg\[0\]/C (1608.4:1749.4:1749.4) (1608.4:1749.4:1749.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O r_counter_reg\[1\]/C (1608.4:1749.4:1749.4) (1608.4:1749.4:1749.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O r_counter_reg\[2\]/C (1608.4:1749.4:1749.4) (1608.4:1749.4:1749.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O w_counter_reg\[0\]/C (1608.4:1749.4:1749.4) (1608.4:1749.4:1749.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O w_counter_reg\[1\]/C (1608.4:1749.4:1749.4) (1608.4:1749.4:1749.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O w_counter_reg\[2\]/C (1608.4:1749.4:1749.4) (1608.4:1749.4:1749.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/CLKARDCLK (1487.9:1606.9:1606.9) (1487.9:1606.9:1606.9))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/CLKBWRCLK (1489.9:1608.9:1608.9) (1489.9:1608.9:1608.9))
+      (INTERCONNECT clk_IBUF_inst/O clk_IBUF_BUFG_inst/I (1868.0:1971.5:1971.5) (1868.0:1971.5:1971.5))
+      (INTERCONNECT din_IBUF\[0\]_inst/O mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/DIADI[0] (1209.6:1399.6:1399.6) (1209.6:1399.6:1399.6))
+      (INTERCONNECT din_IBUF\[1\]_inst/O mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/DIADI[1] (1177.7:1367.7:1367.7) (1177.7:1367.7:1367.7))
+      (INTERCONNECT din_IBUF\[2\]_inst/O mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/DIADI[2] (1209.1:1401.1:1401.1) (1209.1:1401.1:1401.1))
+      (INTERCONNECT din_IBUF\[3\]_inst/O mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/DIADI[3] (1161.7:1344.7:1344.7) (1161.7:1344.7:1344.7))
+      (INTERCONNECT din_IBUF\[4\]_inst/O mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/DIADI[8] (1013.0:1173.0:1173.0) (1013.0:1173.0:1173.0))
+      (INTERCONNECT din_IBUF\[5\]_inst/O mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/DIADI[9] (1137.0:1317.0:1317.0) (1137.0:1317.0:1317.0))
+      (INTERCONNECT din_IBUF\[6\]_inst/O mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/DIADI[10] (1018.7:1177.7:1177.7) (1018.7:1177.7:1177.7))
+      (INTERCONNECT din_IBUF\[7\]_inst/O mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/DIADI[11] (1121.4:1295.4:1295.4) (1121.4:1295.4:1295.4))
+      (INTERCONNECT empty_OBUF_inst_i_1/O empty_OBUF_inst/I (1787.5:2075.5:2075.5) (1787.5:2075.5:2075.5))
+      (INTERCONNECT empty_OBUF_inst_i_1/O r_counter\[0\]_i_1/I0 (516.1:618.1:618.1) (516.1:618.1:618.1))
+      (INTERCONNECT empty_OBUF_inst_i_1/O mem0_i_2/I1 (569.9:694.9:694.9) (569.9:694.9:694.9))
+      (INTERCONNECT empty_OBUF_inst_i_1/O r_counter\[1\]_i_1/I1 (516.1:618.1:618.1) (516.1:618.1:618.1))
+      (INTERCONNECT empty_OBUF_inst_i_1/O r_counter\[2\]_i_1/I2 (505.8:606.8:606.8) (505.8:606.8:606.8))
+      (INTERCONNECT full_OBUF_inst_i_1/O full_OBUF_inst/I (1671.8:1939.8:1939.8) (1671.8:1939.8:1939.8))
+      (INTERCONNECT full_OBUF_inst_i_1/O w_counter\[0\]_i_1/I0 (569.7:685.7:685.7) (569.7:685.7:685.7))
+      (INTERCONNECT full_OBUF_inst_i_1/O mem0_i_1/I1 (160.2:184.2:184.2) (160.2:184.2:184.2))
+      (INTERCONNECT full_OBUF_inst_i_1/O w_counter\[1\]_i_1/I1 (569.7:685.7:685.7) (569.7:685.7:685.7))
+      (INTERCONNECT full_OBUF_inst_i_1/O w_counter\[2\]_i_1/I2 (547.3:648.3:648.3) (547.3:648.3:648.3))
+      (INTERCONNECT mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/DOBDO[11] dout_OBUF\[7\]_inst/I (2036.3:2356.3:2356.3) (2036.3:2356.3:2356.3))
+      (INTERCONNECT mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/DOBDO[10] dout_OBUF\[6\]_inst/I (2044.3:2361.3:2361.3) (2044.3:2361.3:2361.3))
+      (INTERCONNECT mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/DOBDO[9] dout_OBUF\[5\]_inst/I (2029.0:2351.0:2351.0) (2029.0:2351.0:2351.0))
+      (INTERCONNECT mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/DOBDO[8] dout_OBUF\[4\]_inst/I (2007.9:2324.9:2324.9) (2007.9:2324.9:2324.9))
+      (INTERCONNECT mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/DOBDO[3] dout_OBUF\[3\]_inst/I (2008.1:2319.1:2319.1) (2008.1:2319.1:2319.1))
+      (INTERCONNECT mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/DOBDO[2] dout_OBUF\[2\]_inst/I (1996.0:2309.0:2309.0) (1996.0:2309.0:2309.0))
+      (INTERCONNECT mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/DOBDO[1] dout_OBUF\[1\]_inst/I (2013.4:2326.4:2326.4) (2013.4:2326.4:2326.4))
+      (INTERCONNECT mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/DOBDO[0] dout_OBUF\[0\]_inst/I (1847.9:2137.9:2137.9) (1847.9:2137.9:2137.9))
+      (INTERCONNECT mem0_i_1/O mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/ENARDEN (526.6:594.6:594.6) (526.6:594.6:594.6))
+      (INTERCONNECT mem0_i_1/O mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/WEA[0] (863.7:993.7:993.7) (863.7:993.7:993.7))
+      (INTERCONNECT mem0_i_1/O mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/WEA[1] (524.0:792.8:792.8) (524.0:792.8:792.8))
+      (INTERCONNECT mem0_i_2/O mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/ENBWREN (499.0:565.0:565.0) (499.0:565.0:565.0))
+      (INTERCONNECT r_counter\[0\]_i_1/O r_counter_reg\[0\]/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT r_counter\[1\]_i_1/O r_counter_reg\[1\]/D (52.0:64.0:64.0) (52.0:64.0:64.0))
+      (INTERCONNECT r_counter\[2\]_i_1/O r_counter_reg\[2\]/D (87.0:107.0:107.0) (87.0:107.0:107.0))
+      (INTERCONNECT r_counter_reg\[0\]/Q full_OBUF_inst_i_1/I0 (601.0:710.0:710.0) (601.0:710.0:710.0))
+      (INTERCONNECT r_counter_reg\[0\]/Q r_counter\[1\]_i_1/I0 (456.0:546.0:546.0) (456.0:546.0:546.0))
+      (INTERCONNECT r_counter_reg\[0\]/Q empty_OBUF_inst_i_1/I1 (599.0:706.0:706.0) (599.0:706.0:706.0))
+      (INTERCONNECT r_counter_reg\[0\]/Q r_counter\[2\]_i_1/I1 (446.0:538.0:538.0) (446.0:538.0:538.0))
+      (INTERCONNECT r_counter_reg\[0\]/Q r_counter\[0\]_i_1/I3 (456.0:546.0:546.0) (456.0:546.0:546.0))
+      (INTERCONNECT r_counter_reg\[0\]/Q mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/ADDRBWRADDR[4] (826.3:958.3:958.3) (826.3:958.3:958.3))
+      (INTERCONNECT r_counter_reg\[1\]/Q r_counter\[2\]_i_1/I0 (324.5:382.5:382.5) (324.5:382.5:382.5))
+      (INTERCONNECT r_counter_reg\[1\]/Q empty_OBUF_inst_i_1/I4 (452.6:534.6:534.6) (452.6:534.6:534.6))
+      (INTERCONNECT r_counter_reg\[1\]/Q r_counter\[1\]_i_1/I4 (882.6:1069.6:1069.6) (882.6:1069.6:1069.6))
+      (INTERCONNECT r_counter_reg\[1\]/Q full_OBUF_inst_i_1/I5 (450.6:531.6:531.6) (450.6:531.6:531.6))
+      (INTERCONNECT r_counter_reg\[1\]/Q mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/ADDRBWRADDR[5] (945.1:1105.1:1105.1) (945.1:1105.1:1105.1))
+      (INTERCONNECT r_counter_reg\[2\]/Q empty_OBUF_inst_i_1/I2 (516.1:618.1:618.1) (516.1:618.1:618.1))
+      (INTERCONNECT r_counter_reg\[2\]/Q full_OBUF_inst_i_1/I4 (505.9:606.9:606.9) (505.9:606.9:606.9))
+      (INTERCONNECT r_counter_reg\[2\]/Q r_counter\[2\]_i_1/I5 (550.8:672.8:672.8) (550.8:672.8:672.8))
+      (INTERCONNECT r_counter_reg\[2\]/Q mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/ADDRBWRADDR[6] (739.7:855.7:855.7) (739.7:855.7:855.7))
+      (INTERCONNECT rden_IBUF_inst/O mem0_i_2/I0 (1126.6:1330.6:1330.6) (1126.6:1330.6:1330.6))
+      (INTERCONNECT rden_IBUF_inst/O r_counter\[0\]_i_1/I1 (1347.0:1599.0:1599.0) (1347.0:1599.0:1599.0))
+      (INTERCONNECT rden_IBUF_inst/O r_counter\[1\]_i_1/I2 (1347.0:1599.0:1599.0) (1347.0:1599.0:1599.0))
+      (INTERCONNECT rden_IBUF_inst/O r_counter\[2\]_i_1/I3 (1338.8:1591.8:1591.8) (1338.8:1591.8:1591.8))
+      (INTERCONNECT reset_IBUF_inst/O r_counter_reg\[0\]/CLR (1090.5:1282.5:1282.5) (1090.5:1282.5:1282.5))
+      (INTERCONNECT reset_IBUF_inst/O r_counter_reg\[1\]/CLR (1090.5:1282.5:1282.5) (1090.5:1282.5:1282.5))
+      (INTERCONNECT reset_IBUF_inst/O r_counter_reg\[2\]/CLR (1090.5:1282.5:1282.5) (1090.5:1282.5:1282.5))
+      (INTERCONNECT reset_IBUF_inst/O w_counter_reg\[0\]/CLR (1090.5:1282.5:1282.5) (1090.5:1282.5:1282.5))
+      (INTERCONNECT reset_IBUF_inst/O w_counter_reg\[1\]/CLR (1090.5:1282.5:1282.5) (1090.5:1282.5:1282.5))
+      (INTERCONNECT reset_IBUF_inst/O w_counter_reg\[2\]/CLR (1090.5:1282.5:1282.5) (1090.5:1282.5:1282.5))
+      (INTERCONNECT sclr_IBUF_inst/O r_counter\[0\]_i_1/I2 (862.4:1007.4:1007.4) (862.4:1007.4:1007.4))
+      (INTERCONNECT sclr_IBUF_inst/O w_counter\[0\]_i_1/I2 (1161.0:1370.0:1370.0) (1161.0:1370.0:1370.0))
+      (INTERCONNECT sclr_IBUF_inst/O r_counter\[1\]_i_1/I3 (862.4:1007.4:1007.4) (862.4:1007.4:1007.4))
+      (INTERCONNECT sclr_IBUF_inst/O w_counter\[1\]_i_1/I3 (1161.0:1370.0:1370.0) (1161.0:1370.0:1370.0))
+      (INTERCONNECT sclr_IBUF_inst/O r_counter\[2\]_i_1/I4 (864.4:1011.4:1011.4) (864.4:1011.4:1011.4))
+      (INTERCONNECT sclr_IBUF_inst/O w_counter\[2\]_i_1/I4 (1155.6:1365.6:1365.6) (1155.6:1365.6:1365.6))
+      (INTERCONNECT w_counter\[0\]_i_1/O w_counter_reg\[0\]/D (87.0:107.0:107.0) (87.0:107.0:107.0))
+      (INTERCONNECT w_counter\[1\]_i_1/O w_counter_reg\[1\]/D (52.0:64.0:64.0) (52.0:64.0:64.0))
+      (INTERCONNECT w_counter\[2\]_i_1/O w_counter_reg\[2\]/D (86.0:106.0:106.0) (86.0:106.0:106.0))
+      (INTERCONNECT w_counter_reg\[0\]/Q empty_OBUF_inst_i_1/I0 (699.6:844.6:844.6) (699.6:844.6:844.6))
+      (INTERCONNECT w_counter_reg\[0\]/Q w_counter\[1\]_i_1/I0 (581.9:703.9:703.9) (581.9:703.9:703.9))
+      (INTERCONNECT w_counter_reg\[0\]/Q w_counter\[2\]_i_1/I1 (575.6:698.6:698.6) (575.6:698.6:698.6))
+      (INTERCONNECT w_counter_reg\[0\]/Q full_OBUF_inst_i_1/I3 (702.3:847.3:847.3) (702.3:847.3:847.3))
+      (INTERCONNECT w_counter_reg\[0\]/Q w_counter\[0\]_i_1/I3 (581.9:703.9:703.9) (581.9:703.9:703.9))
+      (INTERCONNECT w_counter_reg\[0\]/Q mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/ADDRARDADDR[4] (671.1:772.1:772.1) (671.1:772.1:772.1))
+      (INTERCONNECT w_counter_reg\[1\]/Q w_counter\[2\]_i_1/I0 (718.9:876.9:876.9) (718.9:876.9:876.9))
+      (INTERCONNECT w_counter_reg\[1\]/Q full_OBUF_inst_i_1/I2 (715.9:863.9:863.9) (715.9:863.9:863.9))
+      (INTERCONNECT w_counter_reg\[1\]/Q w_counter\[1\]_i_1/I4 (718.6:875.6:875.6) (718.6:875.6:875.6))
+      (INTERCONNECT w_counter_reg\[1\]/Q empty_OBUF_inst_i_1/I5 (725.9:871.9:871.9) (725.9:871.9:871.9))
+      (INTERCONNECT w_counter_reg\[1\]/Q mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/ADDRARDADDR[5] (890.5:1040.5:1040.5) (890.5:1040.5:1040.5))
+      (INTERCONNECT w_counter_reg\[2\]/Q full_OBUF_inst_i_1/I1 (695.3:843.3:843.3) (695.3:843.3:843.3))
+      (INTERCONNECT w_counter_reg\[2\]/Q empty_OBUF_inst_i_1/I3 (703.5:850.5:850.5) (703.5:850.5:850.5))
+      (INTERCONNECT w_counter_reg\[2\]/Q w_counter\[2\]_i_1/I5 (431.2:522.2:522.2) (431.2:522.2:522.2))
+      (INTERCONNECT w_counter_reg\[2\]/Q mem0/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_noinit\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.TRUE_DP\.SIMPLE_PRIM18\.ram/ADDRARDADDR[6] (726.5:840.5:840.5) (726.5:840.5:840.5))
+      (INTERCONNECT wren_IBUF_inst/O mem0_i_1/I0 (1173.0:1397.0:1397.0) (1173.0:1397.0:1397.0))
+      (INTERCONNECT wren_IBUF_inst/O w_counter\[0\]_i_1/I1 (1139.3:1334.3:1334.3) (1139.3:1334.3:1334.3))
+      (INTERCONNECT wren_IBUF_inst/O w_counter\[1\]_i_1/I2 (1139.3:1334.3:1334.3) (1139.3:1334.3:1334.3))
+      (INTERCONNECT wren_IBUF_inst/O w_counter\[2\]_i_1/I3 (883.6:1026.6:1026.6) (883.6:1026.6:1026.6))
+      )
+    )
+)
+)

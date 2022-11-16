@@ -1,0 +1,120 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Oct  4 16:57:30 2022
+# Process ID: 91504
+# Current directory: C:/ece4743/lab6/lab6_part1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent110016 C:\ece4743\lab6\lab6_part1\project_1.xpr
+# Log file: C:/ece4743/lab6/lab6_part1/vivado.log
+# Journal file: C:/ece4743/lab6/lab6_part1\vivado.jou
+# Running On: Lenovo-9i-Joe-Laptop, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 4, Host memory: 16901 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/ece4743/lab6/lab6_part1/project_1.xpr
+import_files -norecurse C:/ece4743/lab6/lab6_part1/lab6dpath.v
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse C:/ece4743/lab6/lab6_part1/tb_lab6dpath.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+create_ip -name mult_gen -vendor xilinx.com -library ip -version 12.0 -module_name multiply
+set_property -dict [list CONFIG.Component_Name {multiply} CONFIG.PortAWidth {12} CONFIG.PortBWidth {12} CONFIG.Multiplier_Construction {Use_Mults} CONFIG.OutputWidthHigh {23}] [get_ips multiply]
+generate_target {instantiation_template} [get_files c:/ece4743/lab6/lab6_part1/project_1.srcs/sources_1/ip/multiply/multiply.xci]
+generate_target all [get_files  c:/ece4743/lab6/lab6_part1/project_1.srcs/sources_1/ip/multiply/multiply.xci]
+catch { config_ip_cache -export [get_ips -all multiply] }
+export_ip_user_files -of_objects [get_files c:/ece4743/lab6/lab6_part1/project_1.srcs/sources_1/ip/multiply/multiply.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/ece4743/lab6/lab6_part1/project_1.srcs/sources_1/ip/multiply/multiply.xci]
+export_simulation -of_objects [get_files c:/ece4743/lab6/lab6_part1/project_1.srcs/sources_1/ip/multiply/multiply.xci] -directory C:/ece4743/Lab2/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir C:/ece4743/Lab2/project_1/project_1.ip_user_files -ipstatic_source_dir C:/ece4743/lab6/lab6_part1/project_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/ece4743/lab6/lab6_part1/project_1.cache/compile_simlib/modelsim} {questa=C:/ece4743/lab6/lab6_part1/project_1.cache/compile_simlib/questa} {riviera=C:/ece4743/lab6/lab6_part1/project_1.cache/compile_simlib/riviera} {activehdl=C:/ece4743/lab6/lab6_part1/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+set_property -dict [list CONFIG.PipeStages {0}] [get_ips multiply]
+generate_target all [get_files  c:/ece4743/lab6/lab6_part1/project_1.srcs/sources_1/ip/multiply/multiply.xci]
+catch { config_ip_cache -export [get_ips -all multiply] }
+export_ip_user_files -of_objects [get_files c:/ece4743/lab6/lab6_part1/project_1.srcs/sources_1/ip/multiply/multiply.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/ece4743/lab6/lab6_part1/project_1.srcs/sources_1/ip/multiply/multiply.xci]
+export_simulation -of_objects [get_files c:/ece4743/lab6/lab6_part1/project_1.srcs/sources_1/ip/multiply/multiply.xci] -directory C:/ece4743/Lab2/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir C:/ece4743/Lab2/project_1/project_1.ip_user_files -ipstatic_source_dir C:/ece4743/lab6/lab6_part1/project_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/ece4743/lab6/lab6_part1/project_1.cache/compile_simlib/modelsim} {questa=C:/ece4743/lab6/lab6_part1/project_1.cache/compile_simlib/questa} {riviera=C:/ece4743/lab6/lab6_part1/project_1.cache/compile_simlib/riviera} {activehdl=C:/ece4743/lab6/lab6_part1/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+import_files -fileset utils_1 {{C:/Users/jpcok/Desktop/School Docs/Junior 1/Digital System Design/ece4743/Lab2/project_1/project_1.srcs/utils_1/imports/synth_1/lab6dpath.dcp}}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source tb_lab6dpath.tcl
+close_sim
+launch_simulation
+source tb_lab6dpath.tcl
+close_sim
+launch_simulation
+source tb_lab6dpath.tcl
+close_sim
+launch_simulation
+source tb_lab6dpath.tcl
+close_sim
+launch_simulation
+source tb_lab6dpath.tcl
+run 10 us
+run 10 us
+retart
+restart
+run 10 us
+close_sim
+launch_simulation
+source tb_lab6dpath.tcl
+restart
+run 10 us
+save_wave_config {C:/ece4743/lab6/lab6_part1/tb_lab6dpath_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/ece4743/lab6/lab6_part1/tb_lab6dpath_behav.wcfg
+set_property xsim.view C:/ece4743/lab6/lab6_part1/tb_lab6dpath_behav.wcfg [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config C:/ece4743/lab6/lab6_part1/tb_lab6dpath_behav.wcfg
+source tb_lab6dpath.tcl
+close_sim
+launch_simulation
+open_wave_config C:/ece4743/lab6/lab6_part1/tb_lab6dpath_behav.wcfg
+source tb_lab6dpath.tcl
+close_sim
+launch_simulation
+open_wave_config C:/ece4743/lab6/lab6_part1/tb_lab6dpath_behav.wcfg
+source tb_lab6dpath.tcl
+close_sim
+launch_simulation
+open_wave_config C:/ece4743/lab6/lab6_part1/tb_lab6dpath_behav.wcfg
+source tb_lab6dpath.tcl
+close_sim
+launch_simulation
+open_wave_config C:/ece4743/lab6/lab6_part1/tb_lab6dpath_behav.wcfg
+source tb_lab6dpath.tcl
+close_sim
+launch_simulation
+open_wave_config C:/ece4743/lab6/lab6_part1/tb_lab6dpath_behav.wcfg
+source tb_lab6dpath.tcl
+close_sim
+launch_simulation
+open_wave_config C:/ece4743/lab6/lab6_part1/tb_lab6dpath_behav.wcfg
+source tb_lab6dpath.tcl
+run 10 us
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+launch_simulation -mode post-implementation -type timing
+open_wave_config C:/ece4743/lab6/lab6_part1/tb_lab6dpath_behav.wcfg
+source tb_lab6dpath.tcl
+report_utilization -name utilization_1

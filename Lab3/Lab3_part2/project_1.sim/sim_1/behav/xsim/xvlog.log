@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/Lab3/Lab3_part2/project_1.srcs/sources_1/imports/Lab3_part2/satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module satadd
+WARNING: [VRFC 10-8658] /* is inside a comment [C:/ece4743/Lab3/Lab3_part2/project_1.srcs/sources_1/imports/Lab3_part2/satadd.v:54]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/Lab3/Lab3_part2/project_1.srcs/sim_1/imports/Lab3_part2/tb_satadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_satadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/Lab3/Lab3_part2/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

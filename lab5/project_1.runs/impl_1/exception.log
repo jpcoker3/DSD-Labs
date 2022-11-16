@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file C:\ece4743\lab5\project_1.runs\impl_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: Permission denied

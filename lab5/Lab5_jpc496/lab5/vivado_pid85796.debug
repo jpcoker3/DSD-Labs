@@ -1,0 +1,79 @@
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2022.1 (64-bit)
+# SW Build: 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Current time: Tue Sep 27 19:29:24 CDT 2022
+# Process ID (PID): 85796
+# User: jpcok
+# OS: Windows 10
+# Project: project_1
+# Part: xc7k70tfbv676-1
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+Tue Sep 27 19:29:24 CDT 2022
+java.lang.NullPointerException
+	at ui.views.A.O.cleanup(SourceFile:300)
+	at ui.views.g.X.cleanup(SourceFile:170)
+	at ui.views.V.a.cleanup(SourceFile:622)
+	at ui.views.V.N.cleanup(SourceFile:1743)
+	at ui.views.V.F.cleanup(SourceFile:161)
+	at ui.views.h.cleanup(SourceFile:137)
+	at ui.bl.cleanup(SourceFile:335)
+	at ui.views.cP.cleanup(SourceFile:827)
+	at ui.views.ar.cleanup(SourceFile:350)
+	at ui.views.R.u.klC(SourceFile:1560)
+	at ui.views.R.u.klA(SourceFile:1512)
+	at ui.views.R.u.cleanup(SourceFile:1867)
+	at ui.X.cleanup(SourceFile:979)
+	at ui.PlanAhead.aMw(SourceFile:631)
+	at ui.PlanAhead.handleTclEvent(SourceFile:1705)
+	at ui.frmwork.a.o.c(SourceFile:42)
+	at ui.frmwork.E.i(SourceFile:216)
+	at ui.frmwork.E.fireTclEvent(SourceFile:139)
+	at ui.frmwork.tcltasksi.task_manager_eval_in_tcl_or_bad_alloc(Native Method)
+	at ui.d.ex(SourceFile:119)
+	at ui.utils.v.a(SourceFile:2763)
+	at ui.aa.run(SourceFile:1264)
+	at ui.Z.run(SourceFile:1270)
+	at ui.bG.run(SourceFile:2493)
+	at ui.views.R.X.a(SourceFile:407)
+	at ui.bG.b(SourceFile:2481)
+	at ui.PlanAhead.a(SourceFile:1268)
+	at ui.X.hm(SourceFile:1280)
+	at ui.X.aKc(SourceFile:1195)
+	at ui.views.c.aK.run(SourceFile:27)
+	at ui.frmwork.cmd.a.gXM(SourceFile:160)
+	at ui.aR.windowClosing(SourceFile:649)
+	at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:358)
+	at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+	at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+	at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+	at java.desktop/java.awt.Window.processWindowEvent(Window.java:2078)
+	at java.desktop/javax.swing.JFrame.processWindowEvent(JFrame.java:298)
+	at java.desktop/java.awt.Window.processEvent(Window.java:2037)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at ui.frmwork.a.d.dispatchEvent(SourceFile:92)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+

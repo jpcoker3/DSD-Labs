@@ -1,0 +1,120 @@
+Time resolution is 1 ps
+Block Memory Generator module tb_fifo.uut.mem0.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: file ../../../fifo_vectors.txt could not be opened
+          1 Pass: full: 0
+          1 Pass: empty: 1
+          2 Pass: full: 0
+          2 Pass: empty: 0
+          3 Pass: full: 0
+          3 Pass: empty: 0
+          4 Pass: full: 0
+          4 Pass: empty: 0
+          5 Pass: full: 0
+          5 Pass: empty: 0
+          6 Pass: full: 0
+          6 Pass: empty: 0
+          7 Pass: full: 0
+          7 Pass: empty: 0
+          8 Pass: full: 1
+          8 Pass: empty: 0
+          9(              640000) Pass: dout: 7f
+          9 Pass: full: 0
+          9 Pass: empty: 0
+         10(              700000) Pass: dout: 67
+         10 Pass: full: 0
+         10 Pass: empty: 0
+         11(              760000) Pass: dout: ab
+         11 Pass: full: 0
+         11 Pass: empty: 0
+         12(              820000) Pass: dout: 34
+         12 Pass: full: 0
+         12 Pass: empty: 0
+         13(              880000) Pass: dout: 98
+         13 Pass: full: 0
+         13 Pass: empty: 0
+         14(              940000) Pass: dout: 90
+         14 Pass: full: 0
+         14 Pass: empty: 0
+         15(             1000000) Pass: dout: cd
+         15 Pass: full: 0
+         15 Pass: empty: 1
+         16 Pass: full: 0
+         16 Pass: empty: 0
+         17(             1120000) Pass: dout: 89
+         17 Pass: full: 0
+         17 Pass: empty: 1
+         18(             1180000) Pass: dout: 89
+         18 Pass: full: 0
+         18 Pass: empty: 1
+         19(             1240000) Pass: dout: 89
+         19 Pass: full: 0
+         19 Pass: empty: 1
+         20 Pass: full: 0
+         20 Pass: empty: 0
+         21 Pass: full: 0
+         21 Pass: empty: 0
+         22 Pass: full: 0
+         22 Pass: empty: 0
+         23 Pass: full: 0
+         23 Pass: empty: 0
+         24 Pass: full: 0
+         24 Pass: empty: 0
+         25 Pass: full: 0
+         25 Pass: empty: 0
+         26 Pass: full: 1
+         26 Pass: empty: 0
+         27 Pass: full: 1
+         27 Pass: empty: 0
+         28 Pass: full: 1
+         28 Pass: empty: 0
+         29(             1840000) Pass: dout: 34
+         29 Pass: full: 0
+         29 Pass: empty: 0
+         30(             1900000) Pass: dout: ad
+         30 Pass: full: 0
+         30 Pass: empty: 0
+         31(             1960000) Pass: dout: ff
+         31 Pass: full: 0
+         31 Pass: empty: 0
+         32(             2020000) Pass: dout: 69
+         32 Pass: full: 0
+         32 Pass: empty: 0
+         33(             2080000) Pass: dout: 15
+         33 Pass: full: 0
+         33 Pass: empty: 0
+         34(             2140000) Pass: dout: 90
+         34 Pass: full: 0
+         34 Pass: empty: 0
+         35(             2200000) Pass: dout: bf
+         35 Pass: full: 0
+         35 Pass: empty: 1
+         36(             2260000) Pass: dout: bf
+         36 Pass: full: 0
+         36 Pass: empty: 1
+         37(             2320000) Pass: dout: bf
+         37 Pass: full: 0
+         37 Pass: empty: 1
+         38 Pass: full: 0
+         38 Pass: empty: 0
+         39 Pass: full: 0
+         39 Pass: empty: 0
+         40 Pass: full: 0
+         40 Pass: empty: 1
+         41 Pass: full: 0
+         41 Pass: empty: 0
+         42(             2620000) Pass: dout: 44
+         42 Pass: full: 0
+         42 Pass: empty: 0
+         43(             2680000) Pass: dout: 33
+         43 Pass: full: 0
+         43 Pass: empty: 0
+         44(             2740000) Pass: dout: bb
+         44 Pass: full: 0
+         44 Pass: empty: 0
+         45(             2800000) Pass: dout: aa
+         45 Pass: full: 0
+         45 Pass: empty: 0
+         46(             2860000) Pass: dout: cc
+         46 Pass: full: 0
+         46 Pass: empty: 1
+(             2860000)PASSED: All vectors passed

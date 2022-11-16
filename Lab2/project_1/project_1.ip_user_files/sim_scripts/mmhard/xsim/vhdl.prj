@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../../../Lab4_part2/project_1.gen/sources_1/ip/mmhard/sim/mmhard.vhd" \
+
+nosort

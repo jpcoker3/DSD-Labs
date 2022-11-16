@@ -1,0 +1,185 @@
+/*
+
+Xilinx Vivado v2022.1 (64-bit) [Major: 2022, Minor: 1]
+SW Build: 3526262 on Mon Apr 18 15:48:16 MDT 2022
+IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+
+Process ID (PID): 8616
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Nov 11 11:46:07 CST 2022
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 3840x2160
+Screen resolution (DPI): 200
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=24
+Scale size: 48
+
+Java version: 	11.0.11 64-bit
+Java home: 	C:/Xilinx/Vivado/2022.1/tps/win64/jre11.0.11_9
+Java executable: 	C:/Xilinx/Vivado/2022.1/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	jpcok
+User home directory: C:/Users/jpcok
+User working directory: C:/ece4743/lab8
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2022.1
+RDI_DATADIR: C:/Xilinx/Vivado/2022.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2022.1/bin
+
+Vivado preferences file: C:/Users/jpcok/AppData/Roaming/Xilinx/Vivado/2022.1/vivado.xml
+Vivado preferences directory: C:/Users/jpcok/AppData/Roaming/Xilinx/Vivado/2022.1/
+Vivado layouts directory: C:/Users/jpcok/AppData/Roaming/Xilinx/Vivado/2022.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2022.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/ece4743/lab8/vivado.log
+Vivado journal file: 	C:/ece4743/lab8/vivado.jou
+Engine tmp dir: 	C:/ece4743/lab8/.Xil/Vivado-8616-Lenovo-9i-Joe-Laptop
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2022.1
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2022.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2022.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2022.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,252 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\ece4743\lab8\empty_template.xpr. Version: Vivado v2022.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/ece4743/lab8/empty_template.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,252 MB. GUI used memory: 74 MB. Current time: 11/11/22, 11:46:08 AM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 119 MB (+121899kb) [00:00:19]
+// [Engine Memory]: 1,252 MB (+1161353kb) [00:00:19]
+// WARNING: HEventQueue.dispatchEvent() is taking  3574 ms.
+// Tcl Message: open_project C:/ece4743/lab8/empty_template.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:09 . Memory (MB): peak = 1235.469 ; gain = 0.000 
+// Project name: empty_template; location: C:/ece4743/lab8; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bA
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 33 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fifo (fifo.v)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fifo (fifo.v)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+// [GUI Memory]: 128 MB (+3290kb) [00:00:58]
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+selectCodeEditor("fifo.v", 793, 210); // be
+selectCodeEditor("fifo.v", 784, 293); // be
+selectCodeEditor("fifo.v", 583, 253); // be
+selectCodeEditor("fifo.v", 602, 323); // be
+selectCodeEditor("fifo.v", 632, 414); // be
+selectCodeEditor("fifo.v", 660, 468); // be
+selectCodeEditor("fifo.v", 531, 619); // be
+selectCodeEditor("fifo.v", 463, 690); // be
+selectCodeEditor("fifo.v", 497, 672); // be
+// Elapsed time: 81 seconds
+selectCodeEditor("fifo.v", 628, 321); // be
+// Elapsed time: 21 seconds
+selectCodeEditor("fifo.v", 353, 771); // be
+selectCodeEditor("fifo.v", 564, 738); // be
+selectCodeEditor("fifo.v", 240, 741); // be
+// Elapsed time: 34 seconds
+selectCodeEditor("fifo.v", 310, 902); // be
+selectCodeEditor("fifo.v", 322, 777); // be
+selectCodeEditor("fifo.v", 565, 787); // be
+selectCodeEditor("fifo.v", 423, 692); // be
+selectCodeEditor("fifo.v", 138, 678); // be
+selectCodeEditor("fifo.v", 138, 678, false, false, false, false, true); // be - Double Click
+// Elapsed time: 34 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Create Block Design]", 6, false); // n
+// Run Command: PAResourceCommand.PACommandNames_CREATE_NEW_DIAGRAM
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Create Block Design"); // aX
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // n
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+dismissDialog("Open IP Catalog"); // bA
+// Elapsed time: 15 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "fifo"); // OverlayTextField
+closeView(PAResourceOtoP.PAViews_IP_CATALOG, "IP Catalog"); // X
+// [GUI Memory]: 139 MB (+5021kb) [00:04:37]
+selectCodeEditor("fifo.v", 520, 1242); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("fifo.v", 169, 126); // be
+selectCodeEditor("fifo.v", 701, 130); // be
+selectCodeEditor("fifo.v", 648, 172); // be
+selectCodeEditor("fifo.v", 1088, 104); // be
+selectCodeEditor("fifo.v", 1012, 140); // be
+selectCodeEditor("fifo.v", 764, 244); // be
+// Elapsed time: 10 seconds
+selectCodeEditor("fifo.v", 474, 653); // be
+selectCodeEditor("fifo.v", 481, 686); // be
+// Elapsed time: 27 seconds
+selectCodeEditor("fifo.v", 113, 775); // be
+selectCodeEditor("fifo.v", 712, 559); // be
+// Elapsed time: 38 seconds
+selectCodeEditor("fifo.v", 677, 480); // be
+selectCodeEditor("fifo.v", 504, 602); // be
+selectCodeEditor("fifo.v", 392, 504); // be
+selectCodeEditor("fifo.v", 442, 576); // be
+selectCodeEditor("fifo.v", 533, 727); // be
+// Elapsed time: 17 seconds
+selectCodeEditor("fifo.v", 533, 727); // be
+selectCodeEditor("fifo.v", 90, 741); // be
+selectCodeEditor("fifo.v", 90, 741, false, false, false, false, true); // be - Double Click
+selectCodeEditor("fifo.v", 104, 740); // be
+selectCodeEditor("fifo.v", 105, 740, false, false, false, false, true); // be - Double Click
+selectCodeEditor("fifo.v", 86, 740); // be
+selectCodeEditor("fifo.v", 86, 740, false, false, false, false, true); // be - Double Click
+selectCodeEditor("fifo.v", 86, 740); // be
+selectCodeEditor("fifo.v", 86, 740); // be
+selectCodeEditor("fifo.v", 86, 740); // be
+selectCodeEditor("fifo.v", 84, 808); // be
+selectCodeEditor("fifo.v", 83, 808, false, false, false, false, true); // be - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  9962 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 10019 ms. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 8213 ms. Increasing delay to 24639 ms.

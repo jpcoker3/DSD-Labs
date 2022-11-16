@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_timer32_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_timer32" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1.895832 us"></ZoomStartTime>
+      <ZoomEndTime time="12.820834 us"></ZoomEndTime>
+      <Cursor1Time time="11.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="271"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/tb_timer32/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer32/uut/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer32/uut/wren" type="logic">
+      <obj_property name="ElementShortName">wren</obj_property>
+      <obj_property name="ObjectShortName">wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer32/uut/rden" type="logic">
+      <obj_property name="ElementShortName">rden</obj_property>
+      <obj_property name="ObjectShortName">rden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer32/uut/din" type="array">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer32/uut/dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer32/uut/addr" type="array">
+      <obj_property name="ElementShortName">addr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer32/uut/period_ld" type="logic">
+      <obj_property name="ElementShortName">period_ld</obj_property>
+      <obj_property name="ObjectShortName">period_ld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer32/uut/TMR_reg_ld" type="logic">
+      <obj_property name="ElementShortName">TMR_reg_ld</obj_property>
+      <obj_property name="ObjectShortName">TMR_reg_ld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer32/uut/TMR_sclr" type="logic">
+      <obj_property name="ElementShortName">TMR_sclr</obj_property>
+      <obj_property name="ObjectShortName">TMR_sclr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer32/uut/timer_match" type="logic">
+      <obj_property name="ElementShortName">timer_match</obj_property>
+      <obj_property name="ObjectShortName">timer_match</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer32/uut/TMR_en" type="logic">
+      <obj_property name="ElementShortName">TMR_en</obj_property>
+      <obj_property name="ObjectShortName">TMR_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer32/uut/PR_dout" type="array">
+      <obj_property name="ElementShortName">PR_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PR_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer32/uut/TMR_dout" type="array">
+      <obj_property name="ElementShortName">TMR_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TMR_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer32/uut/EN_BIT_ld" type="logic">
+      <obj_property name="ElementShortName">EN_BIT_ld</obj_property>
+      <obj_property name="ObjectShortName">EN_BIT_ld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer32/uut/TMR_flag" type="logic">
+      <obj_property name="ElementShortName">TMR_flag</obj_property>
+      <obj_property name="ObjectShortName">TMR_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer32/uut/Toggle_flag" type="logic">
+      <obj_property name="ElementShortName">Toggle_flag</obj_property>
+      <obj_property name="ObjectShortName">Toggle_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer32/uut/PERIOD" type="array">
+      <obj_property name="ElementShortName">PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer32/uut/ENBIT" type="array">
+      <obj_property name="ElementShortName">ENBIT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ENBIT[31:0]</obj_property>
+   </wvobject>
+</wave_config>

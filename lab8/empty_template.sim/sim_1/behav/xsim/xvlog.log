@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab8/empty_template.gen/sources_1/ip/blk_mem_gen/sim/blk_mem_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab8/fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/ece4743/lab8/fifo.v:33]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ece4743/lab8/tb_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_fifo
